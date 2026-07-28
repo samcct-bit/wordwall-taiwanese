@@ -1,4 +1,4 @@
-window.gamesData = [
+[
     {
         "category": "其他主題單元",
         "grade": "五年級",
@@ -1990,4 +1990,4 @@ window.gamesData = [
         "pptEmbedUrl": "",
         "assignmentUrl": "https://wordwall.net/tc/play/84300/957/856"
     }
-];
+]
