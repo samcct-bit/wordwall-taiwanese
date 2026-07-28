@@ -375,7 +375,14 @@ body {
 
 .card-actions {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
+    margin-top: auto;
+}
+
+.card-actions > * {
+    flex: 1 1 100px;
+    justify-content: center;
 }
 
 /* Right Sidebar (Google Slides) */
@@ -510,6 +517,7 @@ body {
     align-items: center;
     gap: 6px;
     text-decoration: none;
+    white-space: nowrap;
 }
 
 .primary-btn:hover {
