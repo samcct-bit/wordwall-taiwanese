@@ -272,8 +272,11 @@ body {
     overflow-y: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-auto-rows: max-content;
     gap: 20px;
     align-content: flex-start;
+    flex: 1;
+    min-height: 0;
 }
 
 /* Game Cards */
