@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordwall 台語教學整合平台</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Boxicons for icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- qrcode.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <!-- 遊戲資料 (以 JS 變數載入以解決本機 CORS 問題) -->
+    <script src="data.js"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- 頂部導航 / Header -->
+        <header class="glass-header">
+            <div class="logo">
+                <i class='bx bx-book-reader'></i>
+                <h1>台語教學整合平台</h1>
+            </div>
+            <div class="search-bar">
+                <i class='bx bx-search'></i>
+                <input type="text" id="searchInput" placeholder="搜尋遊戲標題...">
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- 左方區塊：主題分類選單 -->
+            <aside class="sidebar-left glass-panel">
+                <h2><i class='bx bx-category'></i> 遊戲類別</h2>
+                <ul id="categoryList" class="nav-menu">
+                    <li class="active" data-category="all">全部遊戲 <span class="badge">0</span></li>
+                    <li data-category="音標遊戲">音標遊戲 <span class="badge">0</span></li>
+                    <li data-category="俗語遊戲">俗語遊戲 <span class="badge">0</span></li>
+                    <li data-category="其他主題單元">其他主題單元 <span class="badge">0</span></li>
+                </ul>
+            </aside>
+
+            <!-- 中央區塊：遊戲列表與篩選器 -->
+            <main class="center-content glass-panel">
+                <div class="filter-controls">
+                    <div class="filter-group">
+                        <label><i class='bx bx-calendar-event'></i> 年級</label>
+                        <select id="gradeFilter">
+                            <option value="all">全部年級</option>
+                            <!-- JS 動態生成 -->
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label><i class='bx bx-book-open'></i> 學期</label>
+                        <select id="termFilter">
+                            <option value="all">全部學期</option>
+                            <option value="上學期">上學期</option>
+                            <option value="下學期">下學期</option>
+                            <option value="不分學期">不分學期</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label><i class='bx bx-list-ol'></i> 單元</label>
+                        <select id="unitFilter">
+                            <option value="all">全部單元</option>
+                            <!-- JS 動態生成 -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="games-header">
+                    <h2 id="currentCategoryTitle">全部遊戲</h2>
+                    <span id="gameCountText">找到 0 個遊戲</span>
+                </div>
+
+                <div id="gamesGrid" class="games-grid">
+                    <!-- JS 動態插入遊戲卡片 -->
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>正在載入遊戲資料...</p>
+                    </div>
+                </div>
+            </main>
+
+            <!-- 右方區塊：Google Slides 簡報 -->
+            <aside class="sidebar-right glass-panel">
+                <div class="slides-header">
+                    <h2><i class='bx bxs-slideshow'></i> 教學簡報</h2>
+                    <button class="icon-btn" id="editSlidesBtn" title="設定簡報連結"><i class='bx bx-cog'></i></button>
+                </div>
+                <div class="slides-container" id="slidesContainer">
+                    <div class="empty-state">
+                        <i class='bx bx-slideshow'></i>
+                        <p>尚未設定簡報連結</p>
+                        <button class="primary-btn" id="setupSlidesBtn">立即設定</button>
+                    </div>
+                    <iframe id="slidesIframe" src="" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="display: none;"></iframe>
+                </div>
+                
+                <div class="settings-panel" id="settingsPanel" style="display: none;">
+                    <h3>設定教學簡報</h3>
+                    <p class="help-text">請貼上 Google Slides 的「發佈到網路」或共用連結：</p>
+                    <input type="text" id="slidesUrlInput" placeholder="https://docs.google.com/presentation/d/.../edit">
+                    <div class="settings-actions">
+                        <button class="secondary-btn" id="cancelSettingsBtn">取消</button>
+                        <button class="primary-btn" id="saveSettingsBtn">儲存並顯示</button>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <!-- QR Code 彈出視窗 (Modal) -->
+    <div class="modal-overlay" id="qrModal">
+        <div class="modal-content glass-panel">
+            <button class="close-btn" id="closeModalBtn"><i class='bx bx-x'></i></button>
+            <h3 id="modalGameTitle">遊戲名稱</h3>
+            <p class="modal-subtitle">請同學使用平板掃描下方 QR Code 進行挑戰！</p>
+            <div id="qrcode" class="qr-container"></div>
+            <div class="modal-actions">
+                <a href="#" id="modalGameLink" target="_blank" class="primary-btn">
+                    <i class='bx bx-link-external'></i> 在新分頁開啟遊戲
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,180 @@
+﻿Title,URL,ClassName
+更快地創建更好的課程,https://wordwall.net/tc,
+創建活動,https://wordwall.net/tc/create?folderId=0,default-btn  js-create-activity
+sheaumin,https://wordwall.net/tc/myactivities#,default-btn white profile-button js-user-profile
+社區,https://wordwall.net/tc/community,js-community community
+我的活動,https://wordwall.net/tc/myactivities,js-my-activities my-activities
+我的結果,https://wordwall.net/tc/myresults,js-my-results my-results
+創建活動,https://wordwall.net/tc/create?folderId=0,js-create-activity
+我的活動,https://wordwall.net/tc/myactivities,js-my-activities js-mobile-home
+我的結果,https://wordwall.net/tc/myresults,js-my-results
+我的學校,https://wordwall.net/tc/account/myschool,js-account-school
+編輯個人資訊,https://wordwall.net/tc/account/teachingprofile,js-account-personal
+管理付款,https://wordwall.net/tc/payment/managepayments,js-account-manage
+語言和位置,https://wordwall.net/tc/account/localization?redirectto=%2Ftc%2Fmyactivities,js-account-localization
+登出,https://wordwall.net/tc/account/logout,js-account-logout
+社區,https://wordwall.net/tc/community,js-community
+聯繫方式,https://wordwall.net/tc/contact,js-contact
+價格計劃,https://wordwall.net/tc/price-plans,js-price-plans
+使用條款,https://wordwall.net/tc/account/terms,
+隱私聲明,https://wordwall.net/tc/account/privacy,
+我的學校,https://wordwall.net/tc/account/myschool,js-account-school
+我的個人資料頁面,https://wordwall.net/tc/teacher/my,
+編輯個人資訊,https://wordwall.net/tc/account/teachingprofile,js-account-personal
+語言和位置,https://wordwall.net/tc/account/localization?redirectto=%2Ftc%2Fmyactivities,js-account-localization
+管理付款,https://wordwall.net/tc/payment/managepayments,js-account-manage
+登出,https://wordwall.net/tc/account/logout,js-account-logout
+我的活動,https://wordwall.net/tc/myactivities,folder-crumb js-breadcrumb js-home-breadcrumb
+"五下真平複習
+2個活動
+⋮",https://wordwall.net/tc/myactivities/folder/8598007/%E4%BA%94%E4%B8%8B%E7%9C%9F%E5%B9%B3%E8%A4%87%E7%BF%92,item folder js-item js-folder-item
+"四下真平複習
+5個活動
+⋮",https://wordwall.net/tc/myactivities/folder/8597956/%E5%9B%9B%E4%B8%8B%E7%9C%9F%E5%B9%B3%E8%A4%87%E7%BF%92,item folder js-item js-folder-item
+"114公開觀課(俗語)
+3個活動
+⋮",https://wordwall.net/tc/myactivities/folder/8123692/114%E5%85%AC%E9%96%8B%E8%A7%80%E8%AA%B2%E4%BF%97%E8%AA%9E,item folder js-item js-folder-item
+"🔊聲母
+7個活動
+⋮",https://wordwall.net/tc/myactivities/folder/7860160/%E8%81%B2%E6%AF%8D,item folder js-item js-folder-item
+"🔊單韻母+雙韻母
+6個活動
+⋮",https://wordwall.net/tc/myactivities/folder/7837161/%E5%96%AE%E9%9F%BB%E6%AF%8D%E9%9B%99%E9%9F%BB%E6%AF%8D,item folder js-item js-folder-item
+"開學暖身
+1個活動
+⋮",https://wordwall.net/tc/myactivities/folder/7290087/%E9%96%8B%E5%AD%B8%E6%9A%96%E8%BA%AB,item folder js-item js-folder-item
+"活動闖關
+8個活動
+⋮",https://wordwall.net/tc/myactivities/folder/7232905/%E6%B4%BB%E5%8B%95%E9%97%96%E9%97%9C,item folder js-item js-folder-item
+"轉盤
+4個活動
+⋮",https://wordwall.net/tc/myactivities/folder/6509036/%E8%BD%89%E7%9B%A4,item folder js-item js-folder-item
+"主題小遊戲
+9個活動
+⋮",https://wordwall.net/tc/myactivities/folder/5562715/%E4%B8%BB%E9%A1%8C%E5%B0%8F%E9%81%8A%E6%88%B2,item folder js-item js-folder-item
+"俗語
+18個活動
+⋮",https://wordwall.net/tc/myactivities/folder/4639723/%E4%BF%97%E8%AA%9E,item folder js-item js-folder-item
+"過年
+4個活動
+⋮",https://wordwall.net/tc/myactivities/folder/4639721/%E9%81%8E%E5%B9%B4,item folder js-item js-folder-item
+"自然3上植物大發現
+7個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3981836/%E8%87%AA%E7%84%B63%E4%B8%8A%E6%A4%8D%E7%89%A9%E5%A4%A7%E7%99%BC%E7%8F%BE,item folder js-item js-folder-item
+"真平台語G1
+16個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3975804/%E7%9C%9F%E5%B9%B3%E5%8F%B0%E8%AA%9Eg1,item folder js-item js-folder-item
+"真平台語G2
+12個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3975782/%E7%9C%9F%E5%B9%B3%E5%8F%B0%E8%AA%9Eg2,item folder js-item js-folder-item
+"🔊台語拼音練習
+9個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3973270/%E5%8F%B0%E8%AA%9E%E6%8B%BC%E9%9F%B3%E7%B7%B4%E7%BF%92,item folder js-item js-folder-item
+"真平台語G3
+16個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3973251/%E7%9C%9F%E5%B9%B3%E5%8F%B0%E8%AA%9Eg3,item folder js-item js-folder-item
+"真平台語G4
+16個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3973246/%E7%9C%9F%E5%B9%B3%E5%8F%B0%E8%AA%9Eg4,item folder js-item js-folder-item
+"真平台語G5
+23個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3973242/%E7%9C%9F%E5%B9%B3%E5%8F%B0%E8%AA%9Eg5,item folder js-item js-folder-item
+"真平台語G6
+20個活動
+⋮",https://wordwall.net/tc/myactivities/folder/3973237/%E7%9C%9F%E5%B9%B3%E5%8F%B0%E8%AA%9Eg6,item folder js-item js-folder-item
+"喜愛的活動
+2個活動
+⋮",https://wordwall.net/tc/myactivities/likedactivities,item folder js-item js-folder-item
+現在創建您的第一個活動,https://wordwall.net/tc/create/picktemplate,default-btn large white
+"真平B10G5 L4L5測驗(20題)
+測驗
+ 私人
+⋮",https://wordwall.net/tc/resource/114770844,item activity js-item js-activity-item is-private
+"【真平】B8G4L4.L5期末測驗(20題)401
+測驗
+ 私人
+⋮",https://wordwall.net/tc/resource/114405363,item activity js-item js-activity-item is-private
+"真平台語B6｜時間語詞分揀306
+按組排序
+ 公共  1
+⋮",https://wordwall.net/tc/resource/114995392,item activity js-item js-activity-item is-public
+"真平台語B3｜聽聲音，揀出正確的台語詞
+測驗
+ 私人
+⋮",https://wordwall.net/tc/resource/114403819,item activity js-item js-activity-item is-private
+在新選項卡中打開,https://wordwall.net/tc/myactivities#,js-menu-item js-open-item-tab show-on-mobile
+共用,https://wordwall.net/tc/myactivities#,js-menu-item js-share-button-private
+共用,https://wordwall.net/tc/myactivities#,js-menu-item js-share-button-public
+課業分配,https://wordwall.net/tc/myactivities#,js-menu-item js-assignment-button hidden
+編輯內容,https://wordwall.net/tc/myactivities#,js-menu-item js-edit-activity
+重新命名,https://wordwall.net/tc/myactivities#,js-menu-item js-rename-item
+更改顏色,https://wordwall.net/tc/myactivities#,js-menu-item js-recolor-item hidden
+重複,https://wordwall.net/tc/myactivities#,js-menu-item js-duplicate-item
+移動,https://wordwall.net/tc/myactivities#,js-menu-item js-move-to
+刪除,https://wordwall.net/tc/myactivities#,js-menu-item js-delete-item
+嵌入,https://wordwall.net/tc/myactivities#,js-menu-item js-embed-item
+QR 代碼,https://wordwall.net/tc/myactivities#,js-menu-item js-qr-item
+oEmbed API,https://wordwall.net/tc/about/oembed,hide-on-mobile
+主頁,https://wordwall.net/tc,
+使用條款,https://wordwall.net/tc/account/terms,js-old-policy hidden
+價格計劃,https://wordwall.net/tc/price-plans,js-price-plans
+創建活動,https://wordwall.net/tc/create/picktemplate,hide-on-mobile
+學校計劃,https://wordwall.net/tc/price-plans/school,
+我的學校,https://wordwall.net/tc/account/myschool,hide-on-mobile
+特徵,https://wordwall.net/tc/features,js-features
+登出,https://wordwall.net/tc/account/logout,hide-on-mobile
+社區,https://wordwall.net/tc/community,js-community
+管理付款,https://wordwall.net/tc/payment/managepayments,hide-on-mobile
+聯繫方式,https://wordwall.net/tc/contact,js-contact
+語言和位置,https://wordwall.net/tc/account/localization,hide-on-mobile
+隱私聲明,https://wordwall.net/tc/account/privacy,js-old-policy hidden
+Cookie 政策,https://wordwall.net/tc/cookie-policy,js-new-policy
+使用條款,https://wordwall.net/tc/terms,js-new-policy
+隱私政策,https://wordwall.net/tc/privacy,js-new-policy
+Català,https://wordwall.net/tc/myactivities#,js-change-language
+Cebuano,https://wordwall.net/tc/myactivities#,js-change-language
+Čeština,https://wordwall.net/tc/myactivities#,js-change-language
+Dansk,https://wordwall.net/tc/myactivities#,js-change-language
+Deutsch,https://wordwall.net/tc/myactivities#,js-change-language
+Eesti keel,https://wordwall.net/tc/myactivities#,js-change-language
+English,https://wordwall.net/tc/myactivities#,js-change-language
+Español,https://wordwall.net/tc/myactivities#,js-change-language
+Français,https://wordwall.net/tc/myactivities#,js-change-language
+Hrvatski,https://wordwall.net/tc/myactivities#,js-change-language
+Indonesia,https://wordwall.net/tc/myactivities#,js-change-language
+Italiano,https://wordwall.net/tc/myactivities#,js-change-language
+Latvian,https://wordwall.net/tc/myactivities#,js-change-language
+Lietuvių,https://wordwall.net/tc/myactivities#,js-change-language
+Magyar,https://wordwall.net/tc/myactivities#,js-change-language
+Melayu,https://wordwall.net/tc/myactivities#,js-change-language
+Nederlands,https://wordwall.net/tc/myactivities#,js-change-language
+Norsk,https://wordwall.net/tc/myactivities#,js-change-language
+O'zbek,https://wordwall.net/tc/myactivities#,js-change-language
+Polski,https://wordwall.net/tc/myactivities#,js-change-language
+Português,https://wordwall.net/tc/myactivities#,js-change-language
+Română,https://wordwall.net/tc/myactivities#,js-change-language
+Slovenčina,https://wordwall.net/tc/myactivities#,js-change-language
+Slovenščina,https://wordwall.net/tc/myactivities#,js-change-language
+Srpski,https://wordwall.net/tc/myactivities#,js-change-language
+Suomi,https://wordwall.net/tc/myactivities#,js-change-language
+Svenska,https://wordwall.net/tc/myactivities#,js-change-language
+Tagalog,https://wordwall.net/tc/myactivities#,js-change-language
+Türkçe,https://wordwall.net/tc/myactivities#,js-change-language
+Vietnamese,https://wordwall.net/tc/myactivities#,js-change-language
+ελληνικά,https://wordwall.net/tc/myactivities#,js-change-language
+български,https://wordwall.net/tc/myactivities#,js-change-language
+Қазақ,https://wordwall.net/tc/myactivities#,js-change-language
+Русский,https://wordwall.net/tc/myactivities#,js-change-language
+Српски,https://wordwall.net/tc/myactivities#,js-change-language
+Українська,https://wordwall.net/tc/myactivities#,js-change-language
+עִברִית,https://wordwall.net/tc/myactivities#,js-change-language
+عربى,https://wordwall.net/tc/myactivities#,js-change-language
+हिंदी,https://wordwall.net/tc/myactivities#,js-change-language
+ગુજરાતી,https://wordwall.net/tc/myactivities#,js-change-language
+ภาษาไทย,https://wordwall.net/tc/myactivities#,js-change-language
+한국어,https://wordwall.net/tc/myactivities#,js-change-language
+日本語,https://wordwall.net/tc/myactivities#,js-change-language
+简体字,https://wordwall.net/tc/myactivities#,js-change-language
+繁體字,https://wordwall.net/tc/myactivities#,js-change-language
+提供反饋,https://wordwall.net/tc/myactivities#,js-give-feedback
+恢復自動保存: ?,https://wordwall.net/tc/myactivities#,js-auto-save-link auto-save-link
