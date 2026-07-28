@@ -6,9 +6,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "真平B10G5 L4L5測驗(20題)",
         "path": "首頁",
-        "wordwallUrl": "https://wordwall.net/tc/play/114770/844/157",
+        "wordwallUrl": "https://wordwall.net/play/114770/844/157",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114770/844/157"
+        "assignmentUrl": "https://wordwall.net/play/114770/844/157"
     },
     {
         "category": "其他主題單元",
@@ -17,9 +17,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平】B8G4L4.L5期末測驗(20題)401",
         "path": "首頁",
-        "wordwallUrl": "https://wordwall.net/tc/play/114405/363/138",
+        "wordwallUrl": "https://wordwall.net/play/114405/363/138",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114405/363/138"
+        "assignmentUrl": "https://wordwall.net/play/114405/363/138"
     },
     {
         "category": "其他主題單元",
@@ -28,9 +28,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B6｜時間語詞分揀306",
         "path": "首頁",
-        "wordwallUrl": "https://wordwall.net/tc/play/114995/392/535",
+        "wordwallUrl": "https://wordwall.net/play/114995/392/535",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114995/392/535"
+        "assignmentUrl": "https://wordwall.net/play/114995/392/535"
     },
     {
         "category": "其他主題單元",
@@ -39,9 +39,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B3｜聽聲音，揀出正確的台語詞",
         "path": "首頁",
-        "wordwallUrl": "https://wordwall.net/tc/play/114403/819/808",
+        "wordwallUrl": "https://wordwall.net/play/114403/819/808",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114403/819/808"
+        "assignmentUrl": "https://wordwall.net/play/114403/819/808"
     },
     {
         "category": "其他主題單元",
@@ -50,9 +50,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B5｜聽聲音，共正確的台語字揀出來",
         "path": "首頁 > 五下真平複習",
-        "wordwallUrl": "https://wordwall.net/tc/play/114286/295/562",
+        "wordwallUrl": "https://wordwall.net/play/114286/295/562",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114286/295/562"
+        "assignmentUrl": "https://wordwall.net/play/114286/295/562"
     },
     {
         "category": "其他主題單元",
@@ -61,9 +61,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B10｜請共正確的動詞揀出來",
         "path": "首頁 > 五下真平複習",
-        "wordwallUrl": "https://wordwall.net/tc/play/114286/661/286",
+        "wordwallUrl": "https://wordwall.net/play/114286/661/286",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114286/661/286"
+        "assignmentUrl": "https://wordwall.net/play/114286/661/286"
     },
     {
         "category": "其他主題單元",
@@ -72,9 +72,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B4｜聽日期，配合正確的節日",
         "path": "首頁 > 四下真平複習",
-        "wordwallUrl": "https://wordwall.net/tc/play/114286/118/718",
+        "wordwallUrl": "https://wordwall.net/play/114286/118/718",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114286/118/718"
+        "assignmentUrl": "https://wordwall.net/play/114286/118/718"
     },
     {
         "category": "其他主題單元",
@@ -83,9 +83,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B4｜完成語句",
         "path": "首頁 > 四下真平複習",
-        "wordwallUrl": "https://wordwall.net/tc/play/114285/824/697",
+        "wordwallUrl": "https://wordwall.net/play/114285/824/697",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114285/824/697"
+        "assignmentUrl": "https://wordwall.net/play/114285/824/697"
     },
     {
         "category": "其他主題單元",
@@ -94,9 +94,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B4｜看圖揀出正確的動物台語詞",
         "path": "首頁 > 四下真平複習",
-        "wordwallUrl": "https://wordwall.net/tc/play/114285/533/754",
+        "wordwallUrl": "https://wordwall.net/play/114285/533/754",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114285/533/754"
+        "assignmentUrl": "https://wordwall.net/play/114285/533/754"
     },
     {
         "category": "其他主題單元",
@@ -105,9 +105,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "B4你敢知影啥是保育類(聲音圖片)",
         "path": "首頁 > 四下真平複習",
-        "wordwallUrl": "https://wordwall.net/tc/play/111470/591/883",
+        "wordwallUrl": "https://wordwall.net/play/111470/591/883",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/111470/591/883"
+        "assignmentUrl": "https://wordwall.net/play/111470/591/883"
     },
     {
         "category": "其他主題單元",
@@ -116,9 +116,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "B4台灣野生動物(聲音圖片)",
         "path": "首頁 > 四下真平複習",
-        "wordwallUrl": "https://wordwall.net/tc/play/111469/324/185",
+        "wordwallUrl": "https://wordwall.net/play/111469/324/185",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/111469/324/185"
+        "assignmentUrl": "https://wordwall.net/play/111469/324/185"
     },
     {
         "category": "俗語遊戲",
@@ -127,9 +127,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "字句重排(有圖提示)",
         "path": "首頁 > 114公開觀課(俗語)",
-        "wordwallUrl": "https://wordwall.net/tc/play/108587/417/567",
+        "wordwallUrl": "https://wordwall.net/play/108587/417/567",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/108587/417/567"
+        "assignmentUrl": "https://wordwall.net/play/108587/417/567"
     },
     {
         "category": "俗語遊戲",
@@ -138,9 +138,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我會曉。(簡單排列)",
         "path": "首頁 > 114公開觀課(俗語)",
-        "wordwallUrl": "https://wordwall.net/tc/play/108277/852/211",
+        "wordwallUrl": "https://wordwall.net/play/108277/852/211",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/108277/852/211"
+        "assignmentUrl": "https://wordwall.net/play/108277/852/211"
     },
     {
         "category": "俗語遊戲",
@@ -149,9 +149,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語解釋配對",
         "path": "首頁 > 114公開觀課(俗語)",
-        "wordwallUrl": "https://wordwall.net/tc/play/108586/014/743",
+        "wordwallUrl": "https://wordwall.net/play/108586/014/743",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/108586/014/743"
+        "assignmentUrl": "https://wordwall.net/play/108586/014/743"
     },
     {
         "category": "音標遊戲",
@@ -160,9 +160,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語｜聽聲音，揀出正確的聲母(k、kh、g、ng)",
         "path": "首頁 > 🔊聲母",
-        "wordwallUrl": "https://wordwall.net/tc/play/110898/195/535",
+        "wordwallUrl": "https://wordwall.net/play/110898/195/535",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/110898/195/535"
+        "assignmentUrl": "https://wordwall.net/play/110898/195/535"
     },
     {
         "category": "音標遊戲",
@@ -171,9 +171,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "聲母k vs kh",
         "path": "首頁 > 🔊聲母",
-        "wordwallUrl": "https://wordwall.net/tc/play/109150/093/868",
+        "wordwallUrl": "https://wordwall.net/play/109150/093/868",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/109150/093/868"
+        "assignmentUrl": "https://wordwall.net/play/109150/093/868"
     },
     {
         "category": "音標遊戲",
@@ -182,9 +182,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "1.寫出聲母(舌根音、齒音)",
         "path": "首頁 > 🔊聲母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105332/734/981",
+        "wordwallUrl": "https://wordwall.net/play/105332/734/981",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105332/734/981"
+        "assignmentUrl": "https://wordwall.net/play/105332/734/981"
     },
     {
         "category": "音標遊戲",
@@ -193,9 +193,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "1.寫出聲母(舌根音、齒音)",
         "path": "首頁 > 🔊聲母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105332/717/812",
+        "wordwallUrl": "https://wordwall.net/play/105332/717/812",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105332/717/812"
+        "assignmentUrl": "https://wordwall.net/play/105332/717/812"
     },
     {
         "category": "音標遊戲",
@@ -204,9 +204,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "2.選出聲母(雙脣音、舌尖音)",
         "path": "首頁 > 🔊聲母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105332/585/370",
+        "wordwallUrl": "https://wordwall.net/play/105332/585/370",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105332/585/370"
+        "assignmentUrl": "https://wordwall.net/play/105332/585/370"
     },
     {
         "category": "音標遊戲",
@@ -215,9 +215,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "2.寫出聲母(雙脣音、舌尖音)",
         "path": "首頁 > 🔊聲母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105332/507/191",
+        "wordwallUrl": "https://wordwall.net/play/105332/507/191",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105332/507/191"
+        "assignmentUrl": "https://wordwall.net/play/105332/507/191"
     },
     {
         "category": "音標遊戲",
@@ -226,9 +226,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "(綜合)聽語音找出與台羅音標對應的聲母-可切換quiz",
         "path": "首頁 > 🔊聲母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105103/534/903",
+        "wordwallUrl": "https://wordwall.net/play/105103/534/903",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105103/534/903"
+        "assignmentUrl": "https://wordwall.net/play/105103/534/903"
     },
     {
         "category": "音標遊戲",
@@ -237,9 +237,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "台羅拼音 雙韻母(配對)",
         "path": "首頁 > 🔊單韻母+雙韻母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105148/775/486",
+        "wordwallUrl": "https://wordwall.net/play/105148/775/486",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105148/775/486"
+        "assignmentUrl": "https://wordwall.net/play/105148/775/486"
     },
     {
         "category": "音標遊戲",
@@ -248,9 +248,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "三母音",
         "path": "首頁 > 🔊單韻母+雙韻母",
-        "wordwallUrl": "https://wordwall.net/tc/play/107803/678/319",
+        "wordwallUrl": "https://wordwall.net/play/107803/678/319",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/107803/678/319"
+        "assignmentUrl": "https://wordwall.net/play/107803/678/319"
     },
     {
         "category": "音標遊戲",
@@ -259,9 +259,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "台羅拼音 雙韻母(鍵入答案)",
         "path": "首頁 > 🔊單韻母+雙韻母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105148/679/583",
+        "wordwallUrl": "https://wordwall.net/play/105148/679/583",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105148/679/583"
+        "assignmentUrl": "https://wordwall.net/play/105148/679/583"
     },
     {
         "category": "音標遊戲",
@@ -270,9 +270,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "台羅 單韻母(配對)",
         "path": "首頁 > 🔊單韻母+雙韻母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105102/645/416",
+        "wordwallUrl": "https://wordwall.net/play/105102/645/416",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105102/645/416"
+        "assignmentUrl": "https://wordwall.net/play/105102/645/416"
     },
     {
         "category": "音標遊戲",
@@ -281,9 +281,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "台羅 單韻母(填入韻母)",
         "path": "首頁 > 🔊單韻母+雙韻母",
-        "wordwallUrl": "https://wordwall.net/tc/play/105102/587/530",
+        "wordwallUrl": "https://wordwall.net/play/105102/587/530",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105102/587/530"
+        "assignmentUrl": "https://wordwall.net/play/105102/587/530"
     },
     {
         "category": "音標遊戲",
@@ -292,9 +292,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "台羅 單韻母(聽音選字)",
         "path": "首頁 > 🔊單韻母+雙韻母",
-        "wordwallUrl": "https://wordwall.net/tc/play/95528/461/779",
+        "wordwallUrl": "https://wordwall.net/play/95528/461/779",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95528/461/779"
+        "assignmentUrl": "https://wordwall.net/play/95528/461/779"
     },
     {
         "category": "其他主題單元",
@@ -303,9 +303,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "2025春台語課開學大調查",
         "path": "首頁 > 開學暖身",
-        "wordwallUrl": "https://wordwall.net/tc/play/95936/925/269",
+        "wordwallUrl": "https://wordwall.net/play/95936/925/269",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95936/925/269"
+        "assignmentUrl": "https://wordwall.net/play/95936/925/269"
     },
     {
         "category": "其他主題單元",
@@ -314,9 +314,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "複製真平台語｜親情親情戇戇踅",
         "path": "首頁 > 活動闖關",
-        "wordwallUrl": "https://wordwall.net/tc/play/100833/038/207",
+        "wordwallUrl": "https://wordwall.net/play/100833/038/207",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/100833/038/207"
+        "assignmentUrl": "https://wordwall.net/play/100833/038/207"
     },
     {
         "category": "其他主題單元",
@@ -325,9 +325,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "複製L2-色水的詞",
         "path": "首頁 > 活動闖關",
-        "wordwallUrl": "https://wordwall.net/tc/play/95936/990/198",
+        "wordwallUrl": "https://wordwall.net/play/95936/990/198",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95936/990/198"
+        "assignmentUrl": "https://wordwall.net/play/95936/990/198"
     },
     {
         "category": "其他主題單元",
@@ -336,9 +336,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "~向毒品說不(低年級)3題",
         "path": "首頁 > 活動闖關 > 反毒宣導",
-        "wordwallUrl": "https://wordwall.net/tc/play/98248/740/317",
+        "wordwallUrl": "https://wordwall.net/play/98248/740/317",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/98248/740/317"
+        "assignmentUrl": "https://wordwall.net/play/98248/740/317"
     },
     {
         "category": "其他主題單元",
@@ -347,9 +347,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "向毒品說不(高年級)10題",
         "path": "首頁 > 活動闖關 > 反毒宣導",
-        "wordwallUrl": "https://wordwall.net/tc/play/99715/120/505",
+        "wordwallUrl": "https://wordwall.net/play/99715/120/505",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/99715/120/505"
+        "assignmentUrl": "https://wordwall.net/play/99715/120/505"
     },
     {
         "category": "其他主題單元",
@@ -358,9 +358,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "~向毒品說不(中年級)5題",
         "path": "首頁 > 活動闖關 > 反毒宣導",
-        "wordwallUrl": "https://wordwall.net/tc/play/98248/798/183",
+        "wordwallUrl": "https://wordwall.net/play/98248/798/183",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/98248/798/183"
+        "assignmentUrl": "https://wordwall.net/play/98248/798/183"
     },
     {
         "category": "其他主題單元",
@@ -369,9 +369,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "複製2-3反毒真英雄",
         "path": "首頁 > 活動闖關 > 反毒宣導",
-        "wordwallUrl": "https://wordwall.net/tc/play/98677/880/221",
+        "wordwallUrl": "https://wordwall.net/play/98677/880/221",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/98677/880/221"
+        "assignmentUrl": "https://wordwall.net/play/98677/880/221"
     },
     {
         "category": "其他主題單元",
@@ -380,9 +380,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "兒童權利知多少1",
         "path": "首頁 > 活動闖關 > 兒童權利",
-        "wordwallUrl": "https://wordwall.net/tc/play/93930/719/118",
+        "wordwallUrl": "https://wordwall.net/play/93930/719/118",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/93930/719/118"
+        "assignmentUrl": "https://wordwall.net/play/93930/719/118"
     },
     {
         "category": "其他主題單元",
@@ -391,9 +391,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "兒童權利知多少2",
         "path": "首頁 > 活動闖關 > 兒童權利",
-        "wordwallUrl": "https://wordwall.net/tc/play/93930/892/912",
+        "wordwallUrl": "https://wordwall.net/play/93930/892/912",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/93930/892/912"
+        "assignmentUrl": "https://wordwall.net/play/93930/892/912"
     },
     {
         "category": "其他主題單元",
@@ -402,9 +402,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "班級(1~8班)",
         "path": "首頁 > 轉盤",
-        "wordwallUrl": "https://wordwall.net/tc/play/89129/855/851",
+        "wordwallUrl": "https://wordwall.net/play/89129/855/851",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/89129/855/851"
+        "assignmentUrl": "https://wordwall.net/play/89129/855/851"
     },
     {
         "category": "其他主題單元",
@@ -413,9 +413,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "班級(1~9班)",
         "path": "首頁 > 轉盤",
-        "wordwallUrl": "https://wordwall.net/tc/play/89130/247/426",
+        "wordwallUrl": "https://wordwall.net/play/89130/247/426",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/89130/247/426"
+        "assignmentUrl": "https://wordwall.net/play/89130/247/426"
     },
     {
         "category": "其他主題單元",
@@ -424,9 +424,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "班級號碼(一~三年級沒有30號)",
         "path": "首頁 > 轉盤",
-        "wordwallUrl": "https://wordwall.net/tc/play/89129/967/741",
+        "wordwallUrl": "https://wordwall.net/play/89129/967/741",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/89129/967/741"
+        "assignmentUrl": "https://wordwall.net/play/89129/967/741"
     },
     {
         "category": "其他主題單元",
@@ -435,9 +435,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "撚盤(轉盤)",
         "path": "首頁 > 轉盤",
-        "wordwallUrl": "https://wordwall.net/tc/play/60471/454/445",
+        "wordwallUrl": "https://wordwall.net/play/60471/454/445",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60471/454/445"
+        "assignmentUrl": "https://wordwall.net/play/60471/454/445"
     },
     {
         "category": "其他主題單元",
@@ -446,9 +446,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "正爿倒爿佗一爿(選出正確台語字)",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/92229/895/443",
+        "wordwallUrl": "https://wordwall.net/play/92229/895/443",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/92229/895/443"
+        "assignmentUrl": "https://wordwall.net/play/92229/895/443"
     },
     {
         "category": "其他主題單元",
@@ -457,9 +457,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "TW002-台語文常用詞-B1高頻易學-台字台拼配華語-23題",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/95937/895/985",
+        "wordwallUrl": "https://wordwall.net/play/95937/895/985",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95937/895/985"
+        "assignmentUrl": "https://wordwall.net/play/95937/895/985"
     },
     {
         "category": "其他主題單元",
@@ -468,9 +468,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "B1L2台語火星文",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/95936/524/624",
+        "wordwallUrl": "https://wordwall.net/play/95936/524/624",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95936/524/624"
+        "assignmentUrl": "https://wordwall.net/play/95936/524/624"
     },
     {
         "category": "其他主題單元",
@@ -479,9 +479,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "身體部位",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/73961/179/546",
+        "wordwallUrl": "https://wordwall.net/play/73961/179/546",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/73961/179/546"
+        "assignmentUrl": "https://wordwall.net/play/73961/179/546"
     },
     {
         "category": "其他主題單元",
@@ -490,9 +490,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "顏色配對",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/73241/822/895",
+        "wordwallUrl": "https://wordwall.net/play/73241/822/895",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/73241/822/895"
+        "assignmentUrl": "https://wordwall.net/play/73241/822/895"
     },
     {
         "category": "其他主題單元",
@@ -501,9 +501,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "動物配對",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/73240/685/690",
+        "wordwallUrl": "https://wordwall.net/play/73240/685/690",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/73240/685/690"
+        "assignmentUrl": "https://wordwall.net/play/73240/685/690"
     },
     {
         "category": "其他主題單元",
@@ -512,9 +512,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "十二生相的台語鬥對",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/64038/876/934",
+        "wordwallUrl": "https://wordwall.net/play/64038/876/934",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64038/876/934"
+        "assignmentUrl": "https://wordwall.net/play/64038/876/934"
     },
     {
         "category": "其他主題單元",
@@ -523,9 +523,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "《台灣特產佇佗位》",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/60884/233/533",
+        "wordwallUrl": "https://wordwall.net/play/60884/233/533",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60884/233/533"
+        "assignmentUrl": "https://wordwall.net/play/60884/233/533"
     },
     {
         "category": "其他主題單元",
@@ -534,9 +534,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "聽看覓",
         "path": "首頁 > 主題小遊戲",
-        "wordwallUrl": "https://wordwall.net/tc/play/60638/675/428",
+        "wordwallUrl": "https://wordwall.net/play/60638/675/428",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60638/675/428"
+        "assignmentUrl": "https://wordwall.net/play/60638/675/428"
     },
     {
         "category": "俗語遊戲",
@@ -545,9 +545,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語解釋配對G5-1",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/107747/129/463",
+        "wordwallUrl": "https://wordwall.net/play/107747/129/463",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/107747/129/463"
+        "assignmentUrl": "https://wordwall.net/play/107747/129/463"
     },
     {
         "category": "俗語遊戲",
@@ -556,9 +556,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "複製俗語我來排508",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/115306/510/814",
+        "wordwallUrl": "https://wordwall.net/play/115306/510/814",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/115306/510/814"
+        "assignmentUrl": "https://wordwall.net/play/115306/510/814"
     },
     {
         "category": "俗語遊戲",
@@ -567,9 +567,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排G5-1",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/107749/180/398",
+        "wordwallUrl": "https://wordwall.net/play/107749/180/398",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/107749/180/398"
+        "assignmentUrl": "https://wordwall.net/play/107749/180/398"
     },
     {
         "category": "俗語遊戲",
@@ -578,9 +578,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語解釋配對G5-2",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/107747/376/636",
+        "wordwallUrl": "https://wordwall.net/play/107747/376/636",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/107747/376/636"
+        "assignmentUrl": "https://wordwall.net/play/107747/376/636"
     },
     {
         "category": "俗語遊戲",
@@ -589,9 +589,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "我會曉俗語(真平下學期1.2)",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/105417/886/756",
+        "wordwallUrl": "https://wordwall.net/play/105417/886/756",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105417/886/756"
+        "assignmentUrl": "https://wordwall.net/play/105417/886/756"
     },
     {
         "category": "俗語遊戲",
@@ -600,9 +600,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "台語俗諺應用判斷25題",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/105366/732/307",
+        "wordwallUrl": "https://wordwall.net/play/105366/732/307",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105366/732/307"
+        "assignmentUrl": "https://wordwall.net/play/105366/732/307"
     },
     {
         "category": "俗語遊戲",
@@ -611,9 +611,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "複製第一冊第二課諺語",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/95937/069/129",
+        "wordwallUrl": "https://wordwall.net/play/95937/069/129",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95937/069/129"
+        "assignmentUrl": "https://wordwall.net/play/95937/069/129"
     },
     {
         "category": "俗語遊戲",
@@ -622,9 +622,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "六下俗語配對",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/68555/980/989",
+        "wordwallUrl": "https://wordwall.net/play/68555/980/989",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/68555/980/989"
+        "assignmentUrl": "https://wordwall.net/play/68555/980/989"
     },
     {
         "category": "俗語遊戲",
@@ -633,9 +633,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【真平】G6 俗語我來排",
         "path": "首頁 > 俗語",
-        "wordwallUrl": "https://wordwall.net/tc/play/65562/938/718",
+        "wordwallUrl": "https://wordwall.net/play/65562/938/718",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/65562/938/718"
+        "assignmentUrl": "https://wordwall.net/play/65562/938/718"
     },
     {
         "category": "俗語遊戲",
@@ -644,9 +644,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語解釋配對508",
         "path": "首頁 > 俗語 > 508",
-        "wordwallUrl": "https://wordwall.net/tc/play/115307/551/945",
+        "wordwallUrl": "https://wordwall.net/play/115307/551/945",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/115307/551/945"
+        "assignmentUrl": "https://wordwall.net/play/115307/551/945"
     },
     {
         "category": "俗語遊戲",
@@ -655,9 +655,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排508",
         "path": "首頁 > 俗語 > 508",
-        "wordwallUrl": "https://wordwall.net/tc/play/115307/384/459",
+        "wordwallUrl": "https://wordwall.net/play/115307/384/459",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/115307/384/459"
+        "assignmentUrl": "https://wordwall.net/play/115307/384/459"
     },
     {
         "category": "俗語遊戲",
@@ -666,9 +666,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排508(音檔)",
         "path": "首頁 > 俗語 > 508",
-        "wordwallUrl": "https://wordwall.net/tc/play/115306/710/912",
+        "wordwallUrl": "https://wordwall.net/play/115306/710/912",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/115306/710/912"
+        "assignmentUrl": "https://wordwall.net/play/115306/710/912"
     },
     {
         "category": "俗語遊戲",
@@ -677,9 +677,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排508",
         "path": "首頁 > 俗語 > 508",
-        "wordwallUrl": "https://wordwall.net/tc/play/113926/474/235",
+        "wordwallUrl": "https://wordwall.net/play/113926/474/235",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/113926/474/235"
+        "assignmentUrl": "https://wordwall.net/play/113926/474/235"
     },
     {
         "category": "俗語遊戲",
@@ -688,9 +688,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排G5-502-2",
         "path": "首頁 > 俗語 > 502",
-        "wordwallUrl": "https://wordwall.net/tc/play/115112/622/157",
+        "wordwallUrl": "https://wordwall.net/play/115112/622/157",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/115112/622/157"
+        "assignmentUrl": "https://wordwall.net/play/115112/622/157"
     },
     {
         "category": "俗語遊戲",
@@ -699,9 +699,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排G5-502",
         "path": "首頁 > 俗語 > 502",
-        "wordwallUrl": "https://wordwall.net/tc/play/115112/370/766",
+        "wordwallUrl": "https://wordwall.net/play/115112/370/766",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/115112/370/766"
+        "assignmentUrl": "https://wordwall.net/play/115112/370/766"
     },
     {
         "category": "俗語遊戲",
@@ -710,9 +710,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排-1-10句(605)",
         "path": "首頁 > 俗語 > 605",
-        "wordwallUrl": "https://wordwall.net/tc/play/113228/214/378",
+        "wordwallUrl": "https://wordwall.net/play/113228/214/378",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/113228/214/378"
+        "assignmentUrl": "https://wordwall.net/play/113228/214/378"
     },
     {
         "category": "俗語遊戲",
@@ -721,9 +721,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語我來排-3 (605)",
         "path": "首頁 > 俗語 > 605",
-        "wordwallUrl": "https://wordwall.net/tc/play/113229/452/154",
+        "wordwallUrl": "https://wordwall.net/play/113229/452/154",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/113229/452/154"
+        "assignmentUrl": "https://wordwall.net/play/113229/452/154"
     },
     {
         "category": "俗語遊戲",
@@ -732,9 +732,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "俗語解釋配對-2 (605)",
         "path": "首頁 > 俗語 > 605",
-        "wordwallUrl": "https://wordwall.net/tc/play/113229/072/398",
+        "wordwallUrl": "https://wordwall.net/play/113229/072/398",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/113229/072/398"
+        "assignmentUrl": "https://wordwall.net/play/113229/072/398"
     },
     {
         "category": "其他主題單元",
@@ -743,9 +743,9 @@ window.gamesData = [
         "unit": "第五單元",
         "title": "真平台語｜B9 L5(過年)完成課文語句",
         "path": "首頁 > 過年",
-        "wordwallUrl": "https://wordwall.net/tc/play/105007/534/600",
+        "wordwallUrl": "https://wordwall.net/play/105007/534/600",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105007/534/600"
+        "assignmentUrl": "https://wordwall.net/play/105007/534/600"
     },
     {
         "category": "其他主題單元",
@@ -754,9 +754,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "講古--民俗活動",
         "path": "首頁 > 過年",
-        "wordwallUrl": "https://wordwall.net/tc/play/95936/481/592",
+        "wordwallUrl": "https://wordwall.net/play/95936/481/592",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95936/481/592"
+        "assignmentUrl": "https://wordwall.net/play/95936/481/592"
     },
     {
         "category": "其他主題單元",
@@ -765,9 +765,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "康軒5-1台灣節慶美食、活動對看覓食",
         "path": "首頁 > 過年",
-        "wordwallUrl": "https://wordwall.net/tc/play/95937/003/227",
+        "wordwallUrl": "https://wordwall.net/play/95937/003/227",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95937/003/227"
+        "assignmentUrl": "https://wordwall.net/play/95937/003/227"
     },
     {
         "category": "其他主題單元",
@@ -776,9 +776,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【真平】過年講好話",
         "path": "首頁 > 過年",
-        "wordwallUrl": "https://wordwall.net/tc/play/65566/987/624",
+        "wordwallUrl": "https://wordwall.net/play/65566/987/624",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/65566/987/624"
+        "assignmentUrl": "https://wordwall.net/play/65566/987/624"
     },
     {
         "category": "其他主題單元",
@@ -787,9 +787,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "CH3-2_空氣的性質",
         "path": "首頁 > 自然3上植物大發現",
-        "wordwallUrl": "https://wordwall.net/tc/play/64812/618/847",
+        "wordwallUrl": "https://wordwall.net/play/64812/618/847",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64812/618/847"
+        "assignmentUrl": "https://wordwall.net/play/64812/618/847"
     },
     {
         "category": "其他主題單元",
@@ -798,9 +798,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "CH4-1_能被磁鐵吸引的物品",
         "path": "首頁 > 自然3上植物大發現",
-        "wordwallUrl": "https://wordwall.net/tc/play/64812/760/183",
+        "wordwallUrl": "https://wordwall.net/play/64812/760/183",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64812/760/183"
+        "assignmentUrl": "https://wordwall.net/play/64812/760/183"
     },
     {
         "category": "其他主題單元",
@@ -809,9 +809,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "複製真平台語｜聽聲音揀出圖片",
         "path": "首頁 > 真平台語G1",
-        "wordwallUrl": "https://wordwall.net/tc/play/111547/436/397",
+        "wordwallUrl": "https://wordwall.net/play/111547/436/397",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/111547/436/397"
+        "assignmentUrl": "https://wordwall.net/play/111547/436/397"
     },
     {
         "category": "其他主題單元",
@@ -820,9 +820,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "B2果子正確的台語用字",
         "path": "首頁 > 真平台語G1",
-        "wordwallUrl": "https://wordwall.net/tc/play/60509/401/762",
+        "wordwallUrl": "https://wordwall.net/play/60509/401/762",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60509/401/762"
+        "assignmentUrl": "https://wordwall.net/play/60509/401/762"
     },
     {
         "category": "其他主題單元",
@@ -831,9 +831,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【顏色+果子】真平G1快閃記憶挑戰賽: 請記住圖片，回答問題，看你記住多少?",
         "path": "首頁 > 真平台語G1",
-        "wordwallUrl": "https://wordwall.net/tc/play/88752/758/545",
+        "wordwallUrl": "https://wordwall.net/play/88752/758/545",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/88752/758/545"
+        "assignmentUrl": "https://wordwall.net/play/88752/758/545"
     },
     {
         "category": "其他主題單元",
@@ -842,9 +842,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "複製顏色配對",
         "path": "首頁 > 真平台語G1",
-        "wordwallUrl": "https://wordwall.net/tc/play/86658/148/799",
+        "wordwallUrl": "https://wordwall.net/play/86658/148/799",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/86658/148/799"
+        "assignmentUrl": "https://wordwall.net/play/86658/148/799"
     },
     {
         "category": "音標遊戲",
@@ -853,9 +853,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【真平】B1 G1動物(音標)",
         "path": "首頁 > 真平台語G1",
-        "wordwallUrl": "https://wordwall.net/tc/play/65007/988/391",
+        "wordwallUrl": "https://wordwall.net/play/65007/988/391",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/65007/988/391"
+        "assignmentUrl": "https://wordwall.net/play/65007/988/391"
     },
     {
         "category": "其他主題單元",
@@ -864,9 +864,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "B1 上愛的活動",
         "path": "首頁 > 真平台語G1 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/63816/361/403",
+        "wordwallUrl": "https://wordwall.net/play/63816/361/403",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/63816/361/403"
+        "assignmentUrl": "https://wordwall.net/play/63816/361/403"
     },
     {
         "category": "音標遊戲",
@@ -875,9 +875,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B9 L2 語詞、句子與拼音聽力測驗(自備耳機)",
         "path": "首頁 > 真平台語G1 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/61326/571/485",
+        "wordwallUrl": "https://wordwall.net/play/61326/571/485",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/61326/571/485"
+        "assignmentUrl": "https://wordwall.net/play/61326/571/485"
     },
     {
         "category": "其他主題單元",
@@ -886,9 +886,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平】B1 G1你上佮意啥物動物？",
         "path": "首頁 > 真平台語G1 > 上學期 > 第四課 動物",
-        "wordwallUrl": "https://wordwall.net/tc/play/65260/382/487",
+        "wordwallUrl": "https://wordwall.net/play/65260/382/487",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/65260/382/487"
+        "assignmentUrl": "https://wordwall.net/play/65260/382/487"
     },
     {
         "category": "其他主題單元",
@@ -897,9 +897,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B1 L3 厝內的人 3",
         "path": "首頁 > 真平台語G1 > 上學期 > 第三課 \t心肝仔囝",
-        "wordwallUrl": "https://wordwall.net/tc/play/64243/644/553",
+        "wordwallUrl": "https://wordwall.net/play/64243/644/553",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64243/644/553"
+        "assignmentUrl": "https://wordwall.net/play/64243/644/553"
     },
     {
         "category": "其他主題單元",
@@ -908,9 +908,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B1 L3 厝內的人2",
         "path": "首頁 > 真平台語G1 > 上學期 > 第三課 \t心肝仔囝",
-        "wordwallUrl": "https://wordwall.net/tc/play/64243/494/851",
+        "wordwallUrl": "https://wordwall.net/play/64243/494/851",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64243/494/851"
+        "assignmentUrl": "https://wordwall.net/play/64243/494/851"
     },
     {
         "category": "其他主題單元",
@@ -919,9 +919,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B1 L3 我會曉念",
         "path": "首頁 > 真平台語G1 > 上學期 > 第三課 \t心肝仔囝",
-        "wordwallUrl": "https://wordwall.net/tc/play/63139/175/273",
+        "wordwallUrl": "https://wordwall.net/play/63139/175/273",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/63139/175/273"
+        "assignmentUrl": "https://wordwall.net/play/63139/175/273"
     },
     {
         "category": "其他主題單元",
@@ -930,9 +930,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B1 L3 厝內的人",
         "path": "首頁 > 真平台語G1 > 上學期 > 第三課 \t心肝仔囝",
-        "wordwallUrl": "https://wordwall.net/tc/play/63139/109/684",
+        "wordwallUrl": "https://wordwall.net/play/63139/109/684",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/63139/109/684"
+        "assignmentUrl": "https://wordwall.net/play/63139/109/684"
     },
     {
         "category": "其他主題單元",
@@ -941,9 +941,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B1 L2文具",
         "path": "首頁 > 真平台語G1 > 上學期 > 第二課 鉛筆盒仔",
-        "wordwallUrl": "https://wordwall.net/tc/play/61384/481/254",
+        "wordwallUrl": "https://wordwall.net/play/61384/481/254",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/61384/481/254"
+        "assignmentUrl": "https://wordwall.net/play/61384/481/254"
     },
     {
         "category": "其他主題單元",
@@ -952,9 +952,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B1 L1 生活情境(禮貌)",
         "path": "首頁 > 真平台語G1 > 上學期 > 第一課 拍招呼",
-        "wordwallUrl": "https://wordwall.net/tc/play/60764/498/865",
+        "wordwallUrl": "https://wordwall.net/play/60764/498/865",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60764/498/865"
+        "assignmentUrl": "https://wordwall.net/play/60764/498/865"
     },
     {
         "category": "其他主題單元",
@@ -963,9 +963,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B1 L1我會曉念",
         "path": "首頁 > 真平台語G1 > 上學期 > 第一課 拍招呼",
-        "wordwallUrl": "https://wordwall.net/tc/play/60656/155/891",
+        "wordwallUrl": "https://wordwall.net/play/60656/155/891",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60656/155/891"
+        "assignmentUrl": "https://wordwall.net/play/60656/155/891"
     },
     {
         "category": "其他主題單元",
@@ -974,9 +974,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B1 L1 生活用語",
         "path": "首頁 > 真平台語G1 > 上學期 > 第一課 拍招呼",
-        "wordwallUrl": "https://wordwall.net/tc/play/60639/524/355",
+        "wordwallUrl": "https://wordwall.net/play/60639/524/355",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60639/524/355"
+        "assignmentUrl": "https://wordwall.net/play/60639/524/355"
     },
     {
         "category": "其他主題單元",
@@ -985,9 +985,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "G2 L1 月娘變魔術",
         "path": "首頁 > 真平台語G2",
-        "wordwallUrl": "https://wordwall.net/tc/play/109149/172/861",
+        "wordwallUrl": "https://wordwall.net/play/109149/172/861",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/109149/172/861"
+        "assignmentUrl": "https://wordwall.net/play/109149/172/861"
     },
     {
         "category": "其他主題單元",
@@ -996,9 +996,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "G2台語~餐具篇",
         "path": "首頁 > 真平台語G2",
-        "wordwallUrl": "https://wordwall.net/tc/play/88756/817/113",
+        "wordwallUrl": "https://wordwall.net/play/88756/817/113",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/88756/817/113"
+        "assignmentUrl": "https://wordwall.net/play/88756/817/113"
     },
     {
         "category": "其他主題單元",
@@ -1007,9 +1007,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "B4L1蔬菜",
         "path": "首頁 > 真平台語G2",
-        "wordwallUrl": "https://wordwall.net/tc/play/86658/549/230",
+        "wordwallUrl": "https://wordwall.net/play/86658/549/230",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/86658/549/230"
+        "assignmentUrl": "https://wordwall.net/play/86658/549/230"
     },
     {
         "category": "其他主題單元",
@@ -1018,9 +1018,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B3 L3 厝內隔間：(啥物人)佇(佗位)(做啥物)",
         "path": "首頁 > 真平台語G2 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/63970/139/463",
+        "wordwallUrl": "https://wordwall.net/play/63970/139/463",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/63970/139/463"
+        "assignmentUrl": "https://wordwall.net/play/63970/139/463"
     },
     {
         "category": "其他主題單元",
@@ -1029,9 +1029,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B3 L3 厝內的間格",
         "path": "首頁 > 真平台語G2 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/63139/867/172",
+        "wordwallUrl": "https://wordwall.net/play/63139/867/172",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/63139/867/172"
+        "assignmentUrl": "https://wordwall.net/play/63139/867/172"
     },
     {
         "category": "其他主題單元",
@@ -1040,9 +1040,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "複製真平B3L4",
         "path": "首頁 > 真平台語G2 > 上學期 > 花",
-        "wordwallUrl": "https://wordwall.net/tc/play/104272/682/894",
+        "wordwallUrl": "https://wordwall.net/play/104272/682/894",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/104272/682/894"
+        "assignmentUrl": "https://wordwall.net/play/104272/682/894"
     },
     {
         "category": "其他主題單元",
@@ -1051,9 +1051,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平2年級第3册 玉蘭花 (這是啥物花)",
         "path": "首頁 > 真平台語G2 > 上學期 > 花",
-        "wordwallUrl": "https://wordwall.net/tc/play/104272/497/210",
+        "wordwallUrl": "https://wordwall.net/play/104272/497/210",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/104272/497/210"
+        "assignmentUrl": "https://wordwall.net/play/104272/497/210"
     },
     {
         "category": "其他主題單元",
@@ -1062,9 +1062,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B3 L2 植物",
         "path": "首頁 > 真平台語G2 > 上學期 > 花",
-        "wordwallUrl": "https://wordwall.net/tc/play/61318/651/283",
+        "wordwallUrl": "https://wordwall.net/play/61318/651/283",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/61318/651/283"
+        "assignmentUrl": "https://wordwall.net/play/61318/651/283"
     },
     {
         "category": "其他主題單元",
@@ -1073,9 +1073,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B3 L2 花的世界",
         "path": "首頁 > 真平台語G2 > 上學期 > 花",
-        "wordwallUrl": "https://wordwall.net/tc/play/60775/558/427",
+        "wordwallUrl": "https://wordwall.net/play/60775/558/427",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60775/558/427"
+        "assignmentUrl": "https://wordwall.net/play/60775/558/427"
     },
     {
         "category": "其他主題單元",
@@ -1084,9 +1084,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "蟲豸thâng-thuā",
         "path": "首頁 > 真平台語G2 > 上學期 > 昆蟲",
-        "wordwallUrl": "https://wordwall.net/tc/play/95936/977/630",
+        "wordwallUrl": "https://wordwall.net/play/95936/977/630",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95936/977/630"
+        "assignmentUrl": "https://wordwall.net/play/95936/977/630"
     },
     {
         "category": "其他主題單元",
@@ -1095,9 +1095,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B2 L1 蟲語詞講看覓",
         "path": "首頁 > 真平台語G2 > 上學期 > 昆蟲",
-        "wordwallUrl": "https://wordwall.net/tc/play/60668/581/777",
+        "wordwallUrl": "https://wordwall.net/play/60668/581/777",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60668/581/777"
+        "assignmentUrl": "https://wordwall.net/play/60668/581/777"
     },
     {
         "category": "其他主題單元",
@@ -1106,9 +1106,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B3 L1 昆蟲的漢字",
         "path": "首頁 > 真平台語G2 > 上學期 > 昆蟲",
-        "wordwallUrl": "https://wordwall.net/tc/play/60639/264/253",
+        "wordwallUrl": "https://wordwall.net/play/60639/264/253",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60639/264/253"
+        "assignmentUrl": "https://wordwall.net/play/60639/264/253"
     },
     {
         "category": "音標遊戲",
@@ -1117,9 +1117,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "聲母p/ph",
         "path": "首頁 > 🔊台語拼音練習",
-        "wordwallUrl": "https://wordwall.net/tc/play/99129/649/833",
+        "wordwallUrl": "https://wordwall.net/play/99129/649/833",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/99129/649/833"
+        "assignmentUrl": "https://wordwall.net/play/99129/649/833"
     },
     {
         "category": "音標遊戲",
@@ -1128,9 +1128,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "複製台羅韻母分辨i、in、inn、ing",
         "path": "首頁 > 🔊台語拼音練習",
-        "wordwallUrl": "https://wordwall.net/tc/play/84300/926/901",
+        "wordwallUrl": "https://wordwall.net/play/84300/926/901",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/84300/926/901"
+        "assignmentUrl": "https://wordwall.net/play/84300/926/901"
     },
     {
         "category": "音標遊戲",
@@ -1139,9 +1139,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "閩南語聲母韻母",
         "path": "首頁 > 🔊台語拼音練習",
-        "wordwallUrl": "https://wordwall.net/tc/play/62699/228/827",
+        "wordwallUrl": "https://wordwall.net/play/62699/228/827",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/62699/228/827"
+        "assignmentUrl": "https://wordwall.net/play/62699/228/827"
     },
     {
         "category": "音標遊戲",
@@ -1150,9 +1150,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "台語用字vs台羅拼音",
         "path": "首頁 > 🔊台語拼音練習",
-        "wordwallUrl": "https://wordwall.net/tc/play/60636/228/933",
+        "wordwallUrl": "https://wordwall.net/play/60636/228/933",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60636/228/933"
+        "assignmentUrl": "https://wordwall.net/play/60636/228/933"
     },
     {
         "category": "音標遊戲",
@@ -1161,9 +1161,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "臺羅拼音_前測1",
         "path": "首頁 > 🔊台語拼音練習 > 沒有聲音",
-        "wordwallUrl": "https://wordwall.net/tc/play/64387/415/353",
+        "wordwallUrl": "https://wordwall.net/play/64387/415/353",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64387/415/353"
+        "assignmentUrl": "https://wordwall.net/play/64387/415/353"
     },
     {
         "category": "其他主題單元",
@@ -1172,9 +1172,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B6｜時間語詞分看覓",
         "path": "首頁 > 真平台語G3",
-        "wordwallUrl": "https://wordwall.net/tc/play/114773/337/815",
+        "wordwallUrl": "https://wordwall.net/play/114773/337/815",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/114773/337/815"
+        "assignmentUrl": "https://wordwall.net/play/114773/337/815"
     },
     {
         "category": "其他主題單元",
@@ -1183,9 +1183,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "真平B6G3第三課306(8題)",
         "path": "首頁 > 真平台語G3",
-        "wordwallUrl": "https://wordwall.net/tc/play/113368/913/561",
+        "wordwallUrl": "https://wordwall.net/play/113368/913/561",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/113368/913/561"
+        "assignmentUrl": "https://wordwall.net/play/113368/913/561"
     },
     {
         "category": "其他主題單元",
@@ -1194,9 +1194,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語｜意外傷害--圖片鬥看覓",
         "path": "首頁 > 真平台語G3",
-        "wordwallUrl": "https://wordwall.net/tc/play/113231/238/205",
+        "wordwallUrl": "https://wordwall.net/play/113231/238/205",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/113231/238/205"
+        "assignmentUrl": "https://wordwall.net/play/113231/238/205"
     },
     {
         "category": "其他主題單元",
@@ -1205,9 +1205,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "真平G6B6L1L2測驗",
         "path": "首頁 > 真平台語G3 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/89983/325/138",
+        "wordwallUrl": "https://wordwall.net/play/89983/325/138",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/89983/325/138"
+        "assignmentUrl": "https://wordwall.net/play/89983/325/138"
     },
     {
         "category": "其他主題單元",
@@ -1216,9 +1216,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【休閒場所】挑戰版~G3快閃記憶挑戰賽: 請記住圖片，回答問題，看你記住多少?",
         "path": "首頁 > 真平台語G3 > 下學期 > 三年級公開觀課",
-        "wordwallUrl": "https://wordwall.net/tc/play/89980/918/215",
+        "wordwallUrl": "https://wordwall.net/play/89980/918/215",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/89980/918/215"
+        "assignmentUrl": "https://wordwall.net/play/89980/918/215"
     },
     {
         "category": "其他主題單元",
@@ -1227,9 +1227,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【休閒場所】簡單版~G3快閃記憶挑戰賽: 請記住圖片，回答問題，看你記住多少?",
         "path": "首頁 > 真平台語G3 > 下學期 > 三年級公開觀課",
-        "wordwallUrl": "https://wordwall.net/tc/play/88757/214/635",
+        "wordwallUrl": "https://wordwall.net/play/88757/214/635",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/88757/214/635"
+        "assignmentUrl": "https://wordwall.net/play/88757/214/635"
     },
     {
         "category": "其他主題單元",
@@ -1238,9 +1238,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "真平G3B6L2露營(課文按組排序)",
         "path": "首頁 > 真平台語G3 > 下學期 > 三年級公開觀課",
-        "wordwallUrl": "https://wordwall.net/tc/play/89980/696/750",
+        "wordwallUrl": "https://wordwall.net/play/89980/696/750",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/89980/696/750"
+        "assignmentUrl": "https://wordwall.net/play/89980/696/750"
     },
     {
         "category": "其他主題單元",
@@ -1249,9 +1249,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平B6G3你上佮意做啥物？",
         "path": "首頁 > 真平台語G3 > 下學期 > 三年級公開觀課",
-        "wordwallUrl": "https://wordwall.net/tc/play/90056/714/411",
+        "wordwallUrl": "https://wordwall.net/play/90056/714/411",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/90056/714/411"
+        "assignmentUrl": "https://wordwall.net/play/90056/714/411"
     },
     {
         "category": "其他主題單元",
@@ -1260,9 +1260,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "三上真平 下哺的點心-短詞排列",
         "path": "首頁 > 真平台語G3 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/105647/436/715",
+        "wordwallUrl": "https://wordwall.net/play/105647/436/715",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105647/436/715"
+        "assignmentUrl": "https://wordwall.net/play/105647/436/715"
     },
     {
         "category": "其他主題單元",
@@ -1271,9 +1271,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "真平三上第二課課文-下晡的點心(課文排順序)",
         "path": "首頁 > 真平台語G3 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/95936/744/946",
+        "wordwallUrl": "https://wordwall.net/play/95936/744/946",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95936/744/946"
+        "assignmentUrl": "https://wordwall.net/play/95936/744/946"
     },
     {
         "category": "其他主題單元",
@@ -1282,9 +1282,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語B5｜共聽著的物件揀出來(點心)",
         "path": "首頁 > 真平台語G3 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/100768/484/256",
+        "wordwallUrl": "https://wordwall.net/play/100768/484/256",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/100768/484/256"
+        "assignmentUrl": "https://wordwall.net/play/100768/484/256"
     },
     {
         "category": "其他主題單元",
@@ -1293,9 +1293,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【T&P】B5 L1+L2 語詞&句子10題",
         "path": "首頁 > 真平台語G3 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/60765/069/655",
+        "wordwallUrl": "https://wordwall.net/play/60765/069/655",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60765/069/655"
+        "assignmentUrl": "https://wordwall.net/play/60765/069/655"
     },
     {
         "category": "其他主題單元",
@@ -1304,9 +1304,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B5 L3 擔仔位語詞",
         "path": "首頁 > 真平台語G3 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/64038/765/542",
+        "wordwallUrl": "https://wordwall.net/play/64038/765/542",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64038/765/542"
+        "assignmentUrl": "https://wordwall.net/play/64038/765/542"
     },
     {
         "category": "其他主題單元",
@@ -1315,9 +1315,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "三上L1L2句子複習0815",
         "path": "首頁 > 真平台語G3 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/61113/352/160",
+        "wordwallUrl": "https://wordwall.net/play/61113/352/160",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/61113/352/160"
+        "assignmentUrl": "https://wordwall.net/play/61113/352/160"
     },
     {
         "category": "其他主題單元",
@@ -1326,9 +1326,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "三上第一課語詞講看覓(翻卡念)",
         "path": "首頁 > 真平台語G3 > 上學期 > L1上課用",
-        "wordwallUrl": "https://wordwall.net/tc/play/60655/318/386",
+        "wordwallUrl": "https://wordwall.net/play/60655/318/386",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60655/318/386"
+        "assignmentUrl": "https://wordwall.net/play/60655/318/386"
     },
     {
         "category": "其他主題單元",
@@ -1337,9 +1337,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "三上第一課漢字vs華語配對",
         "path": "首頁 > 真平台語G3 > 上學期 > L1上課用",
-        "wordwallUrl": "https://wordwall.net/tc/play/60509/922/664",
+        "wordwallUrl": "https://wordwall.net/play/60509/922/664",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60509/922/664"
+        "assignmentUrl": "https://wordwall.net/play/60509/922/664"
     },
     {
         "category": "其他主題單元",
@@ -1348,9 +1348,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B8 L3測驗(15題烏白唬)401",
         "path": "首頁 > 真平台語G4",
-        "wordwallUrl": "https://wordwall.net/tc/play/112698/473/144",
+        "wordwallUrl": "https://wordwall.net/play/112698/473/144",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/112698/473/144"
+        "assignmentUrl": "https://wordwall.net/play/112698/473/144"
     },
     {
         "category": "其他主題單元",
@@ -1359,9 +1359,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "真平台語四上｜課文字句重組",
         "path": "首頁 > 真平台語G4",
-        "wordwallUrl": "https://wordwall.net/tc/play/104724/771/742",
+        "wordwallUrl": "https://wordwall.net/play/104724/771/742",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/104724/771/742"
+        "assignmentUrl": "https://wordwall.net/play/104724/771/742"
     },
     {
         "category": "其他主題單元",
@@ -1370,9 +1370,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "複製風景區",
         "path": "首頁 > 真平台語G4",
-        "wordwallUrl": "https://wordwall.net/tc/play/95936/949/314",
+        "wordwallUrl": "https://wordwall.net/play/95936/949/314",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95936/949/314"
+        "assignmentUrl": "https://wordwall.net/play/95936/949/314"
     },
     {
         "category": "其他主題單元",
@@ -1381,9 +1381,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B8 L3測驗(16題烏白唬)",
         "path": "首頁 > 真平台語G4 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/71936/970/104",
+        "wordwallUrl": "https://wordwall.net/play/71936/970/104",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/71936/970/104"
+        "assignmentUrl": "https://wordwall.net/play/71936/970/104"
     },
     {
         "category": "其他主題單元",
@@ -1392,9 +1392,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B8 L2測驗(15題)",
         "path": "首頁 > 真平台語G4 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/70486/317/834",
+        "wordwallUrl": "https://wordwall.net/play/70486/317/834",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/70486/317/834"
+        "assignmentUrl": "https://wordwall.net/play/70486/317/834"
     },
     {
         "category": "其他主題單元",
@@ -1403,9 +1403,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B8 L1測驗(15題)",
         "path": "首頁 > 真平台語G4 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/108996/163/577",
+        "wordwallUrl": "https://wordwall.net/play/108996/163/577",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/108996/163/577"
+        "assignmentUrl": "https://wordwall.net/play/108996/163/577"
     },
     {
         "category": "其他主題單元",
@@ -1414,9 +1414,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平】B8G4L4.L5期末測驗(25題)",
         "path": "首頁 > 真平台語G4 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/92902/205/495",
+        "wordwallUrl": "https://wordwall.net/play/92902/205/495",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/92902/205/495"
+        "assignmentUrl": "https://wordwall.net/play/92902/205/495"
     },
     {
         "category": "其他主題單元",
@@ -1425,9 +1425,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平】B8G4L4欲按怎(15題)",
         "path": "首頁 > 真平台語G4 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/92223/919/279",
+        "wordwallUrl": "https://wordwall.net/play/92223/919/279",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/92223/919/279"
+        "assignmentUrl": "https://wordwall.net/play/92223/919/279"
     },
     {
         "category": "其他主題單元",
@@ -1436,9 +1436,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B8 L1測驗(14題)",
         "path": "首頁 > 真平台語G4 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/69682/798/262",
+        "wordwallUrl": "https://wordwall.net/play/69682/798/262",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/69682/798/262"
+        "assignmentUrl": "https://wordwall.net/play/69682/798/262"
     },
     {
         "category": "其他主題單元",
@@ -1447,9 +1447,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B7 L1~L3語詞",
         "path": "首頁 > 真平台語G4 > 上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/64387/885/880",
+        "wordwallUrl": "https://wordwall.net/play/64387/885/880",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64387/885/880"
+        "assignmentUrl": "https://wordwall.net/play/64387/885/880"
     },
     {
         "category": "其他主題單元",
@@ -1458,9 +1458,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平】B7L4第四課測驗(16題)",
         "path": "首頁 > 真平台語G4 > 上學期 > 隨堂測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/84455/076/372",
+        "wordwallUrl": "https://wordwall.net/play/84455/076/372",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/84455/076/372"
+        "assignmentUrl": "https://wordwall.net/play/84455/076/372"
     },
     {
         "category": "其他主題單元",
@@ -1469,9 +1469,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B7 L3四上第三課《青紅燈》測驗15題",
         "path": "首頁 > 真平台語G4 > 上學期 > 隨堂測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/64661/130/644",
+        "wordwallUrl": "https://wordwall.net/play/64661/130/644",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64661/130/644"
+        "assignmentUrl": "https://wordwall.net/play/64661/130/644"
     },
     {
         "category": "其他主題單元",
@@ -1480,9 +1480,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B7 L1四上第一課《好日》12題測驗",
         "path": "首頁 > 真平台語G4 > 上學期 > 隨堂測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/60648/698/174",
+        "wordwallUrl": "https://wordwall.net/play/60648/698/174",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60648/698/174"
+        "assignmentUrl": "https://wordwall.net/play/60648/698/174"
     },
     {
         "category": "其他主題單元",
@@ -1491,9 +1491,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B7 L2四上第二課《辦桌》測驗13題",
         "path": "首頁 > 真平台語G4 > 上學期 > 隨堂測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/62423/161/890",
+        "wordwallUrl": "https://wordwall.net/play/62423/161/890",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/62423/161/890"
+        "assignmentUrl": "https://wordwall.net/play/62423/161/890"
     },
     {
         "category": "其他主題單元",
@@ -1502,9 +1502,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B7 L1四上第一課-疊字詞",
         "path": "首頁 > 真平台語G4 > 上學期 > L1",
-        "wordwallUrl": "https://wordwall.net/tc/play/60471/692/725",
+        "wordwallUrl": "https://wordwall.net/play/60471/692/725",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60471/692/725"
+        "assignmentUrl": "https://wordwall.net/play/60471/692/725"
     },
     {
         "category": "其他主題單元",
@@ -1513,9 +1513,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B7 L1四上第一課做伙來造句",
         "path": "首頁 > 真平台語G4 > 上學期 > L1",
-        "wordwallUrl": "https://wordwall.net/tc/play/60764/833/128",
+        "wordwallUrl": "https://wordwall.net/play/60764/833/128",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60764/833/128"
+        "assignmentUrl": "https://wordwall.net/play/60764/833/128"
     },
     {
         "category": "其他主題單元",
@@ -1524,9 +1524,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【T&P】 B11L4 ABB疊詞",
         "path": "首頁 > 真平台語G5",
-        "wordwallUrl": "https://wordwall.net/tc/play/105067/427/840",
+        "wordwallUrl": "https://wordwall.net/play/105067/427/840",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/105067/427/840"
+        "assignmentUrl": "https://wordwall.net/play/105067/427/840"
     },
     {
         "category": "其他主題單元",
@@ -1535,9 +1535,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "G5台語L4相反詞（倒反詞）",
         "path": "首頁 > 真平台語G5",
-        "wordwallUrl": "https://wordwall.net/tc/play/104442/279/877",
+        "wordwallUrl": "https://wordwall.net/play/104442/279/877",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/104442/279/877"
+        "assignmentUrl": "https://wordwall.net/play/104442/279/877"
     },
     {
         "category": "其他主題單元",
@@ -1546,9 +1546,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】五下第一課(選字詞)",
         "path": "首頁 > 真平台語G5 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/69675/624/427",
+        "wordwallUrl": "https://wordwall.net/play/69675/624/427",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/69675/624/427"
+        "assignmentUrl": "https://wordwall.net/play/69675/624/427"
     },
     {
         "category": "其他主題單元",
@@ -1557,9 +1557,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "手、跤的動作(挑戰)",
         "path": "首頁 > 真平台語G5 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/69313/984/103",
+        "wordwallUrl": "https://wordwall.net/play/69313/984/103",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/69313/984/103"
+        "assignmentUrl": "https://wordwall.net/play/69313/984/103"
     },
     {
         "category": "其他主題單元",
@@ -1568,9 +1568,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "手、跤的動作(簡單)",
         "path": "首頁 > 真平台語G5 > 下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/68784/512/199",
+        "wordwallUrl": "https://wordwall.net/play/68784/512/199",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/68784/512/199"
+        "assignmentUrl": "https://wordwall.net/play/68784/512/199"
     },
     {
         "category": "其他主題單元",
@@ -1579,9 +1579,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B10 L3 測驗502(18題)",
         "path": "首頁 > 真平台語G5 > 下學期 > 平時測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/112772/228/206",
+        "wordwallUrl": "https://wordwall.net/play/112772/228/206",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/112772/228/206"
+        "assignmentUrl": "https://wordwall.net/play/112772/228/206"
     },
     {
         "category": "其他主題單元",
@@ -1590,9 +1590,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B10 L2 測驗(17題)",
         "path": "首頁 > 真平台語G5 > 下學期 > 平時測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/70438/132/387",
+        "wordwallUrl": "https://wordwall.net/play/70438/132/387",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/70438/132/387"
+        "assignmentUrl": "https://wordwall.net/play/70438/132/387"
     },
     {
         "category": "其他主題單元",
@@ -1601,9 +1601,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B10 L1測驗(15題)",
         "path": "首頁 > 真平台語G5 > 下學期 > 平時測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/85306/101/301",
+        "wordwallUrl": "https://wordwall.net/play/85306/101/301",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/85306/101/301"
+        "assignmentUrl": "https://wordwall.net/play/85306/101/301"
     },
     {
         "category": "其他主題單元",
@@ -1612,9 +1612,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "真平B10G5 L4L5測驗(25題)",
         "path": "首頁 > 真平台語G5 > 下學期 > 平時測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/92902/233/999",
+        "wordwallUrl": "https://wordwall.net/play/92902/233/999",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/92902/233/999"
+        "assignmentUrl": "https://wordwall.net/play/92902/233/999"
     },
     {
         "category": "其他主題單元",
@@ -1623,9 +1623,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B10 L3 測驗(20題)",
         "path": "首頁 > 真平台語G5 > 下學期 > 平時測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/71798/515/220",
+        "wordwallUrl": "https://wordwall.net/play/71798/515/220",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/71798/515/220"
+        "assignmentUrl": "https://wordwall.net/play/71798/515/220"
     },
     {
         "category": "其他主題單元",
@@ -1634,9 +1634,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "真平B10G5 L4測驗(15題)",
         "path": "首頁 > 真平台語G5 > 下學期 > 平時測驗",
-        "wordwallUrl": "https://wordwall.net/tc/play/90480/494/295",
+        "wordwallUrl": "https://wordwall.net/play/90480/494/295",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/90480/494/295"
+        "assignmentUrl": "https://wordwall.net/play/90480/494/295"
     },
     {
         "category": "其他主題單元",
@@ -1645,9 +1645,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平G5L4】2.揣出正確的倒反詞",
         "path": "首頁 > 真平台語G5 > 上學期 > L4",
-        "wordwallUrl": "https://wordwall.net/tc/play/65566/540/981",
+        "wordwallUrl": "https://wordwall.net/play/65566/540/981",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/65566/540/981"
+        "assignmentUrl": "https://wordwall.net/play/65566/540/981"
     },
     {
         "category": "其他主題單元",
@@ -1656,9 +1656,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平G5L3】1.這家伙仔出去食礤冰，共正確的礤冰選起來。(點選喇叭聽音檔)",
         "path": "首頁 > 真平台語G5 > 上學期 > L3",
-        "wordwallUrl": "https://wordwall.net/tc/play/65566/020/923",
+        "wordwallUrl": "https://wordwall.net/play/65566/020/923",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/65566/020/923"
+        "assignmentUrl": "https://wordwall.net/play/65566/020/923"
     },
     {
         "category": "其他主題單元",
@@ -1667,9 +1667,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B9 L3 礤冰配料2",
         "path": "首頁 > 真平台語G5 > 上學期 > L3",
-        "wordwallUrl": "https://wordwall.net/tc/play/64242/374/654",
+        "wordwallUrl": "https://wordwall.net/play/64242/374/654",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64242/374/654"
+        "assignmentUrl": "https://wordwall.net/play/64242/374/654"
     },
     {
         "category": "其他主題單元",
@@ -1678,9 +1678,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】9-3 礤冰配料",
         "path": "首頁 > 真平台語G5 > 上學期 > L3",
-        "wordwallUrl": "https://wordwall.net/tc/play/64241/016/242",
+        "wordwallUrl": "https://wordwall.net/play/64241/016/242",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64241/016/242"
+        "assignmentUrl": "https://wordwall.net/play/64241/016/242"
     },
     {
         "category": "其他主題單元",
@@ -1689,9 +1689,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平B9L4 】20題",
         "path": "首頁 > 真平台語G5 > 上學期 > TEST",
-        "wordwallUrl": "https://wordwall.net/tc/play/65563/870/173",
+        "wordwallUrl": "https://wordwall.net/play/65563/870/173",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/65563/870/173"
+        "assignmentUrl": "https://wordwall.net/play/65563/870/173"
     },
     {
         "category": "其他主題單元",
@@ -1700,9 +1700,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平B9L3】測驗15題",
         "path": "首頁 > 真平台語G5 > 上學期 > TEST",
-        "wordwallUrl": "https://wordwall.net/tc/play/84300/973/266",
+        "wordwallUrl": "https://wordwall.net/play/84300/973/266",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/84300/973/266"
+        "assignmentUrl": "https://wordwall.net/play/84300/973/266"
     },
     {
         "category": "其他主題單元",
@@ -1711,9 +1711,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平B9G5】 L1L2複習15題",
         "path": "首頁 > 真平台語G5 > 上學期 > TEST",
-        "wordwallUrl": "https://wordwall.net/tc/play/84300/968/388",
+        "wordwallUrl": "https://wordwall.net/play/84300/968/388",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/84300/968/388"
+        "assignmentUrl": "https://wordwall.net/play/84300/968/388"
     },
     {
         "category": "其他主題單元",
@@ -1722,9 +1722,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平B9 L1】<線頂買賣>12題",
         "path": "首頁 > 真平台語G5 > 上學期 > TEST",
-        "wordwallUrl": "https://wordwall.net/tc/play/60774/285/111",
+        "wordwallUrl": "https://wordwall.net/play/60774/285/111",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60774/285/111"
+        "assignmentUrl": "https://wordwall.net/play/60774/285/111"
     },
     {
         "category": "其他主題單元",
@@ -1733,9 +1733,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "五上第二課課文學習策略",
         "path": "首頁 > 真平台語G5 > 上學期 > L2",
-        "wordwallUrl": "https://wordwall.net/tc/play/61326/030/112",
+        "wordwallUrl": "https://wordwall.net/play/61326/030/112",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/61326/030/112"
+        "assignmentUrl": "https://wordwall.net/play/61326/030/112"
     },
     {
         "category": "其他主題單元",
@@ -1744,9 +1744,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "五上第一課課文學習策略",
         "path": "首頁 > 真平台語G5 > 上學期 > L1",
-        "wordwallUrl": "https://wordwall.net/tc/play/60700/107/351",
+        "wordwallUrl": "https://wordwall.net/play/60700/107/351",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60700/107/351"
+        "assignmentUrl": "https://wordwall.net/play/60700/107/351"
     },
     {
         "category": "其他主題單元",
@@ -1755,9 +1755,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "五上第一課-共聽著的語詞添入去格仔內",
         "path": "首頁 > 真平台語G5 > 上學期 > L1",
-        "wordwallUrl": "https://wordwall.net/tc/play/60472/310/366",
+        "wordwallUrl": "https://wordwall.net/play/60472/310/366",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60472/310/366"
+        "assignmentUrl": "https://wordwall.net/play/60472/310/366"
     },
     {
         "category": "其他主題單元",
@@ -1766,9 +1766,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "五上第一課疊詞配對",
         "path": "首頁 > 真平台語G5 > 上學期 > L1",
-        "wordwallUrl": "https://wordwall.net/tc/play/38357/600/171",
+        "wordwallUrl": "https://wordwall.net/play/38357/600/171",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/38357/600/171"
+        "assignmentUrl": "https://wordwall.net/play/38357/600/171"
     },
     {
         "category": "其他主題單元",
@@ -1777,9 +1777,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "真平B12G6 L3L4期末測驗(25題)",
         "path": "首頁 > 真平台語G6",
-        "wordwallUrl": "https://wordwall.net/tc/play/90208/456/792",
+        "wordwallUrl": "https://wordwall.net/play/90208/456/792",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/90208/456/792"
+        "assignmentUrl": "https://wordwall.net/play/90208/456/792"
     },
     {
         "category": "其他主題單元",
@@ -1788,9 +1788,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "真平B12G6 L3測驗(20題)605",
         "path": "首頁 > 真平台語G6",
-        "wordwallUrl": "https://wordwall.net/tc/play/112699/541/342",
+        "wordwallUrl": "https://wordwall.net/play/112699/541/342",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/112699/541/342"
+        "assignmentUrl": "https://wordwall.net/play/112699/541/342"
     },
     {
         "category": "其他主題單元",
@@ -1799,9 +1799,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B12六下 第二課 世界杯(18題)",
         "path": "首頁 > 真平台語G6",
-        "wordwallUrl": "https://wordwall.net/tc/play/86667/659/860",
+        "wordwallUrl": "https://wordwall.net/play/86667/659/860",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/86667/659/860"
+        "assignmentUrl": "https://wordwall.net/play/86667/659/860"
     },
     {
         "category": "其他主題單元",
@@ -1810,9 +1810,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B12 六下第一課 生理囝(20題)",
         "path": "首頁 > 真平台語G6 > 新版下學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/86216/688/690",
+        "wordwallUrl": "https://wordwall.net/play/86216/688/690",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/86216/688/690"
+        "assignmentUrl": "https://wordwall.net/play/86216/688/690"
     },
     {
         "category": "其他主題單元",
@@ -1821,9 +1821,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【真平】G6世界特產",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/62421/497/700",
+        "wordwallUrl": "https://wordwall.net/play/62421/497/700",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/62421/497/700"
+        "assignmentUrl": "https://wordwall.net/play/62421/497/700"
     },
     {
         "category": "其他主題單元",
@@ -1832,9 +1832,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "【真平】B12 L2 六下真平第二課測驗",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/70289/817/513",
+        "wordwallUrl": "https://wordwall.net/play/70289/817/513",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/70289/817/513"
+        "assignmentUrl": "https://wordwall.net/play/70289/817/513"
     },
     {
         "category": "其他主題單元",
@@ -1843,9 +1843,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平】B12 L4 六下真平期末測驗",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/71788/933/130",
+        "wordwallUrl": "https://wordwall.net/play/71788/933/130",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/71788/933/130"
+        "assignmentUrl": "https://wordwall.net/play/71788/933/130"
     },
     {
         "category": "其他主題單元",
@@ -1854,9 +1854,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "【真平】B12 L1六下第一課測驗",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/69623/354/686",
+        "wordwallUrl": "https://wordwall.net/play/69623/354/686",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/69623/354/686"
+        "assignmentUrl": "https://wordwall.net/play/69623/354/686"
     },
     {
         "category": "其他主題單元",
@@ -1865,9 +1865,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "【真平】B11 L4 猜字(呵咾)",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/64038/809/873",
+        "wordwallUrl": "https://wordwall.net/play/64038/809/873",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/64038/809/873"
+        "assignmentUrl": "https://wordwall.net/play/64038/809/873"
     },
     {
         "category": "其他主題單元",
@@ -1876,9 +1876,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "B11 G6 科技產品",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/63829/272/845",
+        "wordwallUrl": "https://wordwall.net/play/63829/272/845",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/63829/272/845"
+        "assignmentUrl": "https://wordwall.net/play/63829/272/845"
     },
     {
         "category": "音標遊戲",
@@ -1887,9 +1887,9 @@ window.gamesData = [
         "unit": "綜合單元",
         "title": "【真平】G6世界各國特產—台語用字vs台羅拼音",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/62421/580/154",
+        "wordwallUrl": "https://wordwall.net/play/62421/580/154",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/62421/580/154"
+        "assignmentUrl": "https://wordwall.net/play/62421/580/154"
     },
     {
         "category": "其他主題單元",
@@ -1898,9 +1898,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "六上第一課",
         "path": "首頁 > 真平台語G6 > 舊版真平",
-        "wordwallUrl": "https://wordwall.net/tc/play/60601/747/951",
+        "wordwallUrl": "https://wordwall.net/play/60601/747/951",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/60601/747/951"
+        "assignmentUrl": "https://wordwall.net/play/60601/747/951"
     },
     {
         "category": "其他主題單元",
@@ -1909,9 +1909,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "【真平】B11 L3 科技產品",
         "path": "首頁 > 真平台語G6 > 舊版真平 > TEST",
-        "wordwallUrl": "https://wordwall.net/tc/play/63828/987/255",
+        "wordwallUrl": "https://wordwall.net/play/63828/987/255",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/63828/987/255"
+        "assignmentUrl": "https://wordwall.net/play/63828/987/255"
     },
     {
         "category": "其他主題單元",
@@ -1920,9 +1920,9 @@ window.gamesData = [
         "unit": "第四單元",
         "title": "B11L4烏鴉食水-字句重排(8句)",
         "path": "首頁 > 真平台語G6 > 新版上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/104649/523/864",
+        "wordwallUrl": "https://wordwall.net/play/104649/523/864",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/104649/523/864"
+        "assignmentUrl": "https://wordwall.net/play/104649/523/864"
     },
     {
         "category": "其他主題單元",
@@ -1931,9 +1931,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "真平B11L2~L4隨堂測驗：聽聲音，揀出正確的字抑是語詞(20題)",
         "path": "首頁 > 真平台語G6 > 新版上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/100777/696/257",
+        "wordwallUrl": "https://wordwall.net/play/100777/696/257",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/100777/696/257"
+        "assignmentUrl": "https://wordwall.net/play/100777/696/257"
     },
     {
         "category": "其他主題單元",
@@ -1942,9 +1942,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "真平(新)B11第三課測驗20題",
         "path": "首頁 > 真平台語G6 > 新版上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/103360/649/555",
+        "wordwallUrl": "https://wordwall.net/play/103360/649/555",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/103360/649/555"
+        "assignmentUrl": "https://wordwall.net/play/103360/649/555"
     },
     {
         "category": "其他主題單元",
@@ -1953,9 +1953,9 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "真平B11第三課測驗20題",
         "path": "首頁 > 真平台語G6 > 新版上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/102511/045/311",
+        "wordwallUrl": "https://wordwall.net/play/102511/045/311",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/102511/045/311"
+        "assignmentUrl": "https://wordwall.net/play/102511/045/311"
     },
     {
         "category": "其他主題單元",
@@ -1964,9 +1964,9 @@ window.gamesData = [
         "unit": "第二單元",
         "title": "B11 G6 第二課隨堂測驗<掛號>15題",
         "path": "首頁 > 真平台語G6 > 新版上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/95525/527/845",
+        "wordwallUrl": "https://wordwall.net/play/95525/527/845",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/95525/527/845"
+        "assignmentUrl": "https://wordwall.net/play/95525/527/845"
     },
     {
         "category": "其他主題單元",
@@ -1975,9 +1975,9 @@ window.gamesData = [
         "unit": "第一單元",
         "title": "B11 G6 第一課隨堂測驗<驚著無代誌>15題",
         "path": "首頁 > 真平台語G6 > 新版上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/62819/664/397",
+        "wordwallUrl": "https://wordwall.net/play/62819/664/397",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/62819/664/397"
+        "assignmentUrl": "https://wordwall.net/play/62819/664/397"
     },
     {
         "category": "其他主題單元",
@@ -1986,8 +1986,8 @@ window.gamesData = [
         "unit": "第三單元",
         "title": "真平(新)B11第三課測驗",
         "path": "首頁 > 真平台語G6 > 新版上學期",
-        "wordwallUrl": "https://wordwall.net/tc/play/84300/957/856",
+        "wordwallUrl": "https://wordwall.net/play/84300/957/856",
         "pptEmbedUrl": "",
-        "assignmentUrl": "https://wordwall.net/tc/play/84300/957/856"
+        "assignmentUrl": "https://wordwall.net/play/84300/957/856"
     }
 ];
