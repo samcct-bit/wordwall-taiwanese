@@ -45,7 +45,7 @@ python ww.py build --input deep_wordwall_games.csv --dir my-website
 ```bash
 python ww.py assign --input data.json --output data_with_assignments.json --dir my-website
 ```
-> 此功能執行時間較長，結束後會自動更新 `data.js`。
+> 💡 **智慧增量更新**：腳本會自動檢查並「跳過」已經成功派發過作業的遊戲。如果未來您在 Wordwall 新增了遊戲，只需重新執行上述的 `scrape` -> `build` -> `assign` 流程，腳本就會極速略過舊遊戲，只針對新遊戲進行派發，大幅節省更新時間！
 
 ## 如何自訂分類標籤？
 如果您需要調整 `build` 指令在辨識「年級」、「單元」等標籤的邏輯，您可以直接修改 `ww.py` 中的 `parse_grade()`, `parse_category()` 等函式，利用正則表達式打造符合您個人習慣的命名規則！
