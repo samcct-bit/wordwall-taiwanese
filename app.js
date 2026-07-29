@@ -167,6 +167,23 @@ function setupEventListeners() {
         const url = slidesUrlInput.value.trim();
         saveSlidesSettings(url);
     });
+
+    // 響應式：切換右側簡報面板
+    const toggleSlidesBtn = document.getElementById('toggleSlidesBtn');
+    const sidebarRight = document.getElementById('sidebarRight');
+    const sidebarOverlay = document.getElementById('sidebarOverlay');
+    
+    if (toggleSlidesBtn && sidebarRight && sidebarOverlay) {
+        toggleSlidesBtn.addEventListener('click', () => {
+            sidebarRight.classList.toggle('active');
+            sidebarOverlay.classList.toggle('active');
+        });
+        
+        sidebarOverlay.addEventListener('click', () => {
+            sidebarRight.classList.remove('active');
+            sidebarOverlay.classList.remove('active');
+        });
+    }
 }
 
 // 核心過濾邏輯

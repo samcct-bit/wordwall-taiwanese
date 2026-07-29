@@ -25,9 +25,12 @@
                 <i class='bx bx-book-reader'></i>
                 <h1>台語教學整合平台</h1>
             </div>
-            <div class="search-bar">
-                <i class='bx bx-search'></i>
-                <input type="text" id="searchInput" placeholder="搜尋遊戲標題...">
+            <div class="header-right">
+                <div class="search-bar">
+                    <i class='bx bx-search'></i>
+                    <input type="text" id="searchInput" placeholder="搜尋遊戲標題...">
+                </div>
+                <button id="toggleSlidesBtn" class="icon-btn mobile-only" title="切換教學簡報"><i class='bx bxs-slideshow'></i></button>
             </div>
         </header>
 
@@ -86,7 +89,8 @@
             </main>
 
             <!-- 右方區塊：Google Slides 簡報 -->
-            <aside class="sidebar-right glass-panel">
+            <div class="sidebar-overlay" id="sidebarOverlay"></div>
+            <aside class="sidebar-right glass-panel" id="sidebarRight">
                 <div class="slides-header">
                     <h2><i class='bx bxs-slideshow'></i> 教學簡報</h2>
                     <button class="icon-btn" id="editSlidesBtn" title="設定簡報連結"><i class='bx bx-cog'></i></button>
