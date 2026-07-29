@@ -266,6 +266,12 @@ def cmd_assign(args):
         
         for idx, game in enumerate(games):
             print(f"\n[{idx+1}/{len(games)}] 正在處理遊戲：{game.get('title', 'Unknown')}")
+            
+            # 如果已經有派發過的網址，就跳過，加速未來新增遊戲的更新速度！
+            if game.get('assignmentUrl') and 'wordwall.net/play/' in game.get('assignmentUrl'):
+                print(f"⏩ 此遊戲已有作業連結 ({game['assignmentUrl']})，直接跳過！")
+                continue
+
             original_url = game.get('wordwallUrl', '')
             if not original_url:
                 print("❌ 找不到原始網址，跳過。")
