@@ -1,0 +1,2775 @@
+
+    <script type="text/javascript" id="" charset="">(function(){var a="undefined";if(a&&a!=="undefined"){var b=2592E3;a=encodeURIComponent(a);document.cookie="_ww_utm_source\x3d"+a+";path\x3d/;max-age\x3d"+b+";SameSite\x3dLax"+(location.protocol==="https:"?";Secure":"")}})();</script><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZ7ZRHHJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id="error_report" class="hidden"></div>
+    <div id="notification_banners" class="js-notification-banners"></div>
+    <div id="outer_wrapper">
+            <div class="js-header-ajax"><div class="header-wrapper ">
+    <header>
+        <a href="/tc">
+            <div id="logo" class="float-left"></div>
+            <span class="tag-line js-tag-line">更快地創建更好的課程</span>
+        </a>
+        
+<div class="js-menu-button-mobile mobile-menu-wrapper no-select float-right">
+    <div class="mobile-menu fa fa-bars no-select"></div>
+</div>
+
+        
+
+<div class="header-links float-right">
+        <a href="/tc/create" class="default-btn  js-create-activity">創建活動</a>
+        <a href="#" id="profile_button" class="default-btn white profile-button js-user-profile">
+            <img class="thumbnail js-thumbnail" src="//user.cdn.wordwall.net/profile-images/64/14019875/1" onerror="VEL.Wordwall.Global.Helpers.ActivityHelper.onThumbnailError(this)">
+            <span class="username js-username-display">sheaumin</span>
+            <span class="fa fa-chevron-down"></span>
+        </a>
+</div>
+
+<div class="header-buttons float-right">
+        <a class="js-community community" href="/tc/community"><span class="fa fa-magnifying-glass"></span>&nbsp;社區</a>
+        <a class="js-my-activities my-activities" href="/tc/myactivities">我的活動</a>
+        <a class="js-my-results my-results" href="/tc/myresults">我的結果<div class="result-notification-dot js-result-notification-dot js-result-notification-dot-desktop hidden"></div></a>
+</div>
+
+    </header>
+</div>
+<script type="text/template" id="banner_template">
+    <div class="banner-wrapper js-banner-wrapper no-prefix-icon hidden">
+        <div class="banner-prefix-icon-container">
+            <span class="banner-prefix-icon js-banner-prefix-icon js-banner-colour fa hidden"></span>
+        </div>
+        <div class="banner-content-container">
+            <span class="banner-content js-banner-content js-banner-colour"></span>
+            <span class="banner-cta js-banner-button js-banner-colour"></span>
+        </div>
+        <div class="clear"></div>
+        <span class="banner-dismiss js-banner-dismiss js-banner-colour"><i class="fa fa-xmark"></i></span>
+    </div>
+</script>
+
+<script type="text/template" id="floating_banner_template">
+    <div class="floating-banner js-banner-wrapper hidden">
+        <div class="floating-banner-header">
+            <span class="floating-banner-title js-banner-content"></span>
+            <span class="floating-banner-dismiss js-banner-dismiss"><i class="fa fa-xmark"></i></span>
+        </div>
+        <div class="floating-banner-body js-banner-description"></div>
+        <span class="floating-banner-footer js-banner-button hidden">
+            <i class="fa fa-caret-right"></i>
+        </span>
+    </div>
+</script>
+
+<div id="notification_banner_container" class="banner-notification-container"></div>
+<div id="banners_container"></div>
+<div class="search-suggestions-wrapper js-search-suggestions-wrapper"></div>
+<a href="#" id="shell_faded_overlay"></a>
+
+<nav>
+        <div class="mobile-username-wrapper js-user-profile">
+            <img class="thumbnail float-right" src="//user.cdn.wordwall.net/profile-images/64/14019875/1">
+            <p class="mobile-username float-right">sheaumin</p>
+        </div>
+    <ul class="mobile-menu-links">
+
+            <li class=""> 
+                <a href="/tc/create" class="js-create-activity">創建活動 <span class="fa fa-plus"></span></a>
+            </li>
+            <li>
+                <a href="/tc/myactivities" class="js-my-activities js-mobile-home">我的活動 <span class="fa fa-folder"></span></a>
+            </li>
+            <li>
+                <a href="/tc/myresults" class="js-my-results">我的結果 <span class="fa fa-square-check"></span><div class="result-notification-dot js-result-notification-dot js-result-notification-dot-mobile hidden"></div></a>
+            </li>
+                <li>
+                    <a href="/tc/account/myschool" class="js-account-school">我的學校 <span class="fa fa-building-columns"></span></a>
+                </li>
+            <li>
+                <a href="/tc/account/teachingprofile" class="js-account-personal">編輯個人資訊 <span class="fa fa-pen-to-square"></span></a>
+            </li>
+                <li>
+                    <a href="/tc/payment/managepayments" class="js-account-manage">管理付款 <span class="fa fa-credit-card"></span></a>
+                </li>
+            <li>
+                <a href="/tc/account/localization?redirectto=%2Ftc%2Fresource%2F84300957%2F%25e7%259c%259f%25e5%25b9%25b3%25e6%2596%25b0b11%25e7%25ac%25ac%25e4%25b8%2589%25e8%25aa%25b2%25e6%25b8%25ac%25e9%25a9%2597" class="js-account-localization">語言和位置 <span class="fa fa-earth-americas"></span></a>
+            </li>
+            <li>
+                <a href="/tc/account/logout" class="js-account-logout">登出 <span class="fa fa-right-from-bracket"></span></a>
+            </li>
+            <li class="mobile-menu-spacer">
+                <a href="/tc/community" class="js-community">社區 <span class="fa fa-magnifying-glass"></span></a>
+            </li>
+
+        <li>
+            <a href="/tc/contact" class="js-contact">聯繫方式 <span class="fa fa-comment"></span></a>
+        </li>
+
+            <li>
+                <a href="/tc/price-plans" class="js-price-plans">價格計劃 <span class="fa fa-tag"></span></a>
+            </li>
+
+
+
+    </ul>
+
+    <div class="mobile-footnote">
+            <p class="js-account-status">
+                專業帳戶
+            </p>
+        <p>
+            <a href="/tc/account/terms">使用條款</a>
+            <text>-</text>
+            <a href="/tc/account/privacy">隱私聲明</a>
+        </p>
+    </div>
+
+</nav>
+
+
+<div class="js-overlay-mask overlay-mask hidden"></div>
+<div class="overlay-menu-wrapper js-overlay-menu hidden">
+    <div class="overlay-menu">
+        <p class="overlay-header js-account-status">專業帳戶</p>
+        <a class="js-account-school" href="/tc/account/myschool"><span class="fa fa-building-columns"></span>我的學校</a>
+        <a href="/tc/teacher/my"><span class="fa fa-user"></span>我的個人資料頁面</a>
+        <a class="js-account-personal" href="/tc/account/teachingprofile"><span class="fa fa-pen-to-square"></span>編輯個人資訊</a>
+        <a class="js-account-localization" href="/tc/account/localization?redirectto=%2Ftc%2Fresource%2F84300957%2F%25e7%259c%259f%25e5%25b9%25b3%25e6%2596%25b0b11%25e7%25ac%25ac%25e4%25b8%2589%25e8%25aa%25b2%25e6%25b8%25ac%25e9%25a9%2597"><span class="fa fa-earth-americas"></span>語言和位置</a>
+            <a class="js-account-manage" href="/tc/payment/managepayments"><span class="fa fa-credit-card"></span>管理付款</a>
+        <br>
+        <a class="js-account-logout" href="/tc/account/logout"><span class="fa fa-right-from-bracket"></span>登出</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    window.pageData.userId=14019875;
+    window.pageData.footerAjax="/shellajax/footer/false/true/1028";
+</script>
+</div>
+
+        
+
+
+
+<script>$(document).ready(function(){new VEL.Wordwall.Activity.ActivityPage().initialize();});</script>
+<script type="text/plain" data-category="functional" data-service="googleClassroom" data-src="https://apis.google.com/js/api.js" crossorigin="anonymous"></script>
+    <script type="text/plain" data-category="functional" data-service="googleClassroom" data-src="https://accounts.google.com/gsi/client" async="" defer=""></script>
+<script src="https://app.cdn.wordwall.net/static/scripts/global/google_classroom.2owmq9bhp4vjxx-t2erde6w2.js" crossorigin="anonymous"></script>
+
+
+<div class="activity-page-wrapper">
+    <div class="activity-panels">
+        
+ <div class="landing-page-panel activity-panel js-activity-panel">
+    <div class="activity-block js-activity-block">
+        <div class="activity-wrapper js-activity-wrapper">
+            
+<div class="canvas-container">
+        <canvas class="render-canvas js-render-canvas js-glitch-ignore" tabindex="0" width="919" height="533" style="background-color: rgb(255, 255, 255); z-index: 3;"></canvas>
+</div>
+<div class="play-preload js-play-preload hidden">
+    <p class="js-play-preload-loader hidden">100%</p>
+    <p class="play-log-message js-play-log-message"></p>
+</div>
+
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+
+        
+<div class="landing-page-panel info-panel js-info-panel">
+    <div class="info-row">
+        <div class="activity-title-wrapper">
+            <h1 class="js-title-button is-my-activity activity-title-header">
+                <span dir="auto" class="js-activity-title-value">真平(新)B11第三課測驗</span>
+            </h1>
+        </div>
+        
+        <div class="share-wrapper">
+            <a href="#" class="default-btn white share-button js-share-button  js-share-button-private" title="尚未與社區共用">
+                <span class="fa fa-lock"></span>
+                <span>&nbsp;</span>
+                共用
+            </a>
+            <a href="#" class="default-btn white share-button js-share-button hidden js-share-button-public" title="與社區共用">
+                <span class="fa fa-globe"></span>
+                <span>&nbsp;</span>
+                共用
+            </a>
+        </div>
+    </div>
+    <div class="info-row">
+        
+
+<div class="author-and-tags js-author-and-tags hidden">
+    <div dir="auto" class="activity-author">
+        由 <a class="js-author-link" href="/tc/teacher/14019875" rel="author">Sheaumin</a>
+    </div>
+
+        
+<div class="mobile-social js-social-sharing-inline-bar">
+        <button class="share-native js-share-native hidden" data-share-url="https://wordwall.net/tc/resource/84300957" data-share-title="真平(新)B11第三課測驗">
+                <img class="share-native-icon facebook" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+                <img class="share-native-icon js-share-pinterest" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+            <i class="fa fa-envelope"></i>
+        </button>
+        <button class="js-share-by-facebook" data-share-url="https://wordwall.net/tc/resource/84300957" data-share-title="真平(新)B11第三課測驗">
+            <span class="share-by-facebook"><img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg"></span>
+        </button>
+        <button class="js-share-by-pinterest" data-share-url="https://wordwall.net/tc/resource/84300957/%E7%9C%9F%E5%B9%B3%E6%96%B0b11%E7%AC%AC%E4%B8%89%E8%AA%B2%E6%B8%AC%E9%A9%97" data-share-title="真平(新)B11第三課測驗">
+            <span class="share-by-pinterest"><img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg"></span>
+        </button>
+</div>
+
+
+    <div class="metadata-wrapper js-metadata-wrapper hidden hide-on-mobile">
+
+        
+
+<div class="tags-wrapper js-tags-wrapper">
+</div>
+
+
+            <div class="edit-metadata js-edit-metadata hide-on-mobile">
+                <span class="js-add-tags-text "><span class="fa fa-plus"></span> 添加標籤</span>
+                <span class="js-edit-tags-text hidden">編輯</span>
+            </div>
+    </div>
+</div>
+
+        
+
+<div class="background-fader js-activity-actions-background-fader"></div>
+
+<div class="activity-actions js-activity-actions">
+    <div class="js-menu-inline menu-inline">
+        <span style="display: none" class="activity-action fa fa-floppy-disk js-auto-saving"></span>
+
+            <a href="#" class="activity-action js-edit-content-button js-menu-item js-scroll-to-top">
+                <span class="fa fa-pencil icon"></span><span class="name">編輯內容</span>
+            </a>
+            <a class="activity-action js-paid-required js-print-button js-menu-item" data-paid-required-feature="Printables">
+                <span class="fa fa-print icon"></span><span class="name">列印</span>
+            </a>
+            <a href="#" class="activity-action js-embed-button js-menu-item">
+                <span class="fa fa-code icon"></span><span class="name">嵌入</span>
+            </a>
+            
+                
+    <a href="#" class="activity-action js-assignment-button js-menu-item">
+        <span class="fa fa-square-check icon"></span><span class="name">課業分配</span>
+    </a></div>
+    <span>
+        <a href="#" class="activity-action js-menu-toggle more-actions-dropdown-wrapper">
+            <span class="more-separator js-more-separator"></span>
+            <i class="fa fa-chevron-down float-right more-actions-icon js-menu-toggle-icon"></i>
+            <span>更多</span>
+        </a>
+        <div class="js-menu-dropdown more-actions-dropdown hidden"><a href="#" class="activity-action js-qr-item js-menu-item js-always-menu">
+                <span class="fa fa-qrcode icon"></span><span class="name">QR 代碼</span>
+            </a><a href="#" class="activity-action js-rename-button js-menu-item js-always-menu js-scroll-to-top">
+                    <span class="fa fa-pen-to-square icon"></span><span>重新命名</span>
+                </a></div>
+    </span>
+</div>
+
+
+
+
+    </div>
+</div>
+
+        
+
+        
+
+
+            <div class="js-assignments-panel assignments-panel landing-page-panel">
+    <h2>作業</h2>
+    <div class="current-assignments js-current-assignments">
+        <div class="current-assignments-container-mobile js-current-assignments-container-mobile">
+        <div class="current-assignment-mobile">
+        <div class="assignment-all-info-mobile">
+            <div class="assignment-title-mobile" title="&quot;真平(新)B11第三課測驗&quot;的結果553">
+                "真平(新)B11第三課測驗"的結果553
+            </div>
+            <div class="assignment-info-mobile">
+                <div>
+                    <i class="fa fa-user"></i>
+                    <span>&nbsp;0</span>
+                </div>
+                <div>
+                    <i class="fa fa-calendar-days"></i>
+                    <span>&nbsp;28 七月 23:10</span>
+                </div>
+                <div>
+                    無截止日期
+                </div>
+            </div>
+        </div>
+        <div class="js-item-menu item-menu">⋮</div>
+    </div><div class="current-assignment-mobile">
+        <div class="assignment-all-info-mobile">
+            <div class="assignment-title-mobile" title="&quot;真平(新)B11第三課測驗&quot;的結果363">
+                "真平(新)B11第三課測驗"的結果363
+            </div>
+            <div class="assignment-info-mobile">
+                <div>
+                    <i class="fa fa-user"></i>
+                    <span>&nbsp;0</span>
+                </div>
+                <div>
+                    <i class="fa fa-calendar-days"></i>
+                    <span>&nbsp;28 七月 15:05</span>
+                </div>
+                <div>
+                    無截止日期
+                </div>
+            </div>
+        </div>
+        <div class="js-item-menu item-menu">⋮</div>
+    </div></div>
+        <div class="current-assignments-table-container">
+            <table class="current-assignments-table js-current-assignments-table">
+                <thead>
+                    <tr>
+                        <th colspan="3">標題</th>
+                        <th>反應</th>
+                        <th colspan="2">創建</th>
+                        <th class="deadline-th">最後期限</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+        <td colspan="3" title="&quot;真平(新)B11第三課測驗&quot;的結果553">
+            <a href="/tc/result/a/54930942" target="_blank">
+                "真平(新)B11第三課測驗"的結果553
+            </a>
+        </td>
+        <td>
+            <i class="fa fa-user"></i>
+            <span>&nbsp;0</span>
+        </td>
+        <td colspan="2">
+            <i class="fa fa-calendar-days"></i>
+            <span>&nbsp;28 七月 23:10</span>
+        </td>
+        <td class="deadline-td">無截止日期</td>
+        <td colspan="3" class="buttons-td">
+            <a class="default-btn white js-share-link-copy" title="複製連結">
+                <i class="fa fa-link"></i>
+                <span>&nbsp;複製連結</span>
+            </a>
+            <a class="default-btn white share-link-copy-active js-share-link-copy-active" style="display: none;" title="複製！">
+                <i class="fa fa-check"></i>
+                <span>&nbsp;複製！</span>
+            </a>
+            <a class="default-btn white qr-code js-qr-code" title="QR 代碼">
+                <i class="fa fa-qrcode"></i>
+                <span>&nbsp;QR 代碼</span>
+            </a>
+            <a class="default-btn white delete-item js-delete-item" title="刪除">
+                <i class="fa fa-trash-can"></i>
+                <span>&nbsp;刪除</span>
+            </a>
+        </td>
+    </tr><tr>
+        <td colspan="3" title="&quot;真平(新)B11第三課測驗&quot;的結果363">
+            <a href="/tc/result/a/54922459" target="_blank">
+                "真平(新)B11第三課測驗"的結果363
+            </a>
+        </td>
+        <td>
+            <i class="fa fa-user"></i>
+            <span>&nbsp;0</span>
+        </td>
+        <td colspan="2">
+            <i class="fa fa-calendar-days"></i>
+            <span>&nbsp;28 七月 15:05</span>
+        </td>
+        <td class="deadline-td">無截止日期</td>
+        <td colspan="3" class="buttons-td">
+            <a class="default-btn white js-share-link-copy" title="複製連結">
+                <i class="fa fa-link"></i>
+                <span>&nbsp;複製連結</span>
+            </a>
+            <a class="default-btn white share-link-copy-active js-share-link-copy-active" style="display: none;" title="複製！">
+                <i class="fa fa-check"></i>
+                <span>&nbsp;複製！</span>
+            </a>
+            <a class="default-btn white qr-code js-qr-code" title="QR 代碼">
+                <i class="fa fa-qrcode"></i>
+                <span>&nbsp;QR 代碼</span>
+            </a>
+            <a class="default-btn white delete-item js-delete-item" title="刪除">
+                <i class="fa fa-trash-can"></i>
+                <span>&nbsp;刪除</span>
+            </a>
+        </td>
+    </tr></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+                <div class="js-theme-feedback-wrapper">
+                    
+                </div>
+                
+<div class="js-theme-panel landing-page-panel">
+    <h2>視覺風格</h2>
+    <div class="theme-carousel-wrapper ">
+        <div class="js-theme-carousel theme-carousel owl-carousel owl-loaded owl-drag"><div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all; width: 880px;"><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item is-selected" data-theme-id="1">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/classic.2cvfznfsdg9a0mc4kp_6obq2.png">
+        <span class="theme-name">經典</span>
+    </div></div><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item" data-theme-id="67">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/playingcards.2bcq1mrfml57y9-lqxjt9nq2.png">
+        <span class="theme-name">打牌</span>
+    </div></div><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item" data-theme-id="21">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/gameshow.2-c79qfqzxx95ns7qcseaaq2.png">
+        <span class="theme-name">電視遊戲節目</span>
+    </div></div><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item" data-theme-id="42">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/boardgames.2ahef6dn7_01wa7hzhaso8q2.png">
+        <span class="theme-name">棋盤遊戲</span>
+    </div></div><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item" data-theme-id="49">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/library.2aqg9xbry-fgamotuwiuaaq2.png">
+        <span class="theme-name">魔術圖書館</span>
+    </div></div><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item" data-theme-id="46">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/clouds.2aowatlkh5fdkc_evoxngug2.png">
+        <span class="theme-name">雲</span>
+    </div></div><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item" data-theme-id="58">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/party.2xrh-aowf4mx_9vglcx21dg2.png">
+        <span class="theme-name">慶祝</span>
+    </div></div><div class="owl-item active" style="width: auto;"><div class="js-theme-item theme-item" data-theme-id="59">
+        <img class="theme-preview" draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/themes/comics.2e9pahbhlj05ekbptusreuw2.png">
+        <span class="theme-name">漫畫</span>
+    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev disabled">
+    <span class="feed-prev-button fa fa-chevron-left js-feed-prev-button"></span>
+</button><button type="button" role="presentation" class="owl-next">
+    <span class="feed-next-button fa fa-chevron-right js-feed-next-button"></span>
+</button></div><div class="owl-dots disabled"></div></div>
+        <div class="feed-faded-end"></div>
+    </div>
+    <div class="font-wrapper js-font-wrapper collapsed">
+        <span class="option-title float-left">字體</span>
+        <div class="clear"></div>
+        <div class="font-control js-font-control ">
+            <div class="font-selector js-font-selector"><div class="js-font-item font-item" data-font-stack-id="0">
+        <span>預設字體</span>
+        <img draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/fonts/1-1028.2wpjicr_fvf0phinval5fwq2.png">
+    </div><div class="js-font-item font-item hidden" data-font-stack-id="1">
+        <span>Sans-Serif</span>
+        <img draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/fonts/1-1028.2wpjicr_fvf0phinval5fwq2.png">
+    </div><div class="js-font-item font-item hidden" data-font-stack-id="2">
+        <span>Serif</span>
+        <img draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/fonts/2-1028.2ed2ltfgeqbt92ulssw1obq2.png">
+    </div><div class="js-font-item font-item hidden" data-font-stack-id="12">
+        <span>Poppins</span>
+        <img draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/fonts/12-1028.2exbwno_z5pkiwjngque3xq2.png">
+    </div><div class="js-font-item font-item hidden" data-font-stack-id="15">
+        <span>Primary</span>
+        <img draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/fonts/15-1028.2-mx4ubsajyu4zbcsspztrq2.png">
+    </div><div class="js-font-item font-item hidden" data-font-stack-id="21">
+        <span>Comic</span>
+        <img draggable="false" src="https://app.cdn.wordwall.net/static/content/icons/fonts/21-1028.26qpyenx4fp3msaqdrfrcww2.png">
+    </div></div>
+            <span class="font-arrow js-font-arrow fa fa-chevron-down"></span>
+        </div>
+    </div>
+</div>
+
+                
+
+<div class="landing-page-panel options-panel js-options-panel">
+
+
+    <h2>選項</h2>
+
+    <img class="js-options-loading options-loading hidden" src="https://app.cdn.wordwall.net/static/content/images/loading_bar_blue.22epcdpvctnoaztmnoizx5q2.gif">
+
+    <div class="clear"></div>
+
+    <div class="js-options-wrapper"><table class="js-options-content"><tbody><tr class="options-item">
+        <td class="option-title">計時器</td>
+        <td>
+            <div>
+                <input name="options_input_timer" id="no_timer_option" class="option-checkbox-input" type="radio" value="0">
+                <label for="no_timer_option">沒有</label>
+            </div>
+            <div>
+                <input name="options_input_timer" id="count_up_timer_option" class="option-checkbox-input" type="radio" value="-1">
+                <label for="count_up_timer_option">計數</label>
+            </div>
+            <div class="js-count-down-option">
+                <input name="options_input_timer" id="count_down_timer_option" class="option-checkbox-input" type="radio" value="1">
+                <label for="count_down_timer_option" class="option-count-down-from-label">倒計時</label>
+            <span class="timespan-input">
+        <input type="number" class="option-number-input js-timespan-input-minutes" min="0" max="60">
+        <label>分鐘</label>
+        <input type="number" class="option-number-input js-timespan-input-seconds" min="0" max="59" step="5">
+        <label>秒</label>
+    </span></div>
+        </td>
+    </tr><tr class="options-item">
+        <td class="option-title">困難</td>
+        <td>
+            <input name="options_input_mode" id="options_input_mode" class="option-checkbox-input" type="checkbox">
+            <label for="options_input_mode">在選擇投注之前查看答案</label>
+        </td>
+    </tr><tr class="options-item">
+        <td class="option-title">隨機</td>
+        <td>
+            <input name="options_input_shuffle" id="options_input_shuffle" class="option-checkbox-input" type="checkbox">
+            <label for="options_input_shuffle">隨機播放問題順序</label>
+        </td>
+    </tr><tr class="options-item">
+        <td class="option-title">標記</td>
+        <td>
+            <input name="options_input_automark" id="options_input_automark" class="option-checkbox-input" type="checkbox" checked="">
+            <label for="options_input_automark">標記後自動繼續</label>
+        </td>
+    </tr><tr class="options-item">
+        <td class="option-title">遊戲結束</td>
+        <td>
+            <input name="options_input_review" id="options_input_review" class="option-checkbox-input" type="checkbox" checked="">
+            <label for="options_input_review">顯示答案</label>
+        </td>
+    </tr></tbody></table></div>
+
+        <div>
+            <div class="background-fader js-options-menu-background-fader"></div>
+            <div class="activity-actions activity-options js-options-menu">
+                <button class="js-login-required js-paid-required default-btn white apply-options-button js-apply-options-button unavailable" data-tag="options" data-paid-required-feature="GameOptions">應用於此活動</button>
+                <div class="js-menu-inline menu-inline">
+                    
+                    
+                    
+
+                    <a href="#" class="activity-action js-menu-toggle more-actions-dropdown-wrapper js-more-options-menu">
+                        <i class="fa fa-chevron-down float-right more-actions-icon js-menu-toggle-icon"></i>
+                        <span>更多</span>
+                        <div class="js-menu-dropdown more-actions-dropdown hidden"><a href="#" class="activity-action js-apply-default-options-button js-menu-item js-scroll-to-top js-always-menu">
+                        <span class="name">設置為範本的預設值</span>
+                    </a><a href="#" class="activity-action js-revert-to-default-options-button js-menu-item js-scroll-to-top js-always-menu">
+                        <span class="name">恢復為預設</span>
+                    </a><a href="#" class="activity-action js-revert-to-author-options-button js-menu-item js-scroll-to-top js-always-menu unavailable">
+                        <span class="name">恢復到作者的設置</span>
+                    </a></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+</div>
+
+            
+<div class="leaderboard-panel landing-page-panel js-leaderboard-panel">
+        <a class="hide-on-mobile leaderboard-options-button js-leaderboard-options-button float-right">選項 <span class="js-options-arrow fa fa-caret-down"></span></a>
+    <h2>排行榜</h2>
+
+    <div class="js-leaderboard-content-wrapper">
+        <div class="js-leaderboard-loading leaderboard-loading"></div>
+        <div class="js-leaderboard-content hidden">
+                
+<div class="leaderboard-options-panel js-leaderboard-options-panel">
+    <table>
+        <tbody><tr class="options-item">
+            <td class="option-title">啟用</td>
+            <td>
+                <div>
+                    <input name="leaderboard_enabled" id="enable_on" class="option-checkbox-input" type="radio" value="1">
+                    <label for="enable_on">開</label>
+                </div>
+                <div>
+                    <input name="leaderboard_enabled" id="enable_off" class="option-checkbox-input" type="radio" value="0">
+                    <label for="enable_off">關閉</label>
+                </div>
+            </td>
+        </tr>
+        <tr class="options-item">
+            <td class="option-title">大小</td>
+            <td>
+                <div>
+                    <input name="leaderboard_entry_count" id="entry_count_3" class="option-checkbox-input" type="radio" value="3">
+                    <label for="entry_count_3">前3名</label>
+                </div>
+                <div>
+                    <input name="leaderboard_entry_count" id="entry_count_5" class="option-checkbox-input" type="radio" value="5">
+                    <label for="entry_count_5">前5名</label>
+                </div>
+                <div>
+                    <input name="leaderboard_entry_count" id="entry_count_10" class="option-checkbox-input" type="radio" value="10">
+                    <label for="entry_count_10">前10名</label>
+                </div>
+                <div>
+                    <input name="leaderboard_entry_count" id="entry_count_20" class="option-checkbox-input" type="radio" value="20">
+                    <label for="entry_count_20">前20名</label>
+                </div>
+                <div>
+                    <input name="leaderboard_entry_count" id="entry_count_40" class="option-checkbox-input" type="radio" value="40">
+                    <label for="entry_count_40">前40名</label>
+                </div>
+            </td>
+        </tr>
+        <tr class="options-item">
+            <td class="option-title">重複</td>
+            <td>
+                <div>
+                    <input name="leaderboard_duplicates" id="duplicates_allowed_option" class="option-checkbox-input" type="radio" value="1">
+                    <label for="duplicates_allowed_option">允許重複名稱</label>
+                </div>
+                <div>
+                    <input name="leaderboard_duplicates" id="no_duplicates_option" class="option-checkbox-input" type="radio" value="0">
+                    <label for="no_duplicates_option">僅顯示每個名稱的最佳分數</label>
+                </div>
+            </td>
+        </tr>
+        <tr class="options-item">
+            <td class="option-title">之後刪除</td>
+            <td>
+                <div>
+                    <input name="leaderboard_removal_time" id="removal_time_0" class="option-checkbox-input" type="radio" value="0">
+                    <label for="removal_time_0">從來沒有</label>
+                </div>
+                <div>
+                    <input name="leaderboard_removal_time" id="removal_time_8760" class="option-checkbox-input" type="radio" value="8760">
+                    <label for="removal_time_8760">1年</label>
+                </div>
+                <div>
+                    <input name="leaderboard_removal_time" id="removal_time_720" class="option-checkbox-input" type="radio" value="720">
+                    <label for="removal_time_720">1個月</label>
+                </div>
+                <div>
+                    <input name="leaderboard_removal_time" id="removal_time_168" class="option-checkbox-input" type="radio" value="168">
+                    <label for="removal_time_168">1周</label>
+                </div>
+                <div>
+                    <input name="leaderboard_removal_time" id="removal_time_24" class="option-checkbox-input" type="radio" value="24">
+                    <label for="removal_time_24">24 小時</label>
+                </div>
+                <div>
+                    <button class="default-btn white js-clear-leaderboard">立即清除</button>
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+    <div class="leaderboard-options-buttons">
+        <button class="default-btn white js-apply-leaderboard-options-button unavailable" href="#" disabled="">應用於此活動</button>
+        <button class="default-btn white js-apply-default-leaderboard-options-button  unavailable" href="#" disabled="">應用於我的所有活動</button>
+    </div>
+</div>
+
+            <div class="js-leaderboard-wrapper">
+    <div class="leaderboard-top js-leaderboard-top"></div>
+    <div class="leaderboard-tail js-leaderboard-tail"></div>
+    <a class="leaderboard-show-button js-leaderboard-show-more hidden">顯示更多 &nbsp;<span class="fa fa-caret-down"></span></a>
+    <a class="leaderboard-show-button js-leaderboard-show-less hidden">顯示更少 &nbsp;<span class="fa fa-caret-up"></span></a>
+</div>
+            <div class="leaderboard-error js-leaderboard-error">
+                <span class="hidden" data-error="private">此排行榜當前是私有的。單擊<b>共用</b>使其公開。</span>
+                <span class="hidden" data-error="disabled">資源擁有者已禁用此排行榜。</span>
+                <span class="hidden" data-error="options">此排行榜被禁用，因為您的選項與資源擁有者不同。<br><br> <button class="default-btn white js-revert-options">還原選項</button></span>
+            </div>
+        </div>
+    </div>
+    <div class="leaderboard-error js-leaderboard-not-supported-error hidden">
+        <span data-error="not-supported"><b>輸贏測驗</b>是一個開放式範本。它不會為排行榜生成分數。</span>
+    </div>
+
+    <div class="js-leaderboard-feedback-wrapper">
+        
+    </div>
+</div>
+
+
+    </div>
+    <div class="top-right-panels js-top-right-panels">
+                <div class="landing-page-panel template-playlist-builder-panel js-template-playlist-builder-panel">
+    <img class="playlist-builder-loading js-playlist-builder-loading hidden" src="https://app.cdn.wordwall.net/static/content/images/loading_bar_blue.22epcdpvctnoaztmnoizx5q2.gif">
+    <h2 class="js-panel-content">
+        <span>播放清單</span>
+        <span class="new-feature-tag">新</span>
+        <i class="fa fa-caret-right"></i>
+    </h2>
+</div>
+
+<script id="playlist_builder_template_button_template" type="text/template">
+    <label class="template-button interactive default-btn transparent {2}" href="#" data-template-id="{4}" data-available="{3}" data-format="1">
+        <img src="{0}" />
+        <span class="resource-title">{1}</span>
+        <input type="checkbox" class="plus-checkbox js-add-to-playlist-builder-checkbox" />
+    </label>
+</script>
+
+<script id="playlist_builder_preview_item_template" type="text/template">
+    <a class="playlist-builder-preview-item selected-preview js-playlist-builder-preview-item {2}" href="#" data-template-id="{4}" data-available="{3}" data-format="1">
+        <div class="preview-content default-btn transparent ">
+            <img src="{0}" />
+            <span class="resource-title">{1}</span>
+            <i class="fa fa-xmark"></i>
+        </div>
+    </a>
+</script>
+
+<script id="playlist_builder_preview_placeholder" type="text/template">
+    <div class="playlist-builder-preview-item">
+        <span class="preview-content">{0}</span>
+    </div>
+</script>
+
+<script id="playlist_builder_modal_template" type="text/template">
+    <div class="modal-steps-wrapper playlist-builder-step-wrapper">
+        <div class="modal-step js-playlist-builder-selection">
+            <div class="playlist-builder-modal">
+                <div>
+                    <h1>&#x65B0;&#x64AD;&#x653E;&#x6E05;&#x55AE;</h1>
+                    <h2 class="modal-description">&#x6700;&#x591A;&#x52A0;&#x4E09;&#x500B;&#x7BC4;&#x672C;&#x2014;&#x2014;&#x4F60;&#x7684;&#x6D3B;&#x52D5;&#x6703;&#x4F9D;&#x5E8F;&#x64AD;&#x653E;&#x6BCF;&#x500B;&#x7BC4;&#x672C;&#x3002;</h2>
+                    <div class="playlist-builder-box">
+                        <div class="playlist-builder-controls">
+                            <label><input class="toggle-input js-randomize-playlist-builder-checkbox" type="checkbox" />&#x96A8;&#x6A5F;&#x9806;&#x5E8F;&#x904A;&#x73A9;</label>
+                            <a href="#" class="clear-btn js-clear-playlist-builder-button">&#x6E05;&#x5834;</a>
+                        </div>
+                        <div class="playlist-builder-preview js-playlist-builder-preview"></div>
+                    </div>
+                </div>
+                <div class="playlist-builder-template-buttons js-modal-playlist-builder"></div>
+                <a class="default-btn large js-share-playlist-builder">&#x5206;&#x4EAB;&#x64AD;&#x653E;&#x6E05;&#x55AE;</a>
+            </div>
+        </div>
+        <div class="modal-step js-playlist-builder-share">
+            <div class="playlist-builder-share-modal">
+                <div>
+                    <h1>&#x5206;&#x4EAB;&#x64AD;&#x653E;&#x6E05;&#x55AE;</h1>
+                    <h2><i class="fa-solid fa-circle-check"></i> &#x5B8C;&#x6210;</h2>
+                    <div data-template="share_link_part"></div>
+                </div>
+                <div class="playlist-builder-box">
+                    <div class="playlist-builder-preview js-playlist-builder-share-preview"></div>
+                </div>
+                <div data-template="share_buttons_part"></div>
+                <div class="cta">
+                    <a class="default-btn white js-back-step"><span class="fa fa-caret-left"></span>&nbsp; &#x64AD;&#x653E;&#x6E05;&#x55AE;&#x8A2D;&#x5B9A;</a>
+                    <a class="default-btn js-close-modal-view">&#x5B8C;&#x6210;</a>
+                </div>
+            </div>
+        </div>
+        <div data-template="step_qr"></div>
+        <div data-template="step_email"></div>
+    </div>
+</script>
+
+            
+
+<div class="landing-page-panel formats-panel js-formats-panel">
+    <h2>切換範本 <i class="fa fa-circle-info js-switch-template-tooltip switch-template-tooltip"></i></h2>
+    <div class="js-formats-interactive-wrapper">
+        <div class="format-list interactive">
+            <div class="js-formats-interactive"><a class="format-button js-format-button interactive default-btn  is-selected" href="#" data-template-id="78" data-available="true" data-format="1">
+        <img data-src="https://app.cdn.wordwall.net/static/content/icons/templates/winorlosequiz.2cz5okkmjr6k9gvjlq3fxvw2.png" src="https://app.cdn.wordwall.net/static/content/icons/templates/winorlosequiz.2cz5okkmjr6k9gvjlq3fxvw2.png"> 
+        <span class="resource-title">
+            <span>輸贏測驗</span>
+        </span>
+        <span class="js-tooltiptext tooltiptext" style="display: none;"></span>
+    </a><a class="format-button js-format-button interactive default-btn transparent " href="#" data-template-id="5" data-available="true" data-format="1">
+        <img data-src="https://app.cdn.wordwall.net/static/content/icons/templates/quiz.2fln-l-oab1-v0xtxr_ttmq2.png" src="https://app.cdn.wordwall.net/static/content/icons/templates/quiz.2fln-l-oab1-v0xtxr_ttmq2.png"> 
+        <span class="resource-title">
+            <span>測驗</span>
+        </span>
+        <span class="js-tooltiptext tooltiptext" style="display: none;"></span>
+    </a><a class="format-button js-format-button interactive default-btn transparent " href="#" data-template-id="69" data-available="true" data-format="1">
+        <img data-src="https://app.cdn.wordwall.net/static/content/icons/templates/gameshowquiz.20mlhjj0rjq_hyu-vvsz4xg2.png" src="https://app.cdn.wordwall.net/static/content/icons/templates/gameshowquiz.20mlhjj0rjq_hyu-vvsz4xg2.png"> 
+        <span class="resource-title">
+            <span>問答遊戲</span>
+        </span>
+        <span class="js-tooltiptext tooltiptext" style="display: none;"></span>
+    </a><a class="format-button js-format-button interactive default-btn transparent " href="#" data-template-id="30" data-available="true" data-format="1">
+        <img data-src="https://app.cdn.wordwall.net/static/content/icons/templates/openthebox.2joz_n1iivaghihuajmkgcg2.png" src="https://app.cdn.wordwall.net/static/content/icons/templates/openthebox.2joz_n1iivaghihuajmkgcg2.png"> 
+        <span class="resource-title">
+            <span>開箱遊戲</span>
+        </span>
+        <span class="js-tooltiptext tooltiptext" style="display: none;"></span>
+    </a><a class="format-button js-format-button interactive default-btn transparent " href="#" data-template-id="49" data-available="true" data-format="1">
+        <img data-src="https://app.cdn.wordwall.net/static/content/icons/templates/mazechase.2olh8_vwpylonnqz6xypgea2.png" src="https://app.cdn.wordwall.net/static/content/icons/templates/mazechase.2olh8_vwpylonnqz6xypgea2.png"> 
+        <span class="resource-title">
+            <span>迷宮追逐</span>
+        </span>
+        <span class="js-tooltiptext tooltiptext" style="display: none;"></span>
+    </a></div>
+            <img class="js-formats-loading formats-loading hidden" src="https://app.cdn.wordwall.net/static/content/images/loading_bar_blue.22epcdpvctnoaztmnoizx5q2.gif">
+            <a class="show-more js-more-interactives">顯示所有</a>
+
+        </div>
+    </div>
+</div>
+
+<script id="format_button_template" type="text/template">
+    <a class="format-button js-format-button interactive default-btn transparent {2}" href="#" data-template-id="{4}" data-available="{3}" data-format="1">
+        <img data-src="{0}" /> 
+        <span class="resource-title">
+            <span>{1}</span>
+        </span>
+        <span class="js-tooltiptext tooltiptext">{5}</span>
+    </a>
+</script>
+
+<script id="more_formats_template" type="text/template">
+    <h1>&#x5207;&#x63DB;&#x7BC4;&#x672C;</h1>
+    <div class="more-formats-modal js-more-formats-modal">
+        <div class="format-list interactive">
+            <div class="js-modal-interactives"></div>
+        </div>
+    </div>
+    <div class="more-formats-surprise-me-wrapper js-more-formats-surprise-me-wrapper hidden">
+        <button class="more-formats-surprise-me-btn js-more-formats-surprise-me-button">
+            <i class="fa-solid fa-party-horn"></i>
+            <span>&#x7D66;&#x6211;&#x9A5A;&#x559C;&#x5427;</span>
+        </button>
+    </div>
+</script>
+
+<script id="print_modal_template" type="text/template">
+    <div class="print-outer">
+        <div class="print-conversions-wrapper float-left">
+            <h4>&#x53EF;&#x5217;&#x5370;</h4>
+            <div class="print-conversions js-print-conversions"></div>
+            <div class="print-output-loading js-print-conversions-loading" />
+        </div>
+    </div>
+    <div class="print-output-wrapper js-print-output-wrapper float-left">
+        <div class="print-button-wrapper">
+            <a class="activity-action js-print-print-button float-left"><span class="fa fa-print"></span><span class="hide-on-mobile"> &#x5217;&#x5370;</span></a>
+            <a class="activity-action js-print-download-button float-left" download href="#" target="_blank"><span class="fa fa-download"></span><span class="hide-on-mobile"> &#x4E0B;&#x8F09;</span></a>
+            <a class="activity-action js-print-options-button float-left"><span class="fa fa-gear"></span><span class="hide-on-mobile"> &#x9078;&#x9805;</span></a>
+        </div>
+        <div class="print-image-wrapper">
+            <div class="print-output-loading js-print-output-loading"></div>
+            <div class="print-preview-wrapper js-print-preview-wrapper"></div>
+        </div>
+    </div>
+    <div class="print-options-wrapper js-print-options-wrapper hidden float-left">
+        <div class="print-options-loading js-print-options-loading"></div>
+        <div class="print-options js-print-options">
+            <a href="#" class="js-print-back-button activity-action float-right"><span class="fa fa-caret-left"></span> &#x8FD4;&#x56DE;</a>
+            <h2>&#x9078;&#x9805;</h2>
+            <div class="js-print-options-ajax"></div>
+            <br />
+            <div class="background-fader js-options-menu-background-fader"></div>
+            <div class="activity-actions activity-options js-options-menu">
+                <button class='js-login-required default-btn white apply-options-button js-apply-options-button unavailable'>&#x61C9;&#x7528;&#x65BC;&#x6B64;&#x6D3B;&#x52D5;</button>
+                <div class="js-menu-inline menu-inline">
+                    <a href="#" class="activity-action js-apply-default-options-button js-menu-item js-scroll-to-top js-always-menu">
+                        <span class="name">&#x8A2D;&#x7F6E;&#x70BA;&#x7BC4;&#x672C;&#x7684;&#x9810;&#x8A2D;&#x503C;</span>
+                    </a>
+                    <a href="#" class="activity-action js-menu-toggle more-actions-dropdown-wrapper js-more-options-menu">
+                        <i class="fa fa-chevron-down float-right more-actions-icon js-menu-toggle-icon"></i>
+                        <span>&#x66F4;&#x591A;</span>
+                        <div class="js-menu-dropdown more-actions-dropdown hidden"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="printable-feedback-panel js-printable-feedback-wrapper hidden">
+        <div>
+            <button class="default-btn float-right">&#x63D0;&#x4F9B;&#x53CD;&#x994B;</button>
+            <span class="js-feedback-printable-title"></span>
+            <div class="clear"></div>
+        </div>
+    </div>
+</script>
+
+<script id="printer_button_template" type="text/template">
+    <a class="format-button worksheet default-btn transparent {2}" href="#" data-printer-id="{4}" data-available="{3}" data-format="4">
+        <div class="dog-ear">
+    <svg width="34" height="42" xmlns="http://www.w3.org/2000/svg">
+        <g>
+            <polygon points="0 0 28 0 33 5 33 41 0 41" stroke="grey" fill="white"></polygon>
+            <line x1="2" y1="4" x2="30" y2="4" stroke-width="2" stroke="#10a0f0"></line>
+        </g>
+    </svg>
+</div>
+        <img data-src="{0}" />
+        <span class="resource-title">
+            <span>{1}</span>
+        </span>
+    </a>
+</script>
+
+
+<script id="print_option_table_template" type="text/template">
+    <table class="js-options-content"></table>
+</script>
+
+<script id="print_option_checkbox_row_template" type="text/template">
+    <tr class="options-item">
+        <td class="option-title">{0}</td>
+        <td class="js-print-option-checkbox-group"></td>
+    </tr>
+</script>
+
+<script id="print_option_checkbox_template" type="text/template">
+    <div>
+        <input name="print_options_input_{0}" id="print_options_input_{0}" class="option-checkbox-input js-print-option" type="checkbox" data-key="{0}" />
+        <label for="print_options_input_{0}">{1}</label>
+    </div>
+</script>
+
+<script id="print_option_select_row_template" type="text/template">
+    <tr class="options-item">
+        <td class="option-title">{0}</td>
+        <td>
+            <select name="print_options_input_{1}" id="print_options_input_{1}" class="option-select-input js-print-option" data-key="{1}"></select>
+        </td>
+    </tr>
+</script>
+
+<script id="print_option_select_option_template" type="text/template">
+    <option value="{0}">{1}</option>
+</script>
+
+<script id="print_option_text_row_template" type="text/template">
+    <tr class="options-item">
+        <td class="option-title">{0}</td>
+        <td>
+            <input type="text" name="print_options_input_{1}" id="print_options_input_{1}" class="option-text-input js-print-option" data-key="{1}" />
+        </td>
+    </tr>
+</script>
+
+<script id="print_option_hidden_row_template" type="text/template">
+    <tr class="options-item">
+        <td class="option-title"></td>
+        <td>
+            <input type="hidden" name="print_options_input_{0}" id="print_options_input_{0}" class="option-text-input js-print-option" data-key="{0}" />
+        </td>
+    </tr>
+</script>
+
+    </div>
+</div>
+
+
+    <div class="js-switch-template-message-panel hidden">
+    <div class="js-switch-template-message-tooltip switch-template-message-tooltip">
+        
+        <div class="switch-template-message-tooltip-box">
+            <div class="switch-template-message-tooltip-box-title">
+                <span>切換範本</span>
+                
+                <button class="switch-template-message-close js-switch-template-message-close" aria-label="close">
+                    <span class="fa fa-xmark"></span>
+                </button>
+            </div>
+            <div class="switch-template-message-tooltip-box-description">
+                模板切換會暫時將活動轉換成不同的範本，以不同方式呈現相同內容。
+            </div>
+            <div class="switch-template-message-tooltip-box-description">
+                切換範本不會影響原本的活動。你隨時都可以切回去。
+            </div>
+        </div>
+        <div class="js-switch-template-arrow switch-template-arrow-up"></div>
+    </div>
+</div>
+
+    
+<div class="share-buttons side-bar js-social-sharing-side-bar">
+        <button class="share-by-facebook js-share-by-facebook js-share-native" title="在臉書上分享" data-share-url="https://wordwall.net/tc/resource/84300957" data-share-title="真平(新)B11第三課測驗">
+            <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+        </button>
+        <button class="share-by-pinterest js-share-by-pinterest js-share-native" title="分享到 Pinterest" data-share-url="https://wordwall.net/tc/resource/84300957/%E7%9C%9F%E5%B9%B3%E6%96%B0b11%E7%AC%AC%E4%B8%89%E8%AA%B2%E6%B8%AC%E9%A9%97" data-share-title="真平(新)B11第三課測驗">
+            <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+        </button>
+        <button class="share-by-embed js-share-by-embed" title="嵌入您自己的網站">
+            <i class="fa fa-code"></i>
+        </button>
+</div>
+
+
+
+<form action="/leaderboardajax/addentry" class="hidden" id="add-leaderboard-entry-form" method="post">    <input type="number" name="activityId" value="84300957">
+    <input type="number" name="templateId">
+    <input type="text" name="name">
+    <input type="number" name="score">
+    <input type="number" name="time">
+    <input type="number" name="mode">
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8EvO9733ARRLjkd3pcVeJlSkX01O26yAXKpOENpPAIbGkMtLndJonZrmLCYyrW2ezUqDyryVQQW3xYlScuAu9-5YKBB_ARrMrmbcRVrHWI0Gc2APjjEtK6lP--lf5F5LFhfnbJlCfd8Uo5KvNrZOdQU"></form>
+
+
+
+
+<script type="text/template" id="edit_switch_template">
+    <h1>&#x7DE8;&#x8F2F;&#x5207;&#x63DB;&#x7BC4;&#x672C;</h1>
+    <p>&#x5982;&#x679C;&#x8981;&#x5728;&#x6D3B;&#x52D5;&#x5207;&#x63DB;&#x5230;&#x5176;&#x4ED6;&#x7BC4;&#x672C;&#x6642;&#x5C0D;&#x5176;&#x9032;&#x884C;&#x7DE8;&#x8F2F;&#xFF0C;&#x5247;&#x5FC5;&#x9808;&#x8907;&#x88FD;&#x8A72;&#x6D3B;&#x52D5;&#x4EE5;&#x907F;&#x514D;&#x8CC7;&#x6599;&#x4E1F;&#x5931;&#x3002;</p>
+
+</script>
+
+<script type="text/template" id="theme_template">
+    <div class="js-theme-item theme-item" data-theme-id="{0}">
+        <img class="theme-preview" draggable="false" src="{1}" />
+        <span class="theme-name">{2}</span>
+    </div>
+</script>
+
+<script type="text/template" id="share_assignment_template">
+    <a href="#" class="activity-action js-assignment-button js-menu-item">
+        <span class="fa fa-square-check icon"></span><span class="name">&#x8AB2;&#x696D;&#x5206;&#x914D;</span>
+    </a>
+</script>
+
+<script type="text/template" id="font_template">
+    <div class="js-font-item font-item" data-font-stack-id="{1}">
+        <span>{2}</span>
+        <img draggable="false" src="{0}" />
+    </div>
+</script>
+
+<script type="text/template" id="assignmentlink_modal_template">
+    <h1>&#x5206;&#x914D;&#x9023;&#x7D50;</h1>
+    <p>&#x5411;&#x5B78;&#x751F;&#x63D0;&#x4F9B;&#x4EE5;&#x4E0B;&#x9023;&#x7D50;:</p>
+    <input type="text" class="js-input-text" readonly />
+    <button class="default-btn js-copy-button">&#x8907;&#x88FD;&#x9023;&#x7D50;</button>
+    <button class="default-btn js-copy-button-activated hidden"><i class="fa fa-check"></i> &#x8907;&#x88FD;&#xFF01;</button>
+</script>
+
+<script type="text/template" id="default_timer_option_template">
+    <tr class="options-item">
+        <td class="option-title">&#x8A08;&#x6642;&#x5668;</td>
+        <td>
+            <div>
+                <input name="{0}" id="no_timer_option" class="option-checkbox-input" type="radio" value="0" />
+                <label for="no_timer_option">&#x6C92;&#x6709;</label>
+            </div>
+            <div>
+                <input name="{0}" id="count_up_timer_option" class="option-checkbox-input" type="radio" value="-1" />
+                <label for="count_up_timer_option">&#x8A08;&#x6578;</label>
+            </div>
+            <div class="js-count-down-option">
+                <input name="{0}" id="count_down_timer_option" class="option-checkbox-input" type="radio" value="1" />
+                <label for="count_down_timer_option" class="option-count-down-from-label">&#x5012;&#x8A08;&#x6642;</label>
+            </div>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="timespan_input_template">
+    <span class="timespan-input">
+        <input type="number" class="option-number-input js-timespan-input-minutes" min="0" />
+        <label>&#x5206;&#x9418;</label>
+        <input type="number" class="option-number-input js-timespan-input-seconds" min="0" max="59" step="5" />
+        <label>&#x79D2;</label>
+    </span>
+</script>
+
+<script type="text/template" id="check_option_template">
+    <tr class="options-item">
+        <td class="option-title">{3}</td>
+        <td>
+            <input name="{0}" id="{0}" class="option-checkbox-input" type="checkbox" {1} />
+            <label for="{0}">{2}</label>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="radio_2option_template">
+    <tr class="options-item">
+        <td class="option-title">{5}</td>
+        <td>
+            <div><input name="{0}" id="{0}_0" value="0" class="option-checkbox-input" type="radio" {1} /> <label for="{0}_0">{3}</label></div>
+            <div><input name="{0}" id="{0}_1" value="1" class="option-checkbox-input" type="radio" {2} /> <label for="{0}_1">{4}</label></div>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="radio_3option_template">
+    <tr class="options-item">
+        <td class="option-title">{7}</td>
+        <td>
+            <div><input name="{0}" id="{0}_0" value="0" class="option-checkbox-input" type="radio" {1} /> <label for="{0}_0">{4}</label></div>
+            <div><input name="{0}" id="{0}_1" value="1" class="option-checkbox-input" type="radio" {2} /> <label for="{0}_1">{5}</label></div>
+            <div><input name="{0}" id="{0}_2" value="2" class="option-checkbox-input" type="radio" {3} /> <label for="{0}_2">{6}</label></div>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="countdown_timer_option_template">
+    <tr class="options-item">
+        <td class="option-title">{0}</td>
+        <td class="js-count-down-option">
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="no_countdown_timer_option_template">
+    <tr class="options-item">
+        <td class="option-title">&#x8A08;&#x6642;&#x5668;</td>
+        <td>
+            <div>
+                <input name="{0}" id="no_timer_option" class="option-checkbox-input" type="radio" value="0" />
+                <label for="no_timer_option">&#x6C92;&#x6709;</label>
+            </div>
+            <div class="js-count-down-option">
+                <input name="{0}" id="count_down_timer_option" class="option-checkbox-input" type="radio" value="1" />
+                <label for="count_down_timer_option" class="option-count-down-from-label">&#x5012;&#x8A08;&#x6642;</label>
+            </div>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="number_option_template">
+    <tr class="options-item">
+        <td class="option-title">{1}</td>
+        <td>
+            <input name="{0}" class="option-number-input" type="number" min="{2}" max="{3}" value="{4}">
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="spin_option_template">
+    <tr class="options-item">
+        <td class="option-title">{1}</td>
+        <td>
+            <input name="{0}" class="option-range-input" type="range" min="{2}" max="{3}" value="{4}" step="{5}">
+            <span class="option-range-input-indicator" name="{0}_indicator"></span>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="hidden_option_template">
+
+        <tr class="hidden" data-name="{0}" data-value="{1}" /> </script>
+
+<script type="text/template" id="select_option_template">
+    <tr class="options-item">
+        <td class="option-title">{1}</td>
+        <td>
+            <select name="{0}" id="{0}">{2}</select>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="select_option_option_template">
+    <option value="{0}" {1}>{2}</option>
+</script>
+
+
+
+
+<script type="text/template" id="share_activity_steps_template">
+    <div class="modal-steps-wrapper">
+        <div data-template="step_resource_setup"></div>
+        <div data-template="step_resource_done"></div>
+        <div data-template="step_public_resource_done"></div>
+        <div data-template="step_assignment_setup"></div>
+        <div data-template="step_assignment_done"></div>
+        <div data-template="step_past_assignment_done"></div>
+        <div data-template="step_gc_assignment"></div>
+        <div data-template="step_gc_assignment_refuse"></div>
+        <div data-template="step_gc_assignment_done"></div>
+        <div data-template="step_email"></div>
+        <div data-template="step_embed"></div>
+        <div data-template="step_qr"></div>
+    </div>
+</script>
+
+<script type="text/template" id="edit_tags_modal_template">
+    <div>
+        <div data-template="edit_tag_part"></div>
+        <div data-template="add_tag_part"></div>
+        <div data-template="remove_tag_part"></div>
+        <h1>&#x7DE8;&#x8F2F;&#x6A19;&#x7C64;</h1>
+        <br/>
+        <div data-template="tags_part"></div>
+    </div>
+</script>
+
+<script type="text/template" id="recognised_email_address_blob_template">
+    <div class='recognised-email-address-blob js-recognised-email-address-blob no-select' translate='no' contenteditable="false">
+        <p>{0}</p> <span class="fa fa-xmark js-address-blob-remove"></span>
+        <input name="Addresses" type="hidden" value="{0}" />
+    </div>
+</script>
+
+<script type="text/template" id="all_done_part">
+    <h2 class="share-all-done">
+        <img src="https://app.cdn.wordwall.net/static/content/images/activity/green-tick.2ekkmfk3i14jbudth7sgjkg2.png" class="tick" />
+        &#x5168;&#x90E8;&#x5B8C;&#x6210;
+    </h2>
+</script>
+
+<script type="text/template" id="share_link_part">
+    <div class="js-share-copyright hidden">
+        <p>&#x7531;&#x65BC;&#x7248;&#x6B0A;&#x4FB5;&#x6B0A;&#x7D22;&#x8CE0;&#xFF0C;&#x767C;&#x4F48;&#x6B64;&#x8CC7;&#x6E90;&#x88AB;&#x963B;&#x6B62;&#x3002;</p>
+        <p>如果您有任何疑問，請 <a href='/tc/contact' class='' target=''>聯繫我們</a>。</p>
+    </div>
+    <div class="share-link js-share-link">
+        <span class="fa fa-link"></span>
+        <input type="text" class="js-share-link-input" readonly>
+        <a class="default-btn js-share-link-copy">&#x8907;&#x88FD;</a>
+    </div>
+</script>
+
+<script type="text/template" id="share_buttons_part">
+    <div class="share-buttons js-share-buttons">
+        <p>&#x5206;&#x4EAB;&#x6216;&#x5D4C;&#x5165;:</p>
+
+        <div class="share-buttons-row">
+            <button class="share-native js-share-modal-native hidden" title="&#x5171;&#x7528;">
+                <i class="fa fa-share-nodes"></i> &nbsp;
+                <img class="share-native-icon js-share-pinterest hidden" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg" />
+                <img class="share-native-icon facebook" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg" />
+            </button>
+            <button class="share-by-pinterest js-share-modal-by-pinterest hidden" title="&#x5206;&#x4EAB;&#x5230; Pinterest">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg" />
+            </button>
+            <button class="share-by-facebook js-share-modal-by-facebook hidden" title="&#x5728;&#x81C9;&#x66F8;&#x4E0A;&#x5206;&#x4EAB;">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg" />
+            </button>
+
+            <button class="share-by-google js-share-modal-by-google" title="&#x5728;&#x8C37;&#x6B4C;&#x8AB2;&#x5802;&#x4E0A;&#x5206;&#x4EAB;"><i class="fa">&nbsp;</i></button>
+            <button class="share-by-email js-share-modal-by-email " title="&#x901A;&#x904E;&#x96FB;&#x5B50;&#x90F5;&#x4EF6;&#x5206;&#x4EAB;"><i class="fa fa-envelope"></i></button>
+            <button class="share-by-embed js-share-modal-by-embed" title="&#x5D4C;&#x5165;&#x60A8;&#x81EA;&#x5DF1;&#x7684;&#x7DB2;&#x7AD9;"><i class="fa fa-code"></i></button>
+            <button class="share-by-qr js-share-modal-by-qr" title="&#x901A;&#x904E; QR &#x4EE3;&#x78BC;&#x5171;&#x7528;"><i class="fa fa-qrcode"></i></button>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="current_assignments">
+    <div class="current-assignments js-current-assignments">
+        <div class="current-assignments-container-mobile js-current-assignments-container-mobile">
+        </div>
+        <div class="current-assignments-table-container">
+            <table class="current-assignments-table js-current-assignments-table">
+                <thead>
+                    <tr>
+                        <th colspan="3">&#x6A19;&#x984C;</th>
+                        <th>&#x53CD;&#x61C9;</th>
+                        <th colspan="2">&#x5275;&#x5EFA;</th>
+                        <th class="deadline-th">&#x6700;&#x5F8C;&#x671F;&#x9650;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="current_assignment">
+    <tr>
+        <td colspan="3" title="{0}">
+            <a href="{4}" target="_blank">
+                {0}
+            </a>
+        </td>
+        <td>
+            <i class="fa fa-user"></i>
+            <span>&nbsp;{1}</span>
+        </td>
+        <td colspan="2">
+            <i class="fa fa-calendar-days"></i>
+            <span>&nbsp;{2}</span>
+        </td>
+        <td class="deadline-td">{3}</td>
+        <td colspan="3" class="buttons-td">
+            <a class="default-btn white js-share-link-copy" title="&#x8907;&#x88FD;&#x9023;&#x7D50;">
+                <i class="fa fa-link"></i>
+                <span>&nbsp;&#x8907;&#x88FD;&#x9023;&#x7D50;</span>
+            </a>
+            <a class="default-btn white share-link-copy-active js-share-link-copy-active" style="display: none;" title="&#x8907;&#x88FD;&#xFF01;">
+                <i class="fa fa-check"></i>
+                <span>&nbsp;&#x8907;&#x88FD;&#xFF01;</span>
+            </a>
+            <a class="default-btn white qr-code js-qr-code" title="QR &#x4EE3;&#x78BC;">
+                <i class="fa fa-qrcode"></i>
+                <span>&nbsp;QR &#x4EE3;&#x78BC;</span>
+            </a>
+            <a class="default-btn white delete-item js-delete-item" title="&#x522A;&#x9664;">
+                <i class="fa fa-trash-can"></i>
+                <span>&nbsp;&#x522A;&#x9664;</span>
+            </a>
+        </td>
+    </tr>
+</script>
+
+<script type="text/template" id="current_assignment_mobile">
+    <div class="current-assignment-mobile">
+        <div class="assignment-all-info-mobile">
+            <div class="assignment-title-mobile" title="{0}">
+                {0}
+            </div>
+            <div class="assignment-info-mobile">
+                <div>
+                    <i class="fa fa-user"></i>
+                    <span>&nbsp;{1}</span>
+                </div>
+                <div>
+                    <i class="fa fa-calendar-days"></i>
+                    <span>&nbsp;{2}</span>
+                </div>
+                <div>
+                    {3}
+                </div>
+            </div>
+        </div>
+        <div class="js-item-menu item-menu">&#x22EE;</div>
+    </div>
+</script>
+
+<script type="text/template" id="step_assignment_setup">
+    <div class="modal-step step-assignment-setup js-step-assignment-setup">
+        <div class="modal-step-form">
+            <h1>&#x8AB2;&#x696D;&#x8A2D;&#x7F6E;</h1>
+            <div class="form-section wide">
+                <span class="formfield-name">&#x7D50;&#x679C;&#x6A19;&#x984C;</span>
+                <input type="text" class="js-results-title formfield-input" maxlength="160" />
+            </div>
+            <div class="form-section js-assignment-options">
+                <span class="formfield-name">&#x8A3B;&#x518A;</span>
+                <div class="formfield-input">
+                    <div class="register-option">
+                        <input type="radio" name="register" id="register_name" class="js-register-radio" value="1" />
+                        <label for="register_name">
+                            &#x8F38;&#x5165;&#x540D;&#x7A31;
+                            <span class="form-explainer">&#x5B78;&#x751F;&#x5FC5;&#x9808;&#x5728;&#x958B;&#x59CB;&#x4E4B;&#x524D;&#x8F38;&#x5165;&#x59D3;&#x540D;&#x3002;</span>
+                        </label>
+                    </div>
+                    <div class="register-option">
+                        <input type="radio" name="register" id="register_anon" class="js-register-radio" value="0" />
+                        <label for="register_anon">
+                            &#x533F;&#x540D;
+                            <span class="form-explainer">&#x7121;&#x9700;&#x8A3B;&#x518A;&#x6216;&#x547D;&#x540D; - &#x53EA;&#x9700;&#x64AD;&#x653E;&#x5B83;&#x3002;</span>
+                        </label>
+                    </div>
+                    <div class="register-option js-register-option-expt">
+                        <div class="register-option-gc">
+                            <span><input type="radio" name="register" id="register_gc" class="js-register-radio js-register-radio-gc" value="2" /></span>
+                            <label for="register_gc" class="js-register-gc-label">
+                                Google&#x8AB2;&#x5802;
+                                <span class="form-explainer">&#x5728;Google&#x8AB2;&#x5802;&#x4E0A;&#x5206;&#x4EAB;&#x6B64;&#x6D3B;&#x52D5;</span>
+                            </label>
+                        </div>
+                        <div class="js-register-gc-cookie-consent-msg register-gc-cookie-consent-msg hidden">
+                            <span>&#x60A8;&#x9700;&#x8981;&#x5728;&#x529F;&#x80FD;&#x6027; cookies &#x4E0B;&#x63A5;&#x53D7; Google Classroom Cookies &#x624D;&#x80FD;&#x4F7F;&#x7528;&#x6B64;&#x529F;&#x80FD;&#x3002;</span>
+                            <a href="#" class="js-register-gc-cookie-consent-btn"><span>&#x958B;&#x555F; Cookie &#x504F;&#x597D;&#x8A2D;&#x5B9A;</span></a>
+                        </div>
+                        <div class="js-register-gc-options register-gc-options hidden">
+                            <span class="formfield-input">
+                                <label for="max_points">&#x6700;&#x9AD8;&#x7A4D;&#x5206;&#xFF1A;</label>
+                                <input id="max_points" class="js-gc-max-points formfield-number" type="number" min="0" value="100" />
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-section">
+                <span class="formfield-name">&#x6700;&#x5F8C;&#x671F;&#x9650;</span>
+                <span class="formfield-input">
+                    <span class="results-deadline-option">
+                        <input type="radio" name="deadline" id="deadline_none" class="js-deadline-radio" value="0" />
+                        <label for="deadline_none">&#x6C92;&#x6709;</label>
+                    </span>
+                    <span class="results-deadline-option">
+                        <input type="radio" name="deadline" class="js-deadline-radio" value="1" />
+                        <select class="js-deadline-time">
+                            <option value="0">0:00&nbsp;</option>
+                            <option value="100">1:00&nbsp;</option>
+                            <option value="200">2:00&nbsp;</option>
+                            <option value="300">3:00&nbsp;</option>
+                            <option value="400">4:00&nbsp;</option>
+                            <option value="500">5:00&nbsp;</option>
+                            <option value="600">6:00&nbsp;</option>
+                            <option value="700">7:00&nbsp;</option>
+                            <option value="800">8:00&nbsp;</option>
+                            <option value="900">9:00&nbsp;</option>
+                            <option value="1000">10:00&nbsp;</option>
+                            <option value="1100">11:00&nbsp;</option>
+                            <option value="1200">12:00&nbsp;</option>
+                            <option value="1300">13:00&nbsp;</option>
+                            <option value="1400">14:00&nbsp;</option>
+                            <option value="1500">15:00&nbsp;</option>
+                            <option value="1600">16:00&nbsp;</option>
+                            <option value="1700">17:00&nbsp;</option>
+                            <option value="1800">18:00&nbsp;</option>
+                            <option value="1900">19:00&nbsp;</option>
+                            <option value="2000">20:00&nbsp;</option>
+                            <option value="2100">21:00&nbsp;</option>
+                            <option value="2200">22:00&nbsp;</option>
+                            <option value="2300">23:00&nbsp;</option>
+                            <option value="2359">23:59&nbsp;</option>
+                        </select>
+                        <input type="text" class="js-deadline-date formfield-date" readonly placeholder="YYYY/MM/DD" data-dateformat="yy/mm/dd" />
+                    </span>
+                </span>
+            </div>
+            <div class="form-section js-end-of-game">
+                <span class="formfield-name">&#x904A;&#x6232;&#x7D50;&#x675F;</span>
+                <span class="formfield-input">
+                    <input type="checkbox" id="gameover_review" class="js-gameover-review" />
+                    <label for="gameover_review">&#x986F;&#x793A;&#x7B54;&#x6848;</label>
+                    <br />
+                    <input type="checkbox" id="gameover_leaderboard" class="js-gameover-leaderboard" />
+                    <label for="gameover_leaderboard">&#x6392;&#x884C;&#x699C;</label>
+                    <br />
+                    <input type="checkbox" id="gameover_restart" class="js-gameover-restart" />
+                    <label for="gameover_restart">&#x91CD;&#x65B0;&#x958B;&#x59CB;</label>
+                </span>
+            </div>
+            <div class="form-section js-open-ended open-ended-panel hidden">
+                <span class="share-section-header">&#x4F5C;&#x696D;&#x7D50;&#x679C;&#x5C07;&#x4E0D;&#x5305;&#x542B;&#x5206;&#x6578;</span>
+                <span class="share-section-paragraph">&#x6B64;&#x6A21;&#x677F;&#x5B78;&#x751F;&#x4E0D;&#x6703;&#x5728;&#x7D50;&#x675F;&#x5F8C;&#x7372;&#x5F97;&#x4E00;&#x500B;&#x5206;&#x6578;&#x3002;&#x60A8;&#x53EF;&#x4EE5;&#x8A2D;&#x5B9A;&#x4E00;&#x500B;&#x4F5C;&#x696D;&#xFF0C;&#x4F46;&#x53EA;&#x6703;&#x7528;&#x5B78;&#x751F;&#x958B;&#x59CB;&#x6D3B;&#x52D5;&#x7684;&#x8A18;&#x9304;&#x4F5C;&#x70BA;&#x7D50;&#x679C;&#x3002;</span>
+            </div>
+        </div>
+        <div class="cta">
+            <a class="default-btn large white js-back-step"><span class="fa fa-caret-left"></span> &nbsp; &#x8FD4;&#x56DE;</a>
+            <a class="default-btn large js-next-start cta-spacer">&#x958B;&#x59CB; &nbsp;<span class="fa fa-caret-right"></span></a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="deadline_modal_template">
+    <h1>&#x66F4;&#x6539;&#x622A;&#x6B62;&#x65E5;&#x671F;</h1>
+    <select id="deadline_time">
+        <option value="1">0:01&nbsp;</option>
+        <option value="100">1:00&nbsp;</option>
+        <option value="200">2:00&nbsp;</option>
+        <option value="300">3:00&nbsp;</option>
+        <option value="400">4:00&nbsp;</option>
+        <option value="500">5:00&nbsp;</option>
+        <option value="600">6:00&nbsp;</option>
+        <option value="700">7:00&nbsp;</option>
+        <option value="800">8:00&nbsp;</option>
+        <option value="900">9:00&nbsp;</option>
+        <option value="1000">10:00&nbsp;</option>
+        <option value="1100">11:00&nbsp;</option>
+        <option value="1200">12:00&nbsp;</option>
+        <option value="1300">13:00&nbsp;</option>
+        <option value="1400">14:00&nbsp;</option>
+        <option value="1500">15:00&nbsp;</option>
+        <option value="1600">16:00&nbsp;</option>
+        <option value="1700">17:00&nbsp;</option>
+        <option value="1800">18:00&nbsp;</option>
+        <option value="1900">19:00&nbsp;</option>
+        <option value="2000">20:00&nbsp;</option>
+        <option value="2100">21:00&nbsp;</option>
+        <option value="2200">22:00&nbsp;</option>
+        <option value="2300">23:00&nbsp;</option>
+        <option value="2359">23:59&nbsp;</option>
+    </select>
+    <input type="text" id="deadline_date" readonly placeholder="YYYY/MM/DD" data-dateformat="yy/mm/dd" />
+</script>
+
+<script type="text/template" id="step_assignment_done">
+    <div class="modal-step js-step-assignment-done step-assignment-done">
+        <h1>&#x8AB2;&#x696D;&#x96C6;</h1>
+        <div class="center">
+            <div data-template="all_done_part" />
+            <p class="share-link-instructions">&#x5411;&#x5B78;&#x751F;&#x63D0;&#x4F9B;&#x4EE5;&#x4E0B;&#x9023;&#x7D50;:</p>
+            <div data-template="share_link_part" />
+            <div data-template="share_buttons_part" />
+            <p>已將項目添加到 <a href='/tc/myresults' class='' target=''>我的結果</a>中</p>
+        </div>
+        <div class="cta">
+            <a class="default-btn white js-close-modal-view">&#x5B8C;&#x6210;</a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="step_past_assignment_done">
+    <div class="modal-step js-step-past-assignment-done">
+        <h1>&#x5206;&#x4EAB;&#x8AB2;&#x696D;</h1>
+        <p class="share-link-instructions">&#x5411;&#x5B78;&#x751F;&#x63D0;&#x4F9B;&#x4EE5;&#x4E0B;&#x9023;&#x7D50;:</p>
+        <div data-template="share_link_part" />
+        <div data-template="share_buttons_part" />
+        <div class="cta">
+            <a class="default-btn white js-close-modal-view">&#x5B8C;&#x6210;</a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="step_gc_assignment">
+    <div class="modal-step js-step-gc-assignment modal-step-gc-assignment">
+        <h1>Google&#x8AB2;&#x5802;</h1>
+        <div class="form-section wide">
+            <div class="formfield-name">&#x9078;&#x64C7;&#x300C;&#x8AB2;&#x5802;&#x300D;&#x8AB2;&#x7A0B;</div>
+            <div class="formfield-input">
+                <label for="gc_course">&#x8AB2;&#x5802;</label>
+                <select id="gc_course" class="gc-course-select js-gc-course-select"></select>
+            </div>
+        </div>
+        <div class="form-section wide">
+            <div class="formfield-name">&#x5206;&#x914D;&#x5230;</div>
+            <div class="formfield-input">
+                <input type="radio" name="gc_assign_to" id="gc_assign_to_all_students" class="js-gc-assign-to-radio js-gc-assign-to-radio-all-students" value="0" />
+                <label for="gc_assign_to_all_students">&#x73ED;&#x4E0A;&#x6240;&#x6709;&#x5B78;&#x751F;</label>
+            </div>
+            <div class="formfield-input">
+                <input type="radio" name="gc_assign_to" id="gc_assign_to_selected_students" class="js-gc-assign-to-radio js-gc-assign-to-radio-selected-students" value="1" />
+                <label for="gc_assign_to_selected_students">&#x9078;&#x5B9A;&#x7684;&#x5B78;&#x751F;</label>
+            </div>
+            <div class="formfield-input gc-assign-to-student">
+                <ul class="js-gc-assign-to-student-list hidden"></ul>
+                <span class="js-gc-assign-to-student-no-students hidden">&#x6C92;&#x6709;&#x5B78;&#x751F;&#x88AB;&#x5206;&#x914D;&#x5230;&#x9019;&#x500B;&#x73ED;&#x7D1A;&#x3002;</span>
+            </div>
+        </div>
+        <div class="cta">
+            <a class="default-btn large white js-back-step"><span class="fa fa-caret-left"></span> &nbsp; &#x8FD4;&#x56DE;</a>
+            <a class="default-btn large js-gc-share-button cta-spacer">&#x5171;&#x7528; &nbsp;<span class="fa fa-caret-right"></span></a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="step_gc_assignment_refuse">
+    <div class="modal-step js-step-gc-assignment-refuse modal-step-gc-assignment-refuse">
+        <h1>&#x5275;&#x5EFA; Wordwall &#x4F5C;&#x696D;&#x5206;&#x914D;&#xFF1F;</h1>
+        <div class="center">
+            <p>&#x60A8;&#x4F3C;&#x4E4E;&#x62D2;&#x7D55;&#x5411;Google&#x8AB2;&#x5802;&#x6388;&#x4E88;&#x8A31;&#x53EF;&#x6B0A;&#x3002;</p>
+            <p>&#x662F;&#x5426;&#x8981;&#x6539;&#x70BA;&#x5275;&#x5EFA; Wordwall &#x4F5C;&#x696D;&#xFF1F;</p>
+        </div>
+        <div>
+            <a class="default-btn large white js-close-modal-view">&#x5426;</a>
+            <a class="default-btn large js-back-step cta-spacer">&#x662F;&#x7684;</a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="step_gc_assignment_done">
+    <div class="modal-step js-step-gc-assignment-done modal-step-gc-assignment-done">
+        <h1>
+            <img src="https://app.cdn.wordwall.net/static/content/images/activity/green-tick.2ekkmfk3i14jbudth7sgjkg2.png" />
+            &#x8AB2;&#x696D;&#x96C6;
+        </h1>
+        <div class="center">
+            <p>&#x60A8;&#x7684;&#x4F5C;&#x696D;&#x73FE;&#x5728;&#x5DF2;&#x6E96;&#x5099;&#x597D;&#x5728; Wordwall &#x548C; Google &#x8AB2;&#x5802;&#x4E0A;&#x67E5;&#x770B;&#x548C;&#x5171;&#x7528;&#x3002;</p>
+        </div>
+        <div class="center">
+            <p><a class="default-btn large js-view-gc-assignment-on-gc">&#x5728;Google&#x8AB2;&#x5802;&#x4E0A;&#x67E5;&#x770B;</a></p>
+            <p><a class="default-btn large white js-view-gc-assignment-on-wordwall">&#x5728; Wordwall &#x4E0A;&#x67E5;&#x770B;</a></p>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="step_resource_setup">
+    <div class="modal-step step-resource-setup js-step-resource-setup">
+        <div data-template="edit_tag_part"></div>
+        <div data-template="add_tag_part"></div>
+        <div data-template="remove_tag_part"></div>
+        <div class="resource-setup-content">
+            <h1 class="js-share-title">&#x767C;&#x4F48;&#x8A2D;&#x7F6E;</h1>
+            <span class="formfield-name">&#x8CC7;&#x6E90;&#x6A19;&#x984C;</span>
+            <div class="formfield-settings">
+                <input type="text" class="formfield-input formfield-title js-resource-title" />
+            </div>
+            <div data-template="tags_part"></div>
+            <div class="cta">
+                <a class="default-btn large white js-back-step"><span class="fa fa-caret-left"></span> &nbsp; &#x8FD4;&#x56DE;</a>
+                <a class="default-btn large white js-share-private hidden"><span class="fa fa-lock"></span> &nbsp; &#x79C1;&#x4EBA;</a>
+                <a class="default-btn large js-next-publish cta-spacer">&#x767C;&#x4F48; &nbsp;<span class="fa fa-caret-right"></span></a>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="tags_update">
+    <img class="js-tags-update" src="https://app.cdn.wordwall.net/static/content/images/loading_bar_grey.2hs2xjaohiny5gev_uphtig2.gif" />
+</script>
+
+<script type="text/template" id="tags_part">
+    <div class="formfield-settings js-tags-section tags-section">
+        <div class="insert-tags js-insert-tags">
+            <img class="js-tags-loading" src="https://app.cdn.wordwall.net/static/content/images/loading_bar_blue.22epcdpvctnoaztmnoizx5q2.gif" />
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="edit_tag_part">
+    <div class="popup-wrapper js-edit-wrapper hidden">
+        <div class="popup-inner js-popup-inner">
+            <span class="formfield-name">&#x7DE8;&#x8F2F;&#x6A19;&#x8A18;</span>
+            <input class="js-edit-input" maxlength="50" type="text" />
+            <div class="popup-buttons">
+                <button class="default-btn js-edit-ok">&#x662F;</button>
+                <button class="default-btn white js-popup-cancel">&#x53D6;&#x6D88;</button>
+                <button class="default-btn white js-edit-delete">&#x522A;&#x9664;</button>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="add_tag_part">
+    <div class="popup-wrapper js-add-wrapper hidden">
+        <div class="popup-inner js-popup-inner">
+            <span class="formfield-name js-add-title"></span>
+            <input class="js-add-input" maxlength="50" type="text" />
+            <div class="popup-buttons">
+                <button class="default-btn js-add-ok">&#x662F;</button>
+                <button class="default-btn white js-popup-cancel">&#x53D6;&#x6D88;</button>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="remove_tag_part">
+    <div class="popup-wrapper js-remove-wrapper hidden">
+        <div class="popup-inner js-popup-inner">
+            <span class="formfield-name">&#x662F;&#x5426;&#x78BA;&#x5BE6;&#x8981;&#x522A;&#x9664;?</span>
+            <div class="popup-buttons">
+                <button class="default-btn js-remove-ok">&#x662F;</button>
+                <button class="default-btn white js-popup-cancel">&#x53D6;&#x6D88;</button>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="step_resource_done">
+    <div class="modal-step js-step-resource-done step-resource-done ">
+        <h1>&#x5DF2;&#x767C;&#x4F48;&#x7684;&#x8CC7;&#x6E90;</h1>
+        <div data-template="all_done_part" />
+        <div data-template="share_link_part" />
+        <div data-template="share_buttons_part" />
+        <p>此資源現在列在您的 <a href='/tc/teacher/my' class='' target=''>個人頁面</a>上</p>
+        <div data-template="step_template_switch_restrictions" />
+        <div class="cta">
+            <a class="default-btn white js-close-modal-view">&#x5B8C;&#x6210;</a>
+        </div>
+    </div>
+
+</script>
+
+<script type="text/template" id="step_public_resource_done">
+    <div class="modal-step js-step-public-resource-done ">
+        <div class="share-resource-scroll-body">
+            <h1>&#x5171;&#x4EAB;&#x8CC7;&#x6E90;</h1>
+            <div data-template="share_link_part" />
+            <div data-template="share_buttons_part" />
+            <div data-template="step_template_switch_restrictions" />
+            <div class="cta">
+                <a class="default-btn white js-back-step"><span class="fa fa-caret-left"></span>&nbsp; <span class="js-back-text">&#x8FD4;&#x56DE;</span><span class="js-settings-text hidden">&#x767C;&#x4F48;&#x8A2D;&#x7F6E;</span></a>
+
+            </div>
+        </div>
+    </div>
+
+</script>
+
+<script type="text/template" id="step_template_switch_restrictions">
+</script>
+
+<script id="switch_template_restrictions_template_select" type="text/template">
+    <label class="template-choice {3}">
+        <input type="checkbox" value="{2}" />
+        <img data-src="{0}" /> 
+        <span class="template-name">
+            {1}
+        </span>
+    </label>
+</script>
+
+<script type="text/template" id="step_email">
+    <div class="modal-step js-step-email">
+        <h1>&#x901A;&#x904E;&#x96FB;&#x5B50;&#x90F5;&#x4EF6;&#x5206;&#x4EAB;</h1>
+<form action="/resourceajax/emailshare" class="js-email-link-form" method="post" novalidate="novalidate"><input data-val="true" data-val-required="The LanguageId field is required." id="LanguageId" name="LanguageId" type="hidden" value="1028" /><input id="ActivityId" name="ActivityId" type="hidden" value="84300957" /><input id="HomeworkGameId" name="HomeworkGameId" type="hidden" value="0" /><input id="PlaylistId" name="PlaylistId" type="hidden" value="0" />            <div class="email-wrapper">
+                <button class="default-btn email-addresses-add-btn js-email-addresses-add-btn"><i class="fa fa-plus"></i></button>
+                <div class="email-addresses-input-wrapper">
+                    <input type="email" placeholder="&#x65B0;&#x589E;&#x96FB;&#x5B50;&#x90F5;&#x4EF6;&#x5730;&#x5740;..." class="js-email-addresses-input email-addresses-input" spellcheck="false" />
+                </div>
+            </div>
+            <div class="js-recognised-addresses recognised-addresses"></div>
+            <button class="js-send-email-button float-right medium default-btn js-btn-load">&#x767C;&#x9001;</button>
+            <p class="email-disclaimer">&#x6B64;&#x8655;&#x8F38;&#x5165;&#x7684;&#x96FB;&#x5B50;&#x90F5;&#x4EF6;&#x4E0D;&#x6703;&#x5B58;&#x5132;&#x6216;&#x7528;&#x65BC;&#x5176;&#x4ED6;&#x76EE;&#x7684;&#x3002;</p>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8EvO9733ARRLjkd3pcVeJlSkX01O26yAXKpOENpPAIbGkMtLndJonZrmLCYyrW2ezUqDyryVQQW3xYlScuAu9-5YKBB_ARrMrmbcRVrHWI0Gc2APjjEtK6lP--lf5F5LFhfnbJlCfd8Uo5KvNrZOdQU" /></form>        <div class="clear"></div>
+        <div class="cta">
+            <a class="default-btn white js-back-step"><span class="fa fa-caret-left"></span>&nbsp; &#x8FD4;&#x56DE;</a>
+        </div>
+    </div>
+
+</script>
+
+<script type="text/template" id="step_qr">
+    <div class="modal-step js-step-qr">
+        <h1 class="js-qr-title"></h1>
+        <div class="js-qr-image qr-image"></div>
+        <div class="cta">
+            <a class="default-btn white js-back-step hidden"><span class="fa fa-caret-left"></span>&nbsp; &#x8FD4;&#x56DE;</a>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="step_embed">
+    <div class="modal-step js-step-embed">
+        <h1>&#x5D4C;&#x5165;&#x60A8;&#x81EA;&#x5DF1;&#x7684;&#x7DB2;&#x7AD9;</h1>
+        <div class="js-embed-loading embed-loading">
+            <img src="https://app.cdn.wordwall.net/static/content/images/loading_bar_blue.22epcdpvctnoaztmnoizx5q2.gif" />
+        </div>
+        <div class="js-embed-settings clearfix hidden">
+            <div class="embed-wrapper">
+                <h2>Preview</h2>
+                <div class="embed-preview-wrapper js-embed-preview-wrapper"></div>
+            </div>
+
+            <div class="embed-wrapper">
+                <h2>&#x9078;&#x9805;</h2>
+
+                <div class="embed-options-column">
+                    <label>&#x985E;&#x578B;</label>
+                    <div class="embed-option-input">
+                        <input type="radio" name="embed_type" id="embed_type_iframe" value="0" checked>
+                        <label for="embed_type_iframe">Iframe</label>
+                    </div>
+                    <div class="embed-option-input">
+                        <input type="radio" name="embed_type" id="embed_type_thumbnail" value="1">
+                        <label for="embed_type_thumbnail">&#x7E2E;&#x7565;&#x5716;</label>
+                    </div>
+                    <div class="embed-option-input">
+                        <input type="radio" name="embed_type" id="embed_type_icon" value="2">
+                        <label for="embed_type_icon">&#x5C0F;&#x5716;&#x793A;</label>
+                    </div>
+                </div>
+
+                <div class="embed-options-column">
+                    <label for="embed_theme">&#x8996;&#x89BA;&#x98A8;&#x683C;</label>
+                    <div class="embed-option-input">
+                        <select class="js-embed-theme" id="embed_theme"></select>
+                    </div>
+
+                    <label for="embed_language">&#x8A9E;&#x8A00;</label>
+                    <div class="embed-option-input">
+                        <select class="js-embed-language" id="embed_language" name="embed_language"><option value="1027">Catal&#xE0;</option>
+<option value="13320">Cebuano</option>
+<option value="1029">&#x10C;e&#x161;tina</option>
+<option value="1030">Dansk</option>
+<option value="1031">Deutsch</option>
+<option value="1061">Eesti keel</option>
+<option value="0">English</option>
+<option value="1034">Espa&#xF1;ol</option>
+<option value="1036">Fran&#xE7;ais</option>
+<option value="1050">Hrvatski</option>
+<option value="1057">Indonesia</option>
+<option value="1040">Italiano</option>
+<option value="1062">Latvian</option>
+<option value="1063">Lietuvi&#x173;</option>
+<option value="1038">Magyar</option>
+<option value="1086">Melayu</option>
+<option value="1043">Nederlands</option>
+<option value="1044">Norsk</option>
+<option value="1091">O&#x27;zbek</option>
+<option value="1045">Polski</option>
+<option value="1046">Portugu&#xEA;s</option>
+<option value="1048">Rom&#xE2;n&#x103;</option>
+<option value="1051">Sloven&#x10D;ina</option>
+<option value="1060">Sloven&#x161;&#x10D;ina</option>
+<option value="2074">Srpski</option>
+<option value="1035">Suomi</option>
+<option value="1053">Svenska</option>
+<option value="13321">Tagalog</option>
+<option value="1055">T&#xFC;rk&#xE7;e</option>
+<option value="1066">Vietnamese</option>
+<option value="1032">&#x3B5;&#x3BB;&#x3BB;&#x3B7;&#x3BD;&#x3B9;&#x3BA;&#x3AC;</option>
+<option value="1026">&#x431;&#x44A;&#x43B;&#x433;&#x430;&#x440;&#x441;&#x43A;&#x438;</option>
+<option value="1087">&#x49A;&#x430;&#x437;&#x430;&#x49B;</option>
+<option value="1049">&#x420;&#x443;&#x441;&#x441;&#x43A;&#x438;&#x439;</option>
+<option value="3098">&#x421;&#x440;&#x43F;&#x441;&#x43A;&#x438;</option>
+<option value="1058">&#x423;&#x43A;&#x440;&#x430;&#x457;&#x43D;&#x441;&#x44C;&#x43A;&#x430;</option>
+<option value="1037">&#x5E2;&#x5B4;&#x5D1;&#x5E8;&#x5B4;&#x5D9;&#x5EA;</option>
+<option value="2">&#x639;&#x631;&#x628;&#x649;</option>
+<option value="1081">&#x939;&#x93F;&#x902;&#x926;&#x940;</option>
+<option value="1096">&#xA97;&#xAC1;&#xA9C;&#xAB0;&#xABE;&#xAA4;&#xAC0;</option>
+<option value="1054">&#xE20;&#xE32;&#xE29;&#xE32;&#xE44;&#xE17;&#xE22;</option>
+<option value="1042">&#xD55C;&#xAD6D;&#xC5B4;</option>
+<option value="1041">&#x65E5;&#x672C;&#x8A9E;</option>
+<option value="2052">&#x7B80;&#x4F53;&#x5B57;</option>
+<option selected="selected" value="1028">&#x7E41;&#x9AD4;&#x5B57;</option>
+</select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="embed-wrapper">
+                <h2>HTML</h2>
+                <textarea class="embed-code-textarea js-embed-code-textarea" spellcheck="false" rows="4" readonly></textarea>
+                <a class="default-btn js-copy-embed">&#x8907;&#x88FD;</a>
+            </div>
+        </div>
+        <div class="cta">
+            <a class="default-btn white js-back-cta js-back-step hidden"><span class="fa fa-caret-left"></span>&nbsp; &#x8FD4;&#x56DE;</a>
+            <div class="js-guest-cta hidden">要生成將收集結果的代碼，您需要 <a href='/tc/account/basicsignup?ref=embed-assignment' class='' target=''>註冊</a>。</div>
+            <div class="js-assignment-cta hidden">生成收集結果的代碼，請執行以下操作： <a href='#' class='js-next-set-assignment' target=''>課業設置</a>，然後單擊<b><span class='fa fa-code'></span></b>嵌入它。</div>
+        </div>
+    </div>
+</script>
+
+<div class="js-embed-templates"></div>
+
+<script type="text/template" id="leaderboard_table_template">
+    <table class="leaderboard-table default-table js-leaderboard-table" cellspacing="0">
+        <thead></thead>
+        <tbody></tbody>
+    </table>
+</script>
+
+<script type="text/template" id="leaderboard_header_template">
+    <tr>
+        <th class="leaderboard-position">&#x6392;&#x540D;</th>
+        <th class="leaderboard-name left">&#x540D;&#x5B57;</th>
+        <th class="leaderboard-score js-leaderboard-score">&#x5F97;&#x5206;</th>
+        <th class="leaderboard-time last">&#x6642;&#x9593;</th>
+        <th class="leaderboard-remove"></th>
+    </tr>
+</script>
+
+<script type="text/template" id="leaderboard_entry_template">
+    <tr>
+        <td class="leaderboard-position">{0}</td>
+        <td class="leaderboard-name left"><span class="js-user-content">{1}</span></td>
+        <td class="leaderboard-score js-leaderboard-score">{2}</td>
+        <td class="leaderboard-time last">{3}</td>
+        <td class="leaderboard-remove js-leaderboard-remove"><span class="fa fa-trash-can icon"></span></td>
+    </tr>
+</script>
+
+
+    <div class="background-fader js-background-fader hidden"></div>
+<div class="context-menu js-context-menu hidden">
+  <div class="menu">
+    <a href="#" class="js-menu-item js-open-item"><i class="fa fa-chart-simple"></i>打開結果</a>
+    <a href="#" class="js-menu-item js-share-link-copy"><i class="fa fa-link"></i>複製連結</a>
+    <a href="#" class="js-menu-item js-qr-code"><i class="fa fa-qrcode"></i>QR 代碼</a>
+    <a href="#" class="js-menu-item js-delete-item"><i class="fa fa-trash-can"></i>刪除</a>
+  </div>
+</div>
+
+
+        <div class="clear"></div>
+            <div class="js-footer-ajax">
+<footer>
+    <div id="footer_columns_wrapper">
+        <div class="footer-column">
+    <p class="footer-header hide-on-mobile">網站地圖</p>
+    <div class="sitemap-links">
+                <button type="button" class="js-cookie-preferences js-new-policy" aria-haspopup="dialog">
+                    Cookie偏好設定
+                </button>
+                <a class="hide-on-mobile" href="/tc/about/oembed">oEmbed API</a>
+                <a href="/tc">主頁</a>
+                <a class="js-old-policy hidden" href="/tc/account/terms">使用條款</a>
+                <a class="js-price-plans" href="/tc/price-plans">價格計劃</a>
+                <a class="hide-on-mobile" href="/tc/create/picktemplate">創建活動</a>
+                <a href="/tc/price-plans/school">學校計劃</a>
+                <a class="hide-on-mobile" href="/tc/account/myschool">我的學校</a>
+                <a class="js-features" href="/tc/features">特徵</a>
+                <a class="hide-on-mobile" href="/tc/account/logout">登出</a>
+                <a class="js-community" href="/tc/community">社區</a>
+                <a class="hide-on-mobile" href="/tc/payment/managepayments">管理付款</a>
+                <a class="js-contact" href="/tc/contact">聯繫方式</a>
+                <a class="hide-on-mobile" href="/tc/account/localization">語言和位置</a>
+                <a class="js-old-policy hidden" href="/tc/account/privacy">隱私聲明</a>
+    </div>
+        <hr class="link-divider js-new-policy">
+        <div class="sitemap-links">
+            <a class="js-new-policy" href="/tc/cookie-policy">Cookie 政策</a>
+            <a class="js-new-policy" href="/tc/terms">使用條款</a>
+            <a class="js-new-policy" href="/tc/privacy">隱私政策</a>
+        </div>
+    <div class="footer-images">
+        <a href="https://ikeepsafe.org/product/wordwall/" target="_blank"><img src="https://app.cdn.wordwall.net/static/content/images/global/coppa.20txrzyh9iyb8mhqrc5acvg2.png"></a>
+        <a href="https://ikeepsafe.org/product/wordwall/" target="_blank"><img src="https://app.cdn.wordwall.net/static/content/images/global/ferpa.2g1uk-cbxn7dpburoth7bpg2.png"></a>
+    </div>
+</div>
+
+        
+
+<div class="footer-column footer-languages js-footer-languages hide-on-mobile">
+    <p class="footer-header">語言</p>   
+        <a class="js-change-language" data-language="1027" href="#">Català</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="13320" href="#">Cebuano</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1029" href="#">Čeština</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1030" href="#">Dansk</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1031" href="#">Deutsch</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1061" href="#">Eesti keel</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="0" href="#">English</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1034" href="#">Español</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1036" href="#">Français</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1050" href="#">Hrvatski</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1057" href="#">Indonesia</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1040" href="#">Italiano</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1062" href="#">Latvian</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1063" href="#">Lietuvių</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1038" href="#">Magyar</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1086" href="#">Melayu</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1043" href="#">Nederlands</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1044" href="#">Norsk</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1091" href="#">O'zbek</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1045" href="#">Polski</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1046" href="#">Português</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1048" href="#">Română</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1051" href="#">Slovenčina</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1060" href="#">Slovenščina</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="2074" href="#">Srpski</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1035" href="#">Suomi</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1053" href="#">Svenska</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="13321" href="#">Tagalog</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1055" href="#">Türkçe</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1066" href="#">Vietnamese</a>
+                <br>         <a class="js-change-language" data-language="1032" href="#">ελληνικά</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1026" href="#">български</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1087" href="#">Қазақ</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1049" href="#">Русский</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="3098" href="#">Српски</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1058" href="#">Українська</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1037" href="#">עִברִית</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="2" href="#">عربى</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1081" href="#">हिंदी</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1096" href="#">ગુજરાતી</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1054" href="#">ภาษาไทย</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1042" href="#">한국어</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1041" href="#">日本語</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="2052" href="#">简体字</a>
+                <span>|</span>
+        <a class="js-change-language" data-language="1028" href="#">繁體字</a>
+</div>
+
+        
+
+    <div class="footer-column feedback-panel js-user-feedback">
+        <p class="footer-header">提供反饋</p>
+        <span>評價我們的想法，並提出改進建議。報告錯誤和不妥的翻譯。</span>
+        <a href="#" class="js-give-feedback">
+            <img src="https://app.cdn.wordwall.net/static/content/images/feedback/feedback-icon.2zc308legxaesn1oiz9d3aa2.png">
+            提供反饋
+        </a>
+    </div>
+
+    </div>
+    <div class="clear"></div>
+</footer>
+</div>
+
+    </div>
+    <div id="last_message" class="hidden"></div>
+    <div id="notification_popup_container" class="popup-notification-container"></div>
+    <div class="auto-save-wrapper js-auto-save-wrapper">
+    <a href="#" class="js-auto-save-link auto-save-link">
+        恢復自動保存: <span class="auto-save-title js-auto-save-title"></span>?
+    </a>
+    <i class="fa fa-xmark auto-save-close js-auto-save-close"></i>
+</div>
+
+
+    
+<div id="toast_popup_wrapper" class="hidden">
+    <div id="toast_popup"></div>
+</div>
+
+<div id="pseudo_full_screen"></div>
+
+<div class="modal-view-wrapper js-modal-view-wrapper">
+    <div class="modal-view-bg js-modal-view-bg"></div>
+    <div class="modal-view js-modal-view" style="max-height: 752px; top: 112px; opacity: 1;"><div class="modal-view-box js-modal-view-box share-activity-modal-wrapper paged-modal">
+        <h1 class="header js-modal-header">
+            <span class="js-modal-header-text hidden"></span>
+        </h1>
+        <div class="clear"></div>
+        <div class="modal-content js-modal-content share-activity-modal" style="max-height: 647px;"><div class="modal-steps-wrapper">
+        <div class="modal-step step-resource-setup js-step-resource-setup">
+        <div class="popup-wrapper js-edit-wrapper hidden">
+        <div class="popup-inner js-popup-inner">
+            <span class="formfield-name">編輯標記</span>
+            <input class="js-edit-input" maxlength="50" type="text">
+            <div class="popup-buttons">
+                <button class="default-btn js-edit-ok">是</button>
+                <button class="default-btn white js-popup-cancel">取消</button>
+                <button class="default-btn white js-edit-delete">刪除</button>
+            </div>
+        </div>
+    </div>
+        <div class="popup-wrapper js-add-wrapper hidden">
+        <div class="popup-inner js-popup-inner">
+            <span class="formfield-name js-add-title"></span>
+            <input class="js-add-input" maxlength="50" type="text">
+            <div class="popup-buttons">
+                <button class="default-btn js-add-ok">是</button>
+                <button class="default-btn white js-popup-cancel">取消</button>
+            </div>
+        </div>
+    </div>
+        <div class="popup-wrapper js-remove-wrapper hidden">
+        <div class="popup-inner js-popup-inner">
+            <span class="formfield-name">是否確實要刪除?</span>
+            <div class="popup-buttons">
+                <button class="default-btn js-remove-ok">是</button>
+                <button class="default-btn white js-popup-cancel">取消</button>
+            </div>
+        </div>
+    </div>
+        <div class="resource-setup-content">
+            <h1 class="js-share-title">發佈設置</h1>
+            <span class="formfield-name">資源標題</span>
+            <div class="formfield-settings">
+                <input type="text" class="formfield-input formfield-title js-resource-title">
+            </div>
+            <div class="formfield-settings js-tags-section tags-section">
+        <div class="insert-tags js-insert-tags">
+            <img class="js-tags-loading" src="https://app.cdn.wordwall.net/static/content/images/loading_bar_blue.22epcdpvctnoaztmnoizx5q2.gif">
+        </div>
+    </div>
+            <div class="cta">
+                <a class="default-btn large white js-back-step"><span class="fa fa-caret-left"></span> &nbsp; 返回</a>
+                <a class="default-btn large white js-share-private hidden"><span class="fa fa-lock"></span> &nbsp; 私人</a>
+                <a class="default-btn large js-next-publish cta-spacer">發佈 &nbsp;<span class="fa fa-caret-right"></span></a>
+            </div>
+        </div>
+    </div>
+        <div class="modal-step js-step-resource-done step-resource-done ">
+        <h1>已發佈的資源</h1>
+        <h2 class="share-all-done">
+        <img src="https://app.cdn.wordwall.net/static/content/images/activity/green-tick.2ekkmfk3i14jbudth7sgjkg2.png" class="tick">
+        全部完成
+    </h2>
+        <div class="js-share-copyright hidden">
+        <p>由於版權侵權索賠，發佈此資源被阻止。</p>
+        <p>如果您有任何疑問，請 <a href="/tc/contact" class="" target="">聯繫我們</a>。</p>
+    </div>
+    <div class="share-link js-share-link">
+        <span class="fa fa-link"></span>
+        <input type="text" class="js-share-link-input" readonly="">
+        <a class="default-btn js-share-link-copy">複製</a>
+    </div>
+        <div class="share-buttons js-share-buttons">
+        <p>分享或嵌入:</p>
+
+        <div class="share-buttons-row">
+            <button class="share-native js-share-modal-native hidden" title="共用">
+                <i class="fa fa-share-nodes"></i> &nbsp;
+                <img class="share-native-icon js-share-pinterest hidden" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+                <img class="share-native-icon facebook" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+            <button class="share-by-pinterest js-share-modal-by-pinterest hidden" title="分享到 Pinterest">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+            </button>
+            <button class="share-by-facebook js-share-modal-by-facebook hidden" title="在臉書上分享">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+
+            <button class="share-by-google js-share-modal-by-google" title="在谷歌課堂上分享"><i class="fa">&nbsp;</i></button>
+            <button class="share-by-email js-share-modal-by-email " title="通過電子郵件分享"><i class="fa fa-envelope"></i></button>
+            <button class="share-by-embed js-share-modal-by-embed" title="嵌入您自己的網站"><i class="fa fa-code"></i></button>
+            <button class="share-by-qr js-share-modal-by-qr" title="通過 QR 代碼共用"><i class="fa fa-qrcode"></i></button>
+        </div>
+    </div>
+        <p>此資源現在列在您的 <a href="/tc/teacher/my" class="" target="">個人頁面</a>上</p>
+        
+        <div class="cta">
+            <a class="default-btn white js-close-modal-view">完成</a>
+        </div>
+    </div>
+        <div class="modal-step js-step-public-resource-done ">
+        <div class="share-resource-scroll-body">
+            <h1>共享資源</h1>
+            <div class="js-share-copyright hidden">
+        <p>由於版權侵權索賠，發佈此資源被阻止。</p>
+        <p>如果您有任何疑問，請 <a href="/tc/contact" class="" target="">聯繫我們</a>。</p>
+    </div>
+    <div class="share-link js-share-link">
+        <span class="fa fa-link"></span>
+        <input type="text" class="js-share-link-input" readonly="">
+        <a class="default-btn js-share-link-copy">複製</a>
+    </div>
+            <div class="share-buttons js-share-buttons">
+        <p>分享或嵌入:</p>
+
+        <div class="share-buttons-row">
+            <button class="share-native js-share-modal-native hidden" title="共用">
+                <i class="fa fa-share-nodes"></i> &nbsp;
+                <img class="share-native-icon js-share-pinterest hidden" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+                <img class="share-native-icon facebook" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+            <button class="share-by-pinterest js-share-modal-by-pinterest hidden" title="分享到 Pinterest">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+            </button>
+            <button class="share-by-facebook js-share-modal-by-facebook hidden" title="在臉書上分享">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+
+            <button class="share-by-google js-share-modal-by-google" title="在谷歌課堂上分享"><i class="fa">&nbsp;</i></button>
+            <button class="share-by-email js-share-modal-by-email " title="通過電子郵件分享"><i class="fa fa-envelope"></i></button>
+            <button class="share-by-embed js-share-modal-by-embed" title="嵌入您自己的網站"><i class="fa fa-code"></i></button>
+            <button class="share-by-qr js-share-modal-by-qr" title="通過 QR 代碼共用"><i class="fa fa-qrcode"></i></button>
+        </div>
+    </div>
+            
+            <div class="cta">
+                <a class="default-btn white js-back-step"><span class="fa fa-caret-left"></span>&nbsp; <span class="js-back-text">返回</span><span class="js-settings-text hidden">發佈設置</span></a>
+
+            </div>
+        </div>
+    </div>
+        <div class="modal-step step-assignment-setup js-step-assignment-setup active js-step-active">
+        <div class="modal-step-form">
+            <h1>課業設置</h1>
+            <div class="form-section wide">
+                <span class="formfield-name">結果標題</span>
+                <input type="text" class="js-results-title formfield-input" maxlength="160">
+            </div>
+            <div class="form-section js-assignment-options">
+                <span class="formfield-name">註冊</span>
+                <div class="formfield-input">
+                    <div class="register-option">
+                        <input type="radio" name="register" id="register_name" class="js-register-radio" value="1">
+                        <label for="register_name">
+                            輸入名稱
+                            <span class="form-explainer">學生必須在開始之前輸入姓名。</span>
+                        </label>
+                    </div>
+                    <div class="register-option">
+                        <input type="radio" name="register" id="register_anon" class="js-register-radio" value="0">
+                        <label for="register_anon">
+                            匿名
+                            <span class="form-explainer">無需註冊或命名 - 只需播放它。</span>
+                        </label>
+                    </div>
+                    <div class="register-option js-register-option-expt">
+                        <div class="register-option-gc">
+                            <span><input type="radio" name="register" id="register_gc" class="js-register-radio js-register-radio-gc unavailable register-radio-gc-cookie-consent" value="2" disabled="" readonly=""></span>
+                            <label for="register_gc" class="js-register-gc-label register-gc-label-cookie-consent">
+                                Google課堂
+                                <span class="form-explainer">在Google課堂上分享此活動</span>
+                            </label>
+                        </div>
+                        <div class="js-register-gc-cookie-consent-msg register-gc-cookie-consent-msg">
+                            <span>您需要在功能性 cookies 下接受 Google Classroom Cookies 才能使用此功能。</span>
+                            <a href="#" class="js-register-gc-cookie-consent-btn"><span>開啟 Cookie 偏好設定</span></a>
+                        </div>
+                        <div class="js-register-gc-options register-gc-options hidden">
+                            <span class="formfield-input">
+                                <label for="max_points">最高積分：</label>
+                                <input id="max_points" class="js-gc-max-points formfield-number" type="number" min="0" value="100">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-section">
+                <span class="formfield-name">最後期限</span>
+                <span class="formfield-input">
+                    <span class="results-deadline-option">
+                        <input type="radio" name="deadline" id="deadline_none" class="js-deadline-radio" value="0">
+                        <label for="deadline_none">沒有</label>
+                    </span>
+                    <span class="results-deadline-option">
+                        <input type="radio" name="deadline" class="js-deadline-radio" value="1">
+                        <select class="js-deadline-time">
+                            <option value="0">0:00&nbsp;</option>
+                            <option value="100">1:00&nbsp;</option>
+                            <option value="200">2:00&nbsp;</option>
+                            <option value="300">3:00&nbsp;</option>
+                            <option value="400">4:00&nbsp;</option>
+                            <option value="500">5:00&nbsp;</option>
+                            <option value="600">6:00&nbsp;</option>
+                            <option value="700">7:00&nbsp;</option>
+                            <option value="800">8:00&nbsp;</option>
+                            <option value="900">9:00&nbsp;</option>
+                            <option value="1000">10:00&nbsp;</option>
+                            <option value="1100">11:00&nbsp;</option>
+                            <option value="1200">12:00&nbsp;</option>
+                            <option value="1300">13:00&nbsp;</option>
+                            <option value="1400">14:00&nbsp;</option>
+                            <option value="1500">15:00&nbsp;</option>
+                            <option value="1600">16:00&nbsp;</option>
+                            <option value="1700">17:00&nbsp;</option>
+                            <option value="1800">18:00&nbsp;</option>
+                            <option value="1900">19:00&nbsp;</option>
+                            <option value="2000">20:00&nbsp;</option>
+                            <option value="2100">21:00&nbsp;</option>
+                            <option value="2200">22:00&nbsp;</option>
+                            <option value="2300">23:00&nbsp;</option>
+                            <option value="2359">23:59&nbsp;</option>
+                        </select>
+                        <input type="text" class="js-deadline-date formfield-date hasDatepicker" readonly="" placeholder="YYYY/MM/DD" data-dateformat="yy/mm/dd" id="dp1785255416724">
+                    </span>
+                </span>
+            </div>
+            <div class="form-section js-end-of-game">
+                <span class="formfield-name">遊戲結束</span>
+                <span class="formfield-input">
+                    <input type="checkbox" id="gameover_review" class="js-gameover-review">
+                    <label for="gameover_review">顯示答案</label>
+                    <br>
+                    <input type="checkbox" id="gameover_leaderboard" class="js-gameover-leaderboard">
+                    <label for="gameover_leaderboard">排行榜</label>
+                    <br>
+                    <input type="checkbox" id="gameover_restart" class="js-gameover-restart">
+                    <label for="gameover_restart">重新開始</label>
+                </span>
+            </div>
+            <div class="form-section js-open-ended open-ended-panel hidden">
+                <span class="share-section-header">作業結果將不包含分數</span>
+                <span class="share-section-paragraph">此模板學生不會在結束後獲得一個分數。您可以設定一個作業，但只會用學生開始活動的記錄作為結果。</span>
+            </div>
+        </div>
+        <div class="cta">
+            <a class="default-btn large white js-back-step"><span class="fa fa-caret-left"></span> &nbsp; 返回</a>
+            <a class="default-btn large js-next-start cta-spacer">開始 &nbsp;<span class="fa fa-caret-right"></span></a>
+        </div>
+    </div>
+        <div class="modal-step js-step-assignment-done step-assignment-done">
+        <h1>課業集</h1>
+        <div class="center">
+            <h2 class="share-all-done">
+        <img src="https://app.cdn.wordwall.net/static/content/images/activity/green-tick.2ekkmfk3i14jbudth7sgjkg2.png" class="tick">
+        全部完成
+    </h2>
+            <p class="share-link-instructions">向學生提供以下連結:</p>
+            <div class="js-share-copyright hidden">
+        <p>由於版權侵權索賠，發佈此資源被阻止。</p>
+        <p>如果您有任何疑問，請 <a href="/tc/contact" class="" target="">聯繫我們</a>。</p>
+    </div>
+    <div class="share-link js-share-link">
+        <span class="fa fa-link"></span>
+        <input type="text" class="js-share-link-input" readonly="">
+        <a class="default-btn js-share-link-copy">複製</a>
+    </div>
+            <div class="share-buttons js-share-buttons">
+        <p>分享或嵌入:</p>
+
+        <div class="share-buttons-row">
+            <button class="share-native js-share-modal-native hidden" title="共用">
+                <i class="fa fa-share-nodes"></i> &nbsp;
+                <img class="share-native-icon js-share-pinterest hidden" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+                <img class="share-native-icon facebook" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+            <button class="share-by-pinterest js-share-modal-by-pinterest hidden" title="分享到 Pinterest">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+            </button>
+            <button class="share-by-facebook js-share-modal-by-facebook hidden" title="在臉書上分享">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+
+            <button class="share-by-google js-share-modal-by-google" title="在谷歌課堂上分享"><i class="fa">&nbsp;</i></button>
+            <button class="share-by-email js-share-modal-by-email " title="通過電子郵件分享"><i class="fa fa-envelope"></i></button>
+            <button class="share-by-embed js-share-modal-by-embed" title="嵌入您自己的網站"><i class="fa fa-code"></i></button>
+            <button class="share-by-qr js-share-modal-by-qr" title="通過 QR 代碼共用"><i class="fa fa-qrcode"></i></button>
+        </div>
+    </div>
+            <p>已將項目添加到 <a href="/tc/myresults" class="" target="">我的結果</a>中</p>
+        </div>
+        <div class="cta">
+            <a class="default-btn white js-close-modal-view">完成</a>
+        </div>
+    </div>
+        <div class="modal-step js-step-past-assignment-done">
+        <h1>分享課業</h1>
+        <p class="share-link-instructions">向學生提供以下連結:</p>
+        <div class="js-share-copyright hidden">
+        <p>由於版權侵權索賠，發佈此資源被阻止。</p>
+        <p>如果您有任何疑問，請 <a href="/tc/contact" class="" target="">聯繫我們</a>。</p>
+    </div>
+    <div class="share-link js-share-link">
+        <span class="fa fa-link"></span>
+        <input type="text" class="js-share-link-input" readonly="">
+        <a class="default-btn js-share-link-copy">複製</a>
+    </div>
+        <div class="share-buttons js-share-buttons">
+        <p>分享或嵌入:</p>
+
+        <div class="share-buttons-row">
+            <button class="share-native js-share-modal-native hidden" title="共用">
+                <i class="fa fa-share-nodes"></i> &nbsp;
+                <img class="share-native-icon js-share-pinterest hidden" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+                <img class="share-native-icon facebook" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+            <button class="share-by-pinterest js-share-modal-by-pinterest hidden" title="分享到 Pinterest">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/pinterest.2v9wio9dy8f9ego7q-lhe4w2.svg">
+            </button>
+            <button class="share-by-facebook js-share-modal-by-facebook hidden" title="在臉書上分享">
+                <img class="share-button-icon" src="https://app.cdn.wordwall.net/static/content/images/social/facebook-f.24orh71vo2ssaax-kxoctga2.svg">
+            </button>
+
+            <button class="share-by-google js-share-modal-by-google" title="在谷歌課堂上分享"><i class="fa">&nbsp;</i></button>
+            <button class="share-by-email js-share-modal-by-email " title="通過電子郵件分享"><i class="fa fa-envelope"></i></button>
+            <button class="share-by-embed js-share-modal-by-embed" title="嵌入您自己的網站"><i class="fa fa-code"></i></button>
+            <button class="share-by-qr js-share-modal-by-qr" title="通過 QR 代碼共用"><i class="fa fa-qrcode"></i></button>
+        </div>
+    </div>
+        <div class="cta">
+            <a class="default-btn white js-close-modal-view">完成</a>
+        </div>
+    </div>
+        <div class="modal-step js-step-gc-assignment modal-step-gc-assignment">
+        <h1>Google課堂</h1>
+        <div class="form-section wide">
+            <div class="formfield-name">選擇「課堂」課程</div>
+            <div class="formfield-input">
+                <label for="gc_course">課堂</label>
+                <select id="gc_course" class="gc-course-select js-gc-course-select"></select>
+            </div>
+        </div>
+        <div class="form-section wide">
+            <div class="formfield-name">分配到</div>
+            <div class="formfield-input">
+                <input type="radio" name="gc_assign_to" id="gc_assign_to_all_students" class="js-gc-assign-to-radio js-gc-assign-to-radio-all-students" value="0">
+                <label for="gc_assign_to_all_students">班上所有學生</label>
+            </div>
+            <div class="formfield-input">
+                <input type="radio" name="gc_assign_to" id="gc_assign_to_selected_students" class="js-gc-assign-to-radio js-gc-assign-to-radio-selected-students" value="1">
+                <label for="gc_assign_to_selected_students">選定的學生</label>
+            </div>
+            <div class="formfield-input gc-assign-to-student">
+                <ul class="js-gc-assign-to-student-list hidden"></ul>
+                <span class="js-gc-assign-to-student-no-students hidden">沒有學生被分配到這個班級。</span>
+            </div>
+        </div>
+        <div class="cta">
+            <a class="default-btn large white js-back-step"><span class="fa fa-caret-left"></span> &nbsp; 返回</a>
+            <a class="default-btn large js-gc-share-button cta-spacer">共用 &nbsp;<span class="fa fa-caret-right"></span></a>
+        </div>
+    </div>
+        <div class="modal-step js-step-gc-assignment-refuse modal-step-gc-assignment-refuse">
+        <h1>創建 Wordwall 作業分配？</h1>
+        <div class="center">
+            <p>您似乎拒絕向Google課堂授予許可權。</p>
+            <p>是否要改為創建 Wordwall 作業？</p>
+        </div>
+        <div>
+            <a class="default-btn large white js-close-modal-view">否</a>
+            <a class="default-btn large js-back-step cta-spacer">是的</a>
+        </div>
+    </div>
+        <div class="modal-step js-step-gc-assignment-done modal-step-gc-assignment-done">
+        <h1>
+            <img src="https://app.cdn.wordwall.net/static/content/images/activity/green-tick.2ekkmfk3i14jbudth7sgjkg2.png">
+            課業集
+        </h1>
+        <div class="center">
+            <p>您的作業現在已準備好在 Wordwall 和 Google 課堂上查看和共用。</p>
+        </div>
+        <div class="center">
+            <p><a class="default-btn large js-view-gc-assignment-on-gc">在Google課堂上查看</a></p>
+            <p><a class="default-btn large white js-view-gc-assignment-on-wordwall">在 Wordwall 上查看</a></p>
+        </div>
+    </div>
+        <div class="modal-step js-step-email">
+        <h1>通過電子郵件分享</h1>
+<form action="/resourceajax/emailshare" class="js-email-link-form" method="post" novalidate="novalidate"><input data-val="true" data-val-required="The LanguageId field is required." id="LanguageId" name="LanguageId" type="hidden" value="1028"><input id="ActivityId" name="ActivityId" type="hidden" value="84300957"><input id="HomeworkGameId" name="HomeworkGameId" type="hidden" value="0"><input id="PlaylistId" name="PlaylistId" type="hidden" value="0">            <div class="email-wrapper">
+                <button class="default-btn email-addresses-add-btn js-email-addresses-add-btn"><i class="fa fa-plus"></i></button>
+                <div class="email-addresses-input-wrapper">
+                    <input type="email" placeholder="新增電子郵件地址..." class="js-email-addresses-input email-addresses-input" spellcheck="false">
+                </div>
+            </div>
+            <div class="js-recognised-addresses recognised-addresses"></div>
+            <button class="js-send-email-button float-right medium default-btn js-btn-load">發送</button>
+            <p class="email-disclaimer">此處輸入的電子郵件不會存儲或用於其他目的。</p>
+<input name="__RequestVerificationToken" type="hidden" value="CfDJ8EvO9733ARRLjkd3pcVeJlSkX01O26yAXKpOENpPAIbGkMtLndJonZrmLCYyrW2ezUqDyryVQQW3xYlScuAu9-5YKBB_ARrMrmbcRVrHWI0Gc2APjjEtK6lP--lf5F5LFhfnbJlCfd8Uo5KvNrZOdQU"></form>        <div class="clear"></div>
+        <div class="cta">
+            <a class="default-btn white js-back-step"><span class="fa fa-caret-left"></span>&nbsp; 返回</a>
+        </div>
+    </div>
+        <div class="modal-step js-step-embed">
+        <h1>嵌入您自己的網站</h1>
+        <div class="js-embed-loading embed-loading">
+            <img src="https://app.cdn.wordwall.net/static/content/images/loading_bar_blue.22epcdpvctnoaztmnoizx5q2.gif">
+        </div>
+        <div class="js-embed-settings clearfix hidden">
+            <div class="embed-wrapper">
+                <h2>Preview</h2>
+                <div class="embed-preview-wrapper js-embed-preview-wrapper"></div>
+            </div>
+
+            <div class="embed-wrapper">
+                <h2>選項</h2>
+
+                <div class="embed-options-column">
+                    <label>類型</label>
+                    <div class="embed-option-input">
+                        <input type="radio" name="embed_type" id="embed_type_iframe" value="0" checked="">
+                        <label for="embed_type_iframe">Iframe</label>
+                    </div>
+                    <div class="embed-option-input">
+                        <input type="radio" name="embed_type" id="embed_type_thumbnail" value="1">
+                        <label for="embed_type_thumbnail">縮略圖</label>
+                    </div>
+                    <div class="embed-option-input">
+                        <input type="radio" name="embed_type" id="embed_type_icon" value="2">
+                        <label for="embed_type_icon">小圖示</label>
+                    </div>
+                </div>
+
+                <div class="embed-options-column">
+                    <label for="embed_theme">視覺風格</label>
+                    <div class="embed-option-input">
+                        <select class="js-embed-theme" id="embed_theme"></select>
+                    </div>
+
+                    <label for="embed_language">語言</label>
+                    <div class="embed-option-input">
+                        <select class="js-embed-language" id="embed_language" name="embed_language"><option value="1027">Català</option>
+<option value="13320">Cebuano</option>
+<option value="1029">Čeština</option>
+<option value="1030">Dansk</option>
+<option value="1031">Deutsch</option>
+<option value="1061">Eesti keel</option>
+<option value="0">English</option>
+<option value="1034">Español</option>
+<option value="1036">Français</option>
+<option value="1050">Hrvatski</option>
+<option value="1057">Indonesia</option>
+<option value="1040">Italiano</option>
+<option value="1062">Latvian</option>
+<option value="1063">Lietuvių</option>
+<option value="1038">Magyar</option>
+<option value="1086">Melayu</option>
+<option value="1043">Nederlands</option>
+<option value="1044">Norsk</option>
+<option value="1091">O'zbek</option>
+<option value="1045">Polski</option>
+<option value="1046">Português</option>
+<option value="1048">Română</option>
+<option value="1051">Slovenčina</option>
+<option value="1060">Slovenščina</option>
+<option value="2074">Srpski</option>
+<option value="1035">Suomi</option>
+<option value="1053">Svenska</option>
+<option value="13321">Tagalog</option>
+<option value="1055">Türkçe</option>
+<option value="1066">Vietnamese</option>
+<option value="1032">ελληνικά</option>
+<option value="1026">български</option>
+<option value="1087">Қазақ</option>
+<option value="1049">Русский</option>
+<option value="3098">Српски</option>
+<option value="1058">Українська</option>
+<option value="1037">עִברִית</option>
+<option value="2">عربى</option>
+<option value="1081">हिंदी</option>
+<option value="1096">ગુજરાતી</option>
+<option value="1054">ภาษาไทย</option>
+<option value="1042">한국어</option>
+<option value="1041">日本語</option>
+<option value="2052">简体字</option>
+<option selected="selected" value="1028">繁體字</option>
+</select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="embed-wrapper">
+                <h2>HTML</h2>
+                <textarea class="embed-code-textarea js-embed-code-textarea" spellcheck="false" rows="4" readonly=""></textarea>
+                <a class="default-btn js-copy-embed">複製</a>
+            </div>
+        </div>
+        <div class="cta">
+            <a class="default-btn white js-back-cta js-back-step hidden"><span class="fa fa-caret-left"></span>&nbsp; 返回</a>
+            <div class="js-guest-cta hidden">要生成將收集結果的代碼，您需要 <a href="/tc/account/basicsignup?ref=embed-assignment" class="" target="">註冊</a>。</div>
+            <div class="js-assignment-cta hidden">生成收集結果的代碼，請執行以下操作： <a href="#" class="js-next-set-assignment" target="">課業設置</a>，然後單擊<b><span class="fa fa-code"></span></b>嵌入它。</div>
+        </div>
+    </div>
+        <div class="modal-step js-step-qr">
+        <h1 class="js-qr-title"></h1>
+        <div class="js-qr-image qr-image"></div>
+        <div class="cta">
+            <a class="default-btn white js-back-step hidden"><span class="fa fa-caret-left"></span>&nbsp; 返回</a>
+        </div>
+    </div>
+    </div></div>
+        <div class="js-modal-footer-wrapper"></div>
+        <div class="clear"></div>
+        <span class="js-close-modal-view close-modal-view">×</span>
+    </div></div>
+</div>
+
+
+<script type="text/template" id="video_modal_template">
+    <iframe style="width: 100%; height: 100%; aspect-ratio: 16/9;" src="{0}" frameborder="0" allowfullscreen></iframe>
+</script>
+
+<script type="text/template" id="input_modal_template">
+    <h1>{0}</h1>
+    <input type="text" class="js-input-text" placeholder="{1}" maxlength="{2}" />
+</script>
+
+<script type="text/template" id="email_input_modal_template">
+    <h1>{0}</h1>
+    <div class="validate-input-wrapper">
+        <input autocomplete="off" class="text-input js-input-text valid" id="email_input" name="AdminEmail" placeholder="{1}" spellcheck="false" type="text" value="" maxlength="{2}">
+        <div class="validation-icon-wrapper js-validation-icon-wrapper">
+            <span class="js-validation-icon fa fa-circle-check validation-icon" id="name_input_validation"></span>
+        </div>
+    </div>
+</script>
+
+<script type="text/template" id="folder_input_color_modal_template">
+    <h1>{0}</h1>
+    <h2>&#x8CC7;&#x6599;&#x593E;&#x540D;&#x7A31;</h2>
+    <input type="text" class="js-input-text" placeholder="{1}" maxlength="{2}" />
+    <h2>&#x8CC7;&#x6599;&#x593E;&#x984F;&#x8272;</h2>
+    <div class="color-grid js-color-grid"></div>
+</script>
+
+<script type="text/template" id="folder_color_modal_template">
+    <h1>&#x66F4;&#x6539;&#x984F;&#x8272;</h1>
+    <div class="color-grid js-color-grid"></div>
+</script>
+
+<script type="text/template" id="input_color_template">
+    <div class="color-circle js-color-circle color-circle-blue" data-color="Blue"></div>
+    <div class="color-circle js-color-circle color-circle-indigo" data-color="Indigo"></div>
+    <div class="color-circle js-color-circle color-circle-purple" data-color="Purple"></div>
+    <div class="color-circle js-color-circle color-circle-red" data-color="Red"></div>
+    <div class="color-circle js-color-circle color-circle-orange" data-color="Orange"></div>
+    <div class="color-circle js-color-circle color-circle-yellow" data-color="Yellow"></div>
+    <div class="color-circle js-color-circle color-circle-green" data-color="Green"></div>
+    <div class="color-circle js-color-circle color-circle-grey" data-color="Grey"></div>
+</script>
+
+<script type="text/template" id="feed_prev_template">
+    <span class="feed-prev-button fa fa-chevron-left js-feed-prev-button"></span>
+</script>
+
+<script type="text/template" id="feed_next_template">
+    <span class="feed-next-button fa fa-chevron-right js-feed-next-button"></span>
+</script>
+
+<script type="text/template" id="export_modal_template">
+    <div><h1>&#x8F38;&#x51FA;</h1>&#x8981;&#x8F38;&#x51FA;&#x70BA;&#x54EA;&#x7A2E;&#x683C;&#x5F0F;?</div>
+</script>
+
+<script type="text/template" id="modal_template">
+    <div class="modal-view-box js-modal-view-box {1}">
+        <h1 class="header js-modal-header">
+            <span class="js-modal-header-text"></span>
+        </h1>
+        <div class="clear"></div>
+        <div class="modal-content js-modal-content {0}"></div>
+        <div class="js-modal-footer-wrapper"></div>
+        <div class="clear"></div>
+        <span class="js-close-modal-view close-modal-view">&times;</span>
+    </div>
+</script>
+
+
+<script type="text/template" id="editor_exit_feedback_nudge">
+    <div class="floating-banner js-editor-exit-feedback-nudge hidden">
+        <div class="floating-banner-header">
+            <span class="floating-banner-title js-editor-exit-feedback-nudge-title"></span>
+            <span class="floating-banner-dismiss js-editor-exit-feedback-nudge-dismiss"><i class="fa fa-xmark"></i></span>
+        </div>
+        <div class="floating-banner-body">
+            <p>&#x4F60;&#x80FD;&#x62BD;&#x7A7A;20&#x79D2;&#x544A;&#x8A34;&#x6211;&#x5011;&#x539F;&#x56E0;&#x55CE;&#xFF1F;</p>
+        </div>
+        <div class="floating-banner-actions">
+            <span class="floating-banner-stop-asking js-editor-exit-feedback-nudge-stop-asking">&#x5225;&#x518D;&#x554F;&#x6211;&#x4E86;</span>
+            <button class="floating-banner-footer js-editor-exit-feedback-nudge-cta">
+                &#x7576;&#x7136;&#xFF0C;&#x6211;&#x6703;&#x5E6B;&#x5FD9; <i class="fa fa-caret-right"></i>
+            </button>
+        </div>
+    </div>
+</script>
+
+
+<script type="text/template" id="multi_select_feedback_modal">
+    <h1>{0}</h1>
+    <p>{1}</p>
+    <h2>{2}</h2>
+    <div class="multi-select-feedback-modal-options js-multi-select-feedback-modal-options"></div>
+    <div class="multi-select-feedback-modal-free-text">
+        <h2>{3}</h2>
+        <textarea class="js-multi-select-feedback-modal-textarea" name="FreeTextFeedback" placeholder="{4}" rows="3"></textarea>
+    </div>
+    <button class="js-submit-button default-btn multi-select-feedback-submit-btn">{5}</button>
+</script>
+
+<script type="text/template" id="multi_select_feedback_modal_option">
+    <div>
+        <input type="checkbox" id="multi_select_feedback_modal_option_{1}" name="predefinedFeedback" value="{1}">
+        <label for="multi_select_feedback_modal_option_{1}">{0}</label>
+    </div>
+</script>
+
+
+<script type="text/template" id="thanks_for_feedback_modal">
+    <h1>{0}</h1>
+    <p>{1}</p>
+    <button class="js-close-button default-btn">{2}</button>
+</script>
+
+
+<script type="text/template" id="generic_modal_template_btn">
+    <button id="{0}" class="default-btn {1} medium ">{2}</button>
+</script>
+
+<script type="text/template" id="subscription_required_feature_template">
+        <div>
+            <img class="modal-hero-img" src="{2}" />
+            <h2>{1}</h2>
+            <div class="subscription-benefits">
+                <p>&#x8A02;&#x95B1;&#x8005;&#x53EF;&#x4EE5;&#xFF1A;</p>
+                <ul>
+                        <li>&#x5275;&#x5EFA;&#x548C;&#x7DE8;&#x8F2F;&#x7121;&#x9650;&#x7684;&#x6D3B;&#x52D5;</li>
+                        <li>&#x4F7F;&#x7528;&#x6240;&#x6709;&#x8996;&#x89BA;&#x98A8;&#x683C;</li>
+                        <li>&#x4F7F;&#x7528; AI &#x7522;&#x751F;&#x5167;&#x5BB9;</li>
+                        <li>&#x7DE8;&#x8F2F;&#x6D3B;&#x52D5;&#x9078;&#x9805;</li>
+                        <li>&#x5217;&#x5370;&#x5DE5;&#x4F5C;&#x8868;</li>
+                        <li>&#x641C;&#x7D22;&#x548C;&#x8A2A;&#x554F;&#x5176;&#x4ED6;&#x6559;&#x5E2B;&#x7684;&#x6D3B;&#x52D5;</li>
+                </ul>
+            </div>
+
+                    <a class="default-btn fit js-subscribe-button" href="/tc/account/upgrade?ref={0}">
+                        &#x8A02;&#x95B1; Wordwall
+                    </a>
+
+            <p class="btn-subtext js-login-link">已經有帳號了嗎？ <a href='/tc/account/login?ref={0}&redirectTo={3}' class='' target=''>登入</a></p>
+        </div>
+</script>
+
+<script type="text/template" id="pro_subscription_required_feature_template">
+        <div>
+            <img class="modal-hero-img" src="{2}" />
+            <h2>{1}</h2>
+            <div class="subscription-benefits">
+                <p>Pro &#x7684;&#x8A02;&#x95B1;&#x8005;&#x53EF;&#x4EE5;&#xFF1A;</p>
+                <ul>
+                        <li>&#x5275;&#x5EFA;&#x8207;&#x7DE8;&#x8F2F;&#x7121;&#x9650;&#x6D3B;&#x52D5;&#xFF0C;&#x5305;&#x62EC; Pro &#x7BC4;&#x672C;</li>
+                        <li>&#x4F7F;&#x7528; AI &#x7522;&#x751F;&#x5167;&#x5BB9;</li>
+                        <li>&#x7DE8;&#x8F2F;&#x6D3B;&#x52D5;&#x9078;&#x9805;</li>
+                        <li>&#x5217;&#x5370;&#x5DE5;&#x4F5C;&#x8868;</li>
+                        <li>&#x641C;&#x7D22;&#x548C;&#x8A2A;&#x554F;&#x5176;&#x4ED6;&#x6559;&#x5E2B;&#x7684;&#x6D3B;&#x52D5;</li>
+                </ul>
+            </div>
+
+                    <a class="default-btn fit" href="/tc/account/upgrade?ref={0}">
+                        &#x5347;&#x7D1A;&#x5230; Wordwall Pro
+                    </a>
+
+            <p class="btn-subtext js-login-link">已經有帳號了嗎？ <a href='/tc/account/login?ref={0}&redirectTo={3}' class='' target=''>登入</a></p>
+        </div>
+</script>
+
+<script type="text/template" id="login_required_feature_template">
+        <div>
+            <img class="modal-hero-img" src="{2}" />
+            <h2>{1}</h2>
+            <div class="subscription-benefits">
+                <p>&#x4F7F;&#x7528;&#x514D;&#x8CBB;&#x5E33;&#x865F;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#xFF1A;</p>
+                <ul>
+                        <li>&#x7DE8;&#x8F2F;&#x8207;&#x81EA;&#x8A02;&#x73FE;&#x6210;&#x6D3B;&#x52D5;</li>
+                        <li>&#x5275;&#x9020;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x6D3B;&#x52D5;</li>
+                        <li>&#x96C6;&#x5408;&#x5206;&#x914D;</li>
+                </ul>
+            </div>
+
+                <a class="default-btn fit js-signup-button" href="/tc/account/signup?ref={0}&amp;redirectTo={3}">
+                    &#x8A3B;&#x518A;&#x514D;&#x8CBB;&#x5E33;&#x6236;
+                </a>
+                <div class="google-wrapper">
+                    <a href="/tc/account/googleoauthredirector?redirectTo={3}&amp;ref={0}" class="google-button js-google-button">
+                        <img src="https://app.cdn.wordwall.net/static/content/images/account/google_signin.2vvaondezz0t2wqwjxome2g2.png" />
+                    </a>
+                </div>
+
+            <p class="btn-subtext js-login-link">已經有帳號了嗎？ <a href='/tc/account/login?ref={0}&redirectTo={3}' class='' target=''>登入</a></p>
+        </div>
+</script>
+
+
+<script type="text/template" id="notification_banner_template">
+    <div class="notification-banner js-notification-banner">
+        <span class="text">{0}</span>
+        <span class="fa fa-times js-banner-dismiss"></span>
+    </div>
+</script>
+
+
+<script type="text/template" id="policy_update_warning_modal_template">
+    <div class="js-policy js-policy-warning policy policy-warning">
+        <h2>&#x91CD;&#x8981;&#x653F;&#x7B56;&#x66F4;&#x65B0;</h2>
+        <p>我們正在更新<a href ="/tc/privacy" target="_blank">隱私政策</a>、<a href ="/tc/terms" target="_blank">使用條款</a>和<a href ="/tc/cookie-policy" target="_blank">Cookie 政策</a>。自 {0} 日起，我們將要求所有用戶接受新政策，才能繼續使用 Wordwall。</p>
+        <p>&#x6709;&#x4EC0;&#x9EBC;&#x65B0;&#x9BAE;&#x4E8B;&#xFF1F;&#x6211;&#x5011;&#x6703;&#x66F4;&#x6E05;&#x695A;&#x5730;&#x8AAA;&#x660E;&#x6211;&#x5011;&#x6536;&#x96C6;&#x7684;&#x6578;&#x64DA;&#x53CA;&#x5176;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;&#x3001;&#x5982;&#x4F55;&#x8207;&#x503C;&#x5F97;&#x4FE1;&#x8CF4;&#x7684;&#x5408;&#x4F5C;&#x5925;&#x4F34;&#x5408;&#x4F5C;&#xFF0C;&#x4EE5;&#x53CA;&#x5982;&#x4F55;&#x5229;&#x7528; AI &#x4F86;&#x63D0;&#x5347;&#x60A8;&#x7684;&#x9AD4;&#x9A57;&#x3002;&#x4F60;&#x63A7;&#x5236;&#x8CC7;&#x6599;&#x7684;&#x80FD;&#x529B;&#x4E0D;&#x6703;&#x6539;&#x8B8A;&#x3002;</p>
+        <p>如果您有任何疑慮，請聯絡我們<a href ="mailto:privacy@wordwall.net">privacy@wordwall.net</a>或造訪我們的 <a href='https://wordwall.zendesk.com/hc/en-gb/articles/40796647768977-FAQ-Updates-to-Terms-of-Service-Privacy-Policy-and-Cookie-Use' class='' target='_blank'>說明文章</a> 以獲得更多資訊。</p>
+        <button class="default-btn white large js-close-policy">&#x8FD1;</button>
+    </div>
+</script>
+
+<script type="text/template" id="policy_update_modal_template">
+    <div class="js-policy js-policy-live policy">
+        <h2>&#x91CD;&#x8981;&#x653F;&#x7B56;&#x66F4;&#x65B0;</h2>
+        <p>我們已經更新了<a href ="/tc/privacy" target="_blank">隱私政策</a>、<a href ="/tc/terms" target="_blank">使用條款</a>和<a href ="/tc/cookie-policy" target="_blank">Cookie 政策</a>。</p>
+        <p>&#x6709;&#x4EC0;&#x9EBC;&#x65B0;&#x9BAE;&#x4E8B;&#xFF1F;&#x6211;&#x5011;&#x6703;&#x66F4;&#x6E05;&#x695A;&#x5730;&#x8AAA;&#x660E;&#x6211;&#x5011;&#x6536;&#x96C6;&#x7684;&#x6578;&#x64DA;&#x53CA;&#x5176;&#x4F7F;&#x7528;&#x65B9;&#x5F0F;&#x3001;&#x5982;&#x4F55;&#x8207;&#x503C;&#x5F97;&#x4FE1;&#x8CF4;&#x7684;&#x5408;&#x4F5C;&#x5925;&#x4F34;&#x5408;&#x4F5C;&#xFF0C;&#x4EE5;&#x53CA;&#x5982;&#x4F55;&#x5229;&#x7528; AI &#x4F86;&#x63D0;&#x5347;&#x60A8;&#x7684;&#x9AD4;&#x9A57;&#x3002;&#x4F60;&#x63A7;&#x5236;&#x8CC7;&#x6599;&#x7684;&#x80FD;&#x529B;&#x4E0D;&#x6703;&#x6539;&#x8B8A;&#x3002;</p>
+        <form>
+            <label for="accept_terms">
+                <input class="js-check-policy" type="checkbox" id="accept_terms">
+                <span>&#x6211;&#x5DF2;&#x7D93;&#x95B1;&#x8B80;&#x4E26;&#x540C;&#x610F;&#x66F4;&#x65B0;&#x7684; &#x96B1;&#x79C1;&#x653F;&#x7B56;&#x3001;&#x4F7F;&#x7528;&#x689D;&#x6B3E; &#x548C; Cookie &#x653F;&#x7B56;&#x3002;</span>
+            </label>
+            <button class="default-btn large js-accept-policy" disabled>&#x63A5;&#x53D7;&#x4E26;&#x7E7C;&#x7E8C;</button>
+        </form>
+        <p class="rights">如果您選擇不接受，您可以聯絡<a href ="mailto:privacy@wordwall.net">privacy@wordwall.net</a>申請刪除您的帳號和資料。欲了解更多資訊，請參閱我們的 <a href='https://wordwall.zendesk.com/hc/en-gb/articles/40796647768977-FAQ-Updates-to-Terms-of-Service-Privacy-Policy-and-Cookie-Use' class='' target='_blank'>說明文章</a>。</p>
+    </div>
+</script>
+
+<script type="text/template" id="notification_template">
+    <div class="notification-wrapper js-notification-wrapper {8}" {6}>
+        <div class="notification-content">
+            <div class="notification-text">
+                <div class="notification-title">
+                    <p class="js-title">{7}{0}</p>
+                </div>
+                {1}
+            </div>
+            <{2} class="notification-cta js-notification-cta {3}" {4}>{5}</{2}>
+        </div>
+        <span class="notification-dismiss js-notification-dismiss fa fa-xmark"></span>
+    </div>
+</script>
+
+<script type="text/template" id="notification_success">
+    <div class="notification-success" style="display: none;"><span class="fa fa-circle-check"></span>{0}</div>
+</script>
+
+
+<img src="https://app.cdn.wordwall.net/static/content/images/loading_spin_blue.20kty4xac5s0rt11uq2ozow2.gif" id="spinner_blue" class="hidden">
+<img src="https://app.cdn.wordwall.net/static/content/images/loading_spin_grey.2grlzzh2rocikzvsxmewb5q2.gif" id="spinner_grey" class="hidden">
+
+
+
+<script data-cf-beacon="{&quot;token&quot;:&quot;34b1895f6ac34094a43a769c56ee8085&quot;}" src="https://static.cloudflareinsights.com/beacon.min.js"></script><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all notranslate"></div>
