@@ -210,6 +210,20 @@ def cmd_build(args):
         print(f"❌ 錯誤：找不到輸入檔案 {args.input}")
         return
         
+    existing_data = {}
+    output_json = "data.json"
+    if os.path.exists(output_json):
+        try:
+            with open(output_json, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+                for item in old_data:
+                    if item.get("wordwallUrl"):
+                        existing_data[item["wordwallUrl"]] = item
+                    if item.get("title") and item.get("path"):
+                        existing_data[f"{item['path']} {item['title']}"] = item
+        except Exception as e:
+            print(f"⚠️ 無法讀取現有 {output_json}，將建立全新資料庫。({e})")
+
     with open(args.input, 'r', encoding='utf-8-sig') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -219,7 +233,7 @@ def cmd_build(args):
             
             combined_text = f"{path} {title}"
             
-            data.append({
+            new_item = {
                 "category": parse_category(combined_text),
                 "grade": parse_grade(combined_text),
                 "term": parse_term(combined_text),
@@ -228,7 +242,17 @@ def cmd_build(args):
                 "path": path,
                 "wordwallUrl": url,
                 "pptEmbedUrl": ""
-            })
+            }
+            
+            # 智慧合併：繼承舊有的 assignmentUrl
+            old_item = existing_data.get(url) or existing_data.get(combined_text)
+            if old_item and 'assignmentUrl' in old_item:
+                new_item['assignmentUrl'] = old_item['assignmentUrl']
+                # 也繼承被 assign 修改過的 wordwallUrl 以免舊行為受影響
+                if 'wordwallUrl' in old_item and 'wordwall.net/play/' in old_item['wordwallUrl']:
+                    new_item['wordwallUrl'] = old_item['wordwallUrl']
+            
+            data.append(new_item)
 
     output_json = "data.json"
     with open(output_json, 'w', encoding='utf-8') as f:
@@ -390,6 +414,78 @@ def cmd_assign(args):
         browser.close()
 
 # ==========================================
+# 5. SYNC 命令：智慧增量同步
+# ==========================================
+def cmd_sync(args):
+    temp_csv = "_sync_temp.csv"
+    
+    # Step 1: 爬取
+    print("🔄 Step 1/5: 開始爬取最新遊戲清單...")
+    asyncio.run(async_scrape(temp_csv))
+    
+    # Step 2: 差異比對
+    print("\n🔄 Step 2/5: 比對現有資料庫...")
+    existing_keys = set()
+    output_json = "data.json"
+    if os.path.exists(output_json):
+        try:
+            with open(output_json, 'r', encoding='utf-8') as f:
+                old_data = json.load(f)
+                for item in old_data:
+                    if item.get("wordwallUrl"):
+                        existing_keys.add(item["wordwallUrl"])
+                    if item.get("title") and item.get("path"):
+                        existing_keys.add(f"{item['path']} {item['title']}")
+        except Exception:
+            pass
+
+    new_games = []
+    all_count = 0
+    if not os.path.exists(temp_csv):
+        print("❌ 錯誤：爬取失敗，未產生暫存 CSV 檔案。")
+        return
+        
+    with open(temp_csv, 'r', encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            all_count += 1
+            url = row.get('URL', '')
+            path = row.get('Path', '')
+            title = row.get('GameTitle', '')
+            combined_text = f"{path} {title}"
+            
+            if url not in existing_keys and combined_text not in existing_keys:
+                new_games.append(row)
+
+    old_count = all_count - len(new_games)
+    
+    # Step 3: 顯示報告
+    print("\n📊 同步結果：")
+    print(f"- 抓取到遊戲總數：{all_count} 款")
+    print(f"- 舊有遊戲：{old_count} 款 (作業連結已保留)")
+    print(f"- 🆕 新增遊戲：{len(new_games)} 款")
+    
+    if len(new_games) == 0:
+        print("\n✨ 目前沒有新遊戲，資料庫已是最新版本！")
+        if os.path.exists(temp_csv):
+            os.remove(temp_csv)
+        return
+
+    # Step 4: 合併資料與編譯
+    print("\n🔄 Step 4/5: 合併資料與編譯 (智慧合併模式)...")
+    args.input = temp_csv
+    cmd_build(args)
+    if os.path.exists(temp_csv):
+        os.remove(temp_csv)
+        
+    # Step 5: 只派發新遊戲
+    print("\n🔄 Step 5/5: 針對遊戲自動派發作業...")
+    args.input = "data.json"
+    args.output = "data.json"
+    cmd_assign(args)
+    print("\n🎉 sync 指令執行完畢！所有資料已更新。")
+
+# ==========================================
 # Main CLI Parser
 # ==========================================
 def main():
@@ -416,6 +512,10 @@ def main():
     parser_assign.add_argument("--output", type=str, default="data_with_assignments.json", help="輸出的 JSON 檔案名稱")
     parser_assign.add_argument("--dir", type=str, help="(選填) 同步將更新後的 data.js 輸出到指定的網頁資料夾中", default=".")
 
+    # 5. sync
+    parser_sync = subparsers.add_parser('sync', help='智慧增量同步（推薦：每次有新遊戲時使用此指令）')
+    parser_sync.add_argument('--dir', type=str, default='.', help='輸出 data.js 的目標資料夾')
+
     args = parser.parse_args()
 
     if args.command == "init":
@@ -426,6 +526,8 @@ def main():
         cmd_build(args)
     elif args.command == "assign":
         cmd_assign(args)
+    elif args.command == "sync":
+        cmd_sync(args)
 
 if __name__ == "__main__":
     main()

@@ -17,7 +17,14 @@ playwright install chromium
 
 ## CLI 工具使用說明 (`ww.py`)
 
-本專案提供了一支整合型的 CLI 工具 `ww.py`，支援以下四大功能：
+本專案提供了一支整合型的 CLI 工具 `ww.py`，支援以下五大功能：
+
+### ⭐ 日常推薦指令：智慧增量同步 (`sync`)
+當您在 Wordwall 新增了幾款遊戲，想要快速更新到現有網站時，請直接使用此指令。
+```bash
+python ww.py sync --dir my-website
+```
+> **這會自動完成所有事情**：先爬取最新遊戲、比對舊有資料庫、保留舊遊戲的作業連結，並**只針對新遊戲**自動登入派發作業。最後自動將更新後的 `data.js` 匯出至您的網站目錄。
 
 ### 1. 初始化網站模板 (`init`)
 在指定的資料夾中，建立一個全新的網頁版型（包含 HTML、CSS、JS）。
@@ -38,14 +45,14 @@ python ww.py scrape --output deep_wordwall_games.csv
 ```bash
 python ww.py build --input deep_wordwall_games.csv --dir my-website
 ```
-> `--dir` 可以指定將產出的 `data.js` 直接覆寫到您剛剛 `init` 建立的網站資料夾中。
+> 💡 **智慧保留連結**：`build` 指令現在具備智慧合併功能，重建 JSON 時會自動讀取舊 `data.json` 並保留已有的作業連結，不用擔心重新編譯會導致原有的派發紀錄遺失。
 
-### 4. 自動派發作業 (`assign`)
+### 5. 自動派發作業 (`assign`)
 (進階功能) 讀取 `data.json`，自動登入 Wordwall 幫每款遊戲點擊「課業分配」，並抓取專屬連結。
 ```bash
 python ww.py assign --input data.json --output data_with_assignments.json --dir my-website
 ```
-> 💡 **智慧增量更新**：腳本會自動檢查並「跳過」已經成功派發過作業的遊戲。如果未來您在 Wordwall 新增了遊戲，只需重新執行上述的 `scrape` -> `build` -> `assign` 流程，腳本就會極速略過舊遊戲，只針對新遊戲進行派發，大幅節省更新時間！
+> 💡 **跳過已有作業**：腳本會自動檢查並「跳過」已經成功派發過作業的遊戲。因此配合 `sync` 指令或智慧 `build`，只會針對缺少連結的新遊戲進行自動化派發。
 
 ## 如何自訂分類標籤？
 如果您需要調整 `build` 指令在辨識「年級」、「單元」等標籤的邏輯，您可以直接修改 `ww.py` 中的 `parse_grade()`, `parse_category()` 等函式，利用正則表達式打造符合您個人習慣的命名規則！
