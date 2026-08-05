@@ -1,3 +1,4 @@
+import sys
 import argparse
 import os
 import shutil
@@ -8,6 +9,12 @@ import re
 import time
 from playwright.async_api import async_playwright
 from playwright.sync_api import sync_playwright
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if hasattr(sys.stderr, 'reconfigure'):
+    sys.stderr.reconfigure(encoding='utf-8')
+
 
 # ==========================================
 # 1. INIT 命令：初始化模板
